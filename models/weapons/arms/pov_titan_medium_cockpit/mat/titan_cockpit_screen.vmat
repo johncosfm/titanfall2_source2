@@ -1,0 +1,51 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "vr_monitor.vfx"
+
+	//---- Rendering ----
+	F_DO_NOT_CAST_SHADOWS 1
+	F_RENDER_BACKFACES 1
+
+	//---- Translucent ----
+	F_ADDITIVE_BLEND_OVER_ALPHA 1
+
+	//---- Additive Blend Over Alpha ----
+	g_flAlphaOutputMaximum "1.000"
+	g_flAlphaOutputMinimum "0.000"
+
+	//---- Chromatic Abberation ----
+	g_flBlueShift "0.000"
+	g_flGreenShift "0.000"
+	g_flJitterSpeed "1.700"
+	g_flRedShift "0.508"
+	TextureJitterControl "materials/workshop_examples/monitor/jitter_control.tga"
+
+	//---- Contrast ----
+	TextureContrastControl "materials/workshop_examples/monitor/contrast_control.tga"
+
+	//---- Display ----
+	g_flFilmGrainStrength "0.186"
+	g_flTexCoordOffsetU "0.000"
+	g_flTexCoordOffsetV "0.000"
+	g_flTintScale "0.000"
+	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
+	g_vScanlineTextureOffset "[0.000 0.000]"
+	g_vTexCoordScale "[5.000 5.000]"
+	ScanlineDistortion "materials/default/default_color.tga"
+	TextureColor "[0.074510 0.074510 0.074510 0.000000]"
+	TextureFilmGrain "materials/workshop_examples/monitor/film_grain_01.png"
+	TextureScanlines "materials/default/default_color.tga"
+	TextureVignette "materials/default/default.tga"
+
+	//---- Specular ----
+	g_flReflectionStrength "0.000"
+	g_fSpecularRoughness "0.000"
+	SpecularDirt "materials/workshop_examples/xen/xen_dead001_normal.tga"
+	SpecularDistortion "materials/default/default_normal.tga"
+
+	//---- VSYNC ----
+	g_flVSYNCJumpScale "0.250"
+	VSyncControl "materials/workshop_examples/monitor/vsync_control.tga"
+}

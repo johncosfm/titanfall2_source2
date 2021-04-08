@@ -1,0 +1,43 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "vr_monitor.vfx"
+
+	//---- Rendering ----
+	F_RENDER_BACKFACES 1
+
+	//---- Chromatic Abberation ----
+	g_flBlueShift "0.345"
+	g_flGreenShift "0.000"
+	g_flJitterSpeed "1.700"
+	g_flRedShift "0.948"
+	TextureJitterControl "materials/workshop_examples/monitor/jitter_control.tga"
+
+	//---- Contrast ----
+	TextureContrastControl "materials/workshop_examples/monitor/contrast_control.tga"
+
+	//---- Display ----
+	g_flFilmGrainStrength "0.500"
+	g_flTexCoordOffsetU "-0.172"
+	g_flTexCoordOffsetV "-0.190"
+	g_flTintScale "1.000"
+	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
+	g_vScanlineTextureOffset "[0.000 0.000]"
+	g_vTexCoordScale "[1.000 1.000]"
+	ScanlineDistortion "materials/default/default_color.tga"
+	TextureColor "models/robots/marvin/materials/marvin_screen_sad/marvin_screen_sad_color.png"
+	TextureFilmGrain "materials/workshop_examples/monitor/film_grain_01.png"
+	TextureScanlines "materials/workshop_examples/monitor/scanline_1024.png"
+	TextureVignette "[0.376471 0.376471 0.376471 0.000000]"
+
+	//---- Specular ----
+	g_flReflectionStrength "0.300"
+	g_fSpecularRoughness "0.350"
+	SpecularDirt "materials/default/default_normal.tga"
+	SpecularDistortion "materials/default/default_normal.tga"
+
+	//---- VSYNC ----
+	g_flVSYNCJumpScale "0.034"
+	VSyncControl "materials/workshop_examples/monitor/vsync_control.tga"
+}

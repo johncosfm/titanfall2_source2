@@ -1,0 +1,45 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "vr_complex.vfx"
+
+	//---- PBR ----
+	F_SPECULAR 1
+
+	//---- Ambient Occlusion ----
+	g_flAmbientOcclusionDirectDiffuse "0.000"
+	g_flAmbientOcclusionDirectSpecular "0.000"
+	TextureAmbientOcclusion "models/black_water_canal/canal_lab_ext_window_128_01_int/materials/sewer_lab_trim_01/sewer_lab_trim_01_ao.png"
+
+	//---- Color ----
+	g_flModelTintAmount "1.000"
+	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
+	TextureColor "models/black_water_canal/canal_lab_ext_window_128_01_int/materials/sewer_lab_trim_01/sewer_lab_trim_01_color.png"
+
+	//---- Fade ----
+	g_flFadeExponent "1.000"
+
+	//---- Fog ----
+	g_bFogEnabled "1"
+
+	//---- Lighting ----
+	g_flDirectionalLightmapMinZ "0.050"
+	g_flDirectionalLightmapStrength "1.000"
+
+	//---- Metalness ----
+	g_flMetalness "0.707"
+
+	//---- Normal ----
+	TextureNormal "models/black_water_canal/canal_lab_ext_window_128_01_int/materials/sewer_lab_trim_01/sewer_lab_trim_01_normal.png"
+
+	//---- Roughness ----
+	TextureRoughness "models/black_water_canal/canal_lab_ext_window_128_01_int/materials/sewer_lab_trim_01/sewer_lab_trim_01_rough.png"
+
+	//---- Texture Coordinates ----
+	g_nScaleTexCoordUByModelScaleAxis "0"
+	g_nScaleTexCoordVByModelScaleAxis "0"
+	g_vTexCoordOffset "[0.000 0.000]"
+	g_vTexCoordScale "[1.000 1.000]"
+	g_vTexCoordScrollSpeed "[0.000 0.000]"
+}

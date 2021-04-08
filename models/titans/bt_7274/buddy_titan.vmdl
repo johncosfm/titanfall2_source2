@@ -1,0 +1,495 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "BodyGroupList"
+				children = 
+				[
+					{
+						_class = "BodyGroup"
+						name = "back_damage"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"back",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"back_damage",
+								]
+							},
+						]
+						hidden_in_tools = false
+					},
+					{
+						_class = "BodyGroup"
+						name = "battery_center"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"battery_center",
+								]
+							},
+						]
+						hidden_in_tools = false
+					},
+					{
+						_class = "BodyGroup"
+						name = "battery_outer"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"battery_outer",
+								]
+							},
+						]
+						hidden_in_tools = false
+					},
+					{
+						_class = "BodyGroup"
+						name = "front_damage"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"front",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"front_damage",
+								]
+							},
+						]
+						hidden_in_tools = false
+					},
+					{
+						_class = "BodyGroup"
+						name = "hatch_damage"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"hatch",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"hatch_damage",
+								]
+							},
+						]
+						hidden_in_tools = false
+					},
+					{
+						_class = "BodyGroup"
+						name = "hip_damage"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"hip",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"hip_damage",
+								]
+							},
+						]
+						hidden_in_tools = false
+					},
+					{
+						_class = "BodyGroup"
+						name = "l_arm_damage"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"l_arm",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"l_arm_damage",
+								]
+							},
+						]
+						hidden_in_tools = false
+					},
+					{
+						_class = "BodyGroup"
+						name = "l_leg_damage"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"l_leg",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"l_leg_damage",
+								]
+							},
+						]
+						hidden_in_tools = false
+					},
+					{
+						_class = "BodyGroup"
+						name = "r_arm_damage"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"r_arm",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"r_arm_damage",
+								]
+							},
+						]
+						hidden_in_tools = false
+					},
+					{
+						_class = "BodyGroup"
+						name = "r_leg_damage"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"r_leg",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"r_leg_damage",
+								]
+							},
+						]
+						hidden_in_tools = false
+					},
+				]
+			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "bt_a_all.vmat"
+								to = "models/titans/bt_7274/mats/bt_a_all/bt_a_all.vmat"
+							},
+							{
+								from = "t_cockpit_atlas_01.vmat"
+								to = "models/titans/bt_7274/mats/t_cockpit_atlas_01/t_cockpit_atlas_01.vmat"
+							},
+							{
+								from = "titan_cockpit.vmat"
+								to = "models/titans/bt_7274/mats/t_cockpit_atlas_01/titan_cockpit.vmat"
+							},
+							{
+								from = "bt_a_all_factory.vmat"
+								to = "models/titans/bt_7274/mats/bt_a_all_factory/bt_a_all_factory.vmat"
+							},
+							{
+								from = "bt_a_body_dmg.vmat"
+								to = "models/titans/bt_7274/mats/bt_a_body_dmg/bt_a_body_dmg.vmat"
+							},
+							{
+								from = "bt_a_eye_cine.vmat"
+								to = "models/titans/bt_7274/mats/bt_a_eye_cine/bt_a_eye_cine.vmat"
+							},
+							{
+								from = "bt_acolyte.vmat"
+								to = "models/titans/bt_7274/mats/bt_acolyte/bt_acolyte.vmat"
+							},
+							{
+								from = "bt_decal.vmat"
+								to = "models/titans/bt_7274/mats/bt_decal/bt_decal.vmat"
+							},
+							{
+								from = "bt_decal_02.vmat"
+								to = "models/titans/bt_7274/mats/bt_decal_02/bt_decal_02.vmat"
+							},
+							{
+								from = "damage_alpha_kit_v1.vmat"
+								to = "models/titans/bt_7274/mats/damage_alpha_kit_v1/damage_alpha_kit_v1.vmat"
+							},
+							{
+								from = "titan_cockpit_console.vmat"
+								to = "models/titans/bt_7274/mats/t_cockpit_atlas_01/titan_cockpit_console.vmat"
+							},
+							{
+								from = "titan_cockpit_screen.vmat"
+								to = "models/titans/bt_7274/mats/t_cockpit_atlas_01/titan_cockpit_screen.vmat"
+							},
+							{
+								from = "titan_damaged_limbs.vmat"
+								to = "models/titans/bt_7274/mats/titan_damaged_limbs/titan_damaged_limbs.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						name = "back_damage"
+						filename = "models/titans/bt_7274/buddy_titan_back_d_lod0.smd"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "back"
+						filename = "models/titans/bt_7274/buddy_titan_back_lod0.smd"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "battery_center"
+						filename = "models/titans/bt_7274/buddy_titan_battery_cap_center.smd"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "battery_outer"
+						filename = "models/titans/bt_7274/buddy_titan_battery_cap_outer.smd"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "front_damage"
+						filename = "models/titans/bt_7274/buddy_titan_front_d_lod0.smd"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "front"
+						filename = "models/titans/bt_7274/buddy_titan_front_lod0.smd"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "hatch_damage"
+						filename = "models/titans/bt_7274/buddy_titan_hatch_d_lod0.smd"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "hatch"
+						filename = "models/titans/bt_7274/buddy_titan_hatch_lod0.smd"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "hip_damage"
+						filename = "models/titans/bt_7274/buddy_titan_hip_d_lod0.smd"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "hip"
+						filename = "models/titans/bt_7274/buddy_titan_hip_lod0.smd"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "l_arm_damage"
+						filename = "models/titans/bt_7274/buddy_titan_l_arm_d_lod0.smd"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "l_arm"
+						filename = "models/titans/bt_7274/buddy_titan_l_arm_lod0.smd"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "l_leg_damage"
+						filename = "models/titans/bt_7274/buddy_titan_l_leg_d_lod0.smd"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "l_leg"
+						filename = "models/titans/bt_7274/buddy_titan_l_leg_lod0.smd"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "r_arm_damage"
+						filename = "models/titans/bt_7274/buddy_titan_r_arm_d_lod0.smd"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "r_arm"
+						filename = "models/titans/bt_7274/buddy_titan_r_arm_lod0.smd"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "r_leg_damage"
+						filename = "models/titans/bt_7274/buddy_titan_r_leg_d_lod0.smd"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "r_leg"
+						filename = "models/titans/bt_7274/buddy_titan_r_leg_lod0.smd"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+	}
+}
