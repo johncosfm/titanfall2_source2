@@ -109,6 +109,7 @@
 					},
 					{
 						_class = "RenderMeshFile"
+						name = "helmet_1"
 						filename = "models/humans/heroes/mlt_hero_jack/models/humans/heroes/w_mlt_hero_jack_helmet_decal_lod0.smd"
 						import_scale = 1.0
 						import_filter = 
@@ -119,6 +120,7 @@
 					},
 					{
 						_class = "RenderMeshFile"
+						name = "helmet"
 						filename = "models/humans/heroes/mlt_hero_jack/models/humans/heroes/w_mlt_hero_jack_helmet_lod0.smd"
 						import_scale = 1.0
 						import_filter = 
@@ -136,6 +138,29 @@
 							exclude_by_default = true
 							exception_list = [  ]
 						}
+					},
+				]
+			},
+			{
+				_class = "BodyGroupList"
+				children = 
+				[
+					{
+						_class = "BodyGroup"
+						name = "helmet"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								name = "helmeton"
+								meshes = 
+								[
+									"helmet",
+									"helmet_1",
+								]
+							},
+						]
+						hidden_in_tools = false
 					},
 				]
 			},
