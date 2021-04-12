@@ -487,6 +487,473 @@
 					},
 				]
 			},
+			{
+				_class = "AnimationList"
+				children = 
+				[
+					{
+						_class = "AnimFile"
+						name = "bt_timeshift_berserk"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = true
+						source_filename = "models/titans/buddy/titan_buddy_scripted_timeshift/titan_buddy_scripted_timeshift_anims/bt_timeshift_berserk.smd"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "bt_timeshift_campus_idle"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = true
+						source_filename = "models/titans/buddy/titan_buddy_scripted_timeshift/titan_buddy_scripted_timeshift_anims/bt_timeshift_campus_idle.smd"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "bt_timeshift_corpse_search_breakout_01"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = true
+						source_filename = "models/titans/buddy/titan_buddy_scripted_timeshift/titan_buddy_scripted_timeshift_anims/bt_timeshift_corpse_search_breakout_01.smd"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "bt_timeshift_corpse_search_breakout_02"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = true
+						source_filename = "models/titans/buddy/titan_buddy_scripted_timeshift/titan_buddy_scripted_timeshift_anims/bt_timeshift_corpse_search_breakout_02.smd"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "bt_timeshift_corpse_search_breakout_03"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = true
+						source_filename = "models/titans/buddy/titan_buddy_scripted_timeshift/titan_buddy_scripted_timeshift_anims/bt_timeshift_corpse_search_breakout_03.smd"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "bt_timeshift_corpse_search_breakout_04"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = true
+						source_filename = "models/titans/buddy/titan_buddy_scripted_timeshift/titan_buddy_scripted_timeshift_anims/bt_timeshift_corpse_search_breakout_04.smd"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "bt_timeshift_corpse_search_breakout_05"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = true
+						source_filename = "models/titans/buddy/titan_buddy_scripted_timeshift/titan_buddy_scripted_timeshift_anims/bt_timeshift_corpse_search_breakout_05.smd"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "bt_timeshift_corpse_search_loop"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = true
+						source_filename = "models/titans/buddy/titan_buddy_scripted_timeshift/titan_buddy_scripted_timeshift_anims/bt_timeshift_corpse_search_loop.smd"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "bt_timeshift_fights_prowlers_end"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = true
+						source_filename = "models/titans/buddy/titan_buddy_scripted_timeshift/titan_buddy_scripted_timeshift_anims/bt_timeshift_fights_prowlers_end.smd"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "bt_timeshift_fights_prowlers_idle"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = true
+						source_filename = "models/titans/buddy/titan_buddy_scripted_timeshift/titan_buddy_scripted_timeshift_anims/bt_timeshift_fights_prowlers_idle.smd"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "bt_timeshift_frozen_pose"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = true
+						source_filename = "models/titans/buddy/titan_buddy_scripted_timeshift/titan_buddy_scripted_timeshift_anims/bt_timeshift_frozen_pose.smd"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "bt_timeshift_frozen_stand"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = true
+						source_filename = "models/titans/buddy/titan_buddy_scripted_timeshift/titan_buddy_scripted_timeshift_anims/bt_timeshift_frozen_stand.smd"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "bt_timeshift_frozen_stand_idle"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = true
+						source_filename = "models/titans/buddy/titan_buddy_scripted_timeshift/titan_buddy_scripted_timeshift_anims/bt_timeshift_frozen_stand_idle.smd"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "bt_timeshift_helmet_wait_idle"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = true
+						source_filename = "models/titans/buddy/titan_buddy_scripted_timeshift/titan_buddy_scripted_timeshift_anims/bt_timeshift_helmet_wait_idle.smd"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "bt_timeshift_hologram_sequence_end"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = true
+						source_filename = "models/titans/buddy/titan_buddy_scripted_timeshift/titan_buddy_scripted_timeshift_anims/bt_timeshift_hologram_sequence_end.smd"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "bt_timeshift_hologram_sequence_idle"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = true
+						source_filename = "models/titans/buddy/titan_buddy_scripted_timeshift/titan_buddy_scripted_timeshift_anims/bt_timeshift_hologram_sequence_idle.smd"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "bt_timeshift_hologram_sequence_start"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = true
+						source_filename = "models/titans/buddy/titan_buddy_scripted_timeshift/titan_buddy_scripted_timeshift_anims/bt_timeshift_hologram_sequence_start.smd"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "bt_timeshift_javelin_scan_idle"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = true
+						source_filename = "models/titans/buddy/titan_buddy_scripted_timeshift/titan_buddy_scripted_timeshift_anims/bt_timeshift_javelin_scan_idle.smd"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "bt_timeshift_javelin_throw_end"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = true
+						source_filename = "models/titans/buddy/titan_buddy_scripted_timeshift/titan_buddy_scripted_timeshift_anims/bt_timeshift_javelin_throw_end.smd"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "bt_timeshift_javelin_throw_start"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = true
+						source_filename = "models/titans/buddy/titan_buddy_scripted_timeshift/titan_buddy_scripted_timeshift_anims/bt_timeshift_javelin_throw_start.smd"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "bt_timeshift_javelin_throw_wait"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = true
+						source_filename = "models/titans/buddy/titan_buddy_scripted_timeshift/titan_buddy_scripted_timeshift_anims/bt_timeshift_javelin_throw_wait.smd"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "ht_AI_titanrack_bootup_heavy"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = true
+						source_filename = "models/titans/buddy/titan_buddy_scripted_timeshift/titan_buddy_scripted_timeshift_anims/ht_AI_titanrack_bootup_heavy.smd"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "ht_AI_titanrack_loop_heavy"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = true
+						source_filename = "models/titans/buddy/titan_buddy_scripted_timeshift/titan_buddy_scripted_timeshift_anims/ht_AI_titanrack_loop_heavy.smd"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+				]
+				default_root_bone_name = ""
+			},
 		]
 		model_archetype = ""
 		primary_associated_entity = ""
