@@ -45,7 +45,7 @@
 				m_flBloomStrength = 10.0
 				m_flScreenBloomStrength = 1.0
 				m_flBlurBloomStrength = 1.0
-				m_flBloomThreshold = 0.852
+				m_flBloomThreshold = 1.591
 				m_flBloomThresholdWidth = 0.0
 				m_flSkyboxBloomStrength = 1.0
 				m_flBloomStartValue = 1.0
