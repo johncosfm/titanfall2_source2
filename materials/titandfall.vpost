@@ -7,7 +7,7 @@
 			_class = "CCurvesColorCorrectionLayer"
 			m_name = "Curves 0"
 			m_nOpacityPercent = 100
-			m_bVisible = true
+			m_bVisible = false
 			m_pLayerMask = null
 			m_curvePointsRGB = 
 			[

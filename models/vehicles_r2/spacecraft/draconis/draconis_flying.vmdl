@@ -1,0 +1,71 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "dev_gray_512_v_color.vmat"
+								to = "materials/metal/metal_basic_1.vmat"
+							},
+							{
+								from = "draconis_landing_gear.vmat"
+								to = "models/vehicle/goblin_dropship/materials/goblin_dropship_1_big.vmat"
+							},
+							{
+								from = "revenge_body.vmat"
+								to = "models/vehicles_r2/spacecraft/draconis/materials/revenge_body.vmat"
+							},
+							{
+								from = "revenge_parts.vmat"
+								to = "models/vehicles_r2/spacecraft/draconis/materials/revenge_parts.vmat"
+							},
+							{
+								from = "s2s_metal_trims_01.vmat"
+								to = "models/levels_terrain/sp_tday/tday_intro_baydoor/materials/s2s_metal_trims_01.vmat"
+							},
+							{
+								from = "s2s_painted_metal_01.vmat"
+								to = "materials/world/s2s/s2s_painted_metal_01.vmat"
+							},
+							{
+								from = "s2s_wall_trim_03.vmat"
+								to = "models/vehicles_r2/spacecraft/draconis/materials/s2s_wall_trim_03.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						filename = "models/vehicles_r2/spacecraft/draconis/draconis_flying_hero_LOD0.smd"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+	}
+}
