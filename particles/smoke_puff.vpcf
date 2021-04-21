@@ -19,7 +19,7 @@
 			{
 				m_nType = "PF_TYPE_LITERAL"
 				m_nMapType = "PF_MAP_TYPE_DIRECT"
-				m_flLiteralValue = 0.25
+				m_flLiteralValue = 1.0
 				m_nControlPoint = 0
 				m_nScalarAttribute = 3
 				m_nVectorAttribute = 6
@@ -27,6 +27,11 @@
 				m_flRandomMin = 0.0
 				m_flRandomMax = 1.0
 				m_nRandomMode = "PF_RANDOM_MODE_CONSTANT"
+				m_flLOD0 = 0.0
+				m_flLOD1 = 0.0
+				m_flLOD2 = 0.0
+				m_flLOD3 = 0.0
+				m_nInputMode = "PF_INPUT_MODE_CLAMPED"
 				m_flMultFactor = 1.0
 				m_flInput0 = 0.0
 				m_flInput1 = 1.0
@@ -54,6 +59,11 @@
 				m_flRandomMin = 0.0
 				m_flRandomMax = 1.0
 				m_nRandomMode = "PF_RANDOM_MODE_CONSTANT"
+				m_flLOD0 = 0.0
+				m_flLOD1 = 0.0
+				m_flLOD2 = 0.0
+				m_flLOD3 = 0.0
+				m_nInputMode = "PF_INPUT_MODE_CLAMPED"
 				m_flMultFactor = 1.0
 				m_flInput0 = 0.0
 				m_flInput1 = 1.0
@@ -125,7 +135,7 @@
 	[
 		{
 			_class = "C_OP_InterpolateRadius"
-			m_flStartScale = 0.5
+			m_flStartScale = 0.0
 			m_flBias = 0.6
 		},
 		{
@@ -133,8 +143,8 @@
 		},
 		{
 			_class = "C_OP_FadeIn"
-			m_flFadeInTimeMin = 0.3
-			m_flFadeInTimeMax = 0.5
+			m_flFadeInTimeMin = 1.0
+			m_flFadeInTimeMax = 5.0
 			m_bProportional = false
 		},
 		{
