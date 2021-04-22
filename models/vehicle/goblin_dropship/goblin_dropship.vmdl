@@ -37,6 +37,33 @@
 						use_global_default = false
 						global_default_material = ""
 					},
+					{
+						_class = "MaterialGroup"
+						name = "off"
+						remaps = 
+						[
+							{
+								from = "models/vehicle/goblin_dropship/materials/goblin_dropship_1_big.vmat"
+								to = "models/vehicle/goblin_dropship/materials/goblin_dropship_1_big_dark.vmat"
+							},
+							{
+								from = "models/vehicle/goblin_dropship/materials/goblin_dropship_2_big.vmat"
+								to = "models/vehicle/goblin_dropship/materials/goblin_dropship_2_big_dark.vmat"
+							},
+							{
+								from = "models/vehicle/goblin_dropship/materials/goblin_dropship_cargohold_interior.vmat"
+								to = "models/vehicle/goblin_dropship/materials/goblin_dropship_cargohold_interior_dark.vmat"
+							},
+							{
+								from = "models/vehicle/goblin_dropship/materials/goblin_dropship_cockpit_interior.vmat"
+								to = "models/vehicle/goblin_dropship/materials/goblin_dropship_cockpit_interior_dark.vmat"
+							},
+							{
+								from = "models/vehicle/goblin_dropship/materials/goblin_dropship_glass_o.vmat"
+								to = "models/vehicle/goblin_dropship/materials/goblin_dropship_glass_o_dark.vmat"
+							},
+						]
+					},
 				]
 			},
 			{
