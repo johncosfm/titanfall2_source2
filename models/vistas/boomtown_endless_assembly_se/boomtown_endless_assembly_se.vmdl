@@ -6,6 +6,40 @@
 		children = 
 		[
 			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "boomtown_endless_assembly.vmat"
+								to = "models/vistas/boomtown_endless_assembly_se/materials/boomtown_endless_assembly.vmat"
+							},
+							{
+								from = "boomtown_endless_god.vmat"
+								to = "models/vistas/boomtown_endless_assembly_se/materials/boomtown_endless_god.vmat"
+							},
+							{
+								from = "boomtown_endless_lights_blink.vmat"
+								to = "models/vistas/boomtown_endless_assembly_se/materials/boomtown_endless_lights_blink.vmat"
+							},
+							{
+								from = "boomtown_endless_scrolling_uv.vmat"
+								to = "models/vistas/boomtown_endless_assembly_se/materials/boomtown_endless_scrolling_uv.vmat"
+							},
+							{
+								from = "s2s_sky.vmat"
+								to = "materials/dev/invis.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
+			{
 				_class = "RenderMeshList"
 				children = 
 				[

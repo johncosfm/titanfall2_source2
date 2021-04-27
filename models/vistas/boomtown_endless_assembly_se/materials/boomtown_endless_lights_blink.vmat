@@ -1,0 +1,47 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "vr_monitor.vfx"
+
+	//---- Translucent ----
+	F_ADDITIVE_BLEND_OVER_ALPHA 1
+
+	//---- Additive Blend Over Alpha ----
+	g_flAlphaOutputMaximum "21.121"
+	g_flAlphaOutputMinimum "0.000"
+
+	//---- Chromatic Abberation ----
+	g_flBlueShift "0.000"
+	g_flGreenShift "0.000"
+	g_flJitterSpeed "1.700"
+	g_flRedShift "0.000"
+	TextureJitterControl "materials/default/default.tga"
+
+	//---- Contrast ----
+	TextureContrastControl "models/vistas/boomtown_endless_assembly_se/materials/boomtown_endless_lights_blink/boomtown_endless_lights_blink_control.png"
+
+	//---- Display ----
+	g_flFilmGrainStrength "0.500"
+	g_flTexCoordOffsetU "0.000"
+	g_flTexCoordOffsetV "0.000"
+	g_flTintScale "4.000"
+	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
+	g_vScanlineTextureOffset "[0.000 0.000]"
+	g_vTexCoordScale "[1.000 1.000]"
+	ScanlineDistortion "[0.498039 0.498039 0.498039 0.000000]"
+	TextureColor "models/vistas/boomtown_endless_assembly_se/materials/boomtown_endless_lights_blink/boomtown_endless_lights_blink_color.png"
+	TextureFilmGrain "materials/workshop_examples/monitor/jitter_control.tga"
+	TextureScanlines "materials/default/default_color.tga"
+	TextureVignette "materials/default/default.tga"
+
+	//---- Specular ----
+	g_flReflectionStrength "10.000"
+	g_fSpecularRoughness "0.350"
+	SpecularDirt "materials/default/default_normal.tga"
+	SpecularDistortion "materials/default/default_normal.tga"
+
+	//---- VSYNC ----
+	g_flVSYNCJumpScale "0.000"
+	VSyncControl "materials/default/default.tga"
+}
