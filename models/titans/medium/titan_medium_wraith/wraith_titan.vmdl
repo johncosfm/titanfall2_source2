@@ -37,6 +37,25 @@
 						use_global_default = false
 						global_default_material = ""
 					},
+					{
+						_class = "MaterialGroup"
+						name = "ritcher"
+						remaps = 
+						[
+							{
+								from = "models/titans/medium/titan_medium_wraith/materials/t_m_tone_skn_01.vmat"
+								to = "models/titans/medium/titan_medium_wraith/materials/t_m_tone_skn_apex.vmat"
+							},
+							{
+								from = "models/titans/medium/titan_medium_wraith/materials/t_m_tone_warpaint_skin02.vmat"
+								to = "models/titans/medium/titan_medium_wraith/materials/t_m_tone_warpaint_apex.vmat"
+							},
+							{
+								from = "models/titans/medium/titan_medium_wraith/materials/t_m_tone_nose_art_v00.vmat"
+								to = "models/titans/medium/titan_medium_wraith/materials/t_m_tone_nose_art_v11.vmat"
+							},
+						]
+					},
 				]
 			},
 			{
@@ -114,6 +133,33 @@
 						}
 					},
 				]
+			},
+			{
+				_class = "AnimationList"
+				children = 
+				[
+					{
+						_class = "AnimFile"
+						name = "idle"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/titans/medium/titan_medium_wraith/idle.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+				]
+				default_root_bone_name = ""
 			},
 		]
 		model_archetype = ""

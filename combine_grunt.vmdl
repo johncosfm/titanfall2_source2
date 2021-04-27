@@ -1,0 +1,6795 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	m_name = "models/characters/combine_grunt/combine_grunt.vmdl"
+	m_modelInfo = 
+	{
+		m_nFlags = 8389632
+		m_vHullMin = 
+		[
+			0.000000,
+			0.000000,
+			0.000000,
+		]
+		m_vHullMax = 
+		[
+			0.000000,
+			0.000000,
+			0.000000,
+		]
+		m_vViewMin = 
+		[
+			0.000000,
+			0.000000,
+			0.000000,
+		]
+		m_vViewMax = 
+		[
+			0.000000,
+			0.000000,
+			0.000000,
+		]
+		m_flMass = 0.000000
+		m_vEyePosition = 
+		[
+			0.000000,
+			0.000000,
+			0.000000,
+		]
+		m_flMaxEyeDeflection = 0.000000
+		m_sSurfaceProperty = ""
+		m_keyValueText = "<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:vmdlkeys3:version{141d1e66-eebf-4440-be28-a74cd93426eb} -->
+{
+	MovementSettings = 
+	{
+		name = \"\"
+		speeds = 
+		[
+			{
+				name = \"Injured Speed\"
+				speed = 70.0
+			},
+			{
+				name = \"Crouch Speed\"
+				speed = 139.0
+			},
+		]
+		runspeed = 165.0
+		walkspeed = 61.0
+		maxSpringTension = 150.0
+		springConstant = 5.0
+		useSmoothPaths = true
+		useMotionDamping = true
+		sharpStartAngle = 180.0
+		m_vTraceScale = [ 1.0, 1.0, 1.0 ]
+	}
+	LookAtList = 
+	{
+		body_facing_chain = 
+		{
+			name = \"body_facing_chain\"
+			bones = 
+			[
+				{
+					name = \"spine_3\"
+					weight = 0.9
+				},
+				{
+					name = \"spine_2\"
+					weight = 0.65
+				},
+				{
+					name = \"spine_1\"
+					weight = 0.41
+				},
+				{
+					name = \"spine_0\"
+					weight = 0.285
+				},
+			]
+		}
+		head_aim_lookat_relaxed = 
+		{
+			name = \"head_aim_lookat_relaxed\"
+			bones = 
+			[
+				{
+					name = \"head\"
+					weight = 0.607
+				},
+			]
+		}
+		gun_aim_lookat_not_accurate = 
+		{
+			name = \"gun_aim_lookat_not_accurate\"
+			bones = 
+			[
+				{
+					name = \"righthand_ik_target\"
+					weight = 0.66
+				},
+				{
+					name = \"hand_ik_tweaker\"
+					weight = 0.33
+				},
+			]
+		}
+		head_aim_lookatrun = 
+		{
+			name = \"head_aim_lookatrun\"
+			bones = 
+			[
+				{
+					name = \"head_cosmetic\"
+					weight = 0.0
+				},
+				{
+					name = \"head\"
+					weight = 0.75
+				},
+				{
+					name = \"neck_0\"
+					weight = 0.3
+				},
+			]
+		}
+		shield_aim_lookat = 
+		{
+			name = \"shield_aim_lookat\"
+			bones = 
+			[
+				{
+					name = \"head_cosmetic\"
+					weight = 0.0
+				},
+				{
+					name = \"head\"
+					weight = 0.0
+				},
+				{
+					name = \"neck_0\"
+					weight = 0.0
+				},
+				{
+					name = \"arm_lower_L\"
+					weight = 0.0
+				},
+				{
+					name = \"arm_upper_L\"
+					weight = 1.0
+				},
+				{
+					name = \"clavicle_L\"
+					weight = 0.2
+				},
+				{
+					name = \"hand_ik_tweaker\"
+					weight = 1.0
+				},
+				{
+					name = \"shoulderPad_L\"
+					weight = 0.66
+				},
+			]
+		}
+		bodyyawexperiment = 
+		{
+			name = \"bodyyawexperiment\"
+			bones = 
+			[
+				{
+					name = \"spine_3\"
+					weight = 1.0
+				},
+				{
+					name = \"spine_2\"
+					weight = 0.8
+				},
+				{
+					name = \"spine_1\"
+					weight = 0.75
+				},
+				{
+					name = \"spine_0\"
+					weight = 0.6
+				},
+				{
+					name = \"pelvis\"
+					weight = 0.4
+				},
+			]
+		}
+		bodyyawexperiment1 = 
+		{
+			name = \"bodyyawexperiment1\"
+			bones = 
+			[
+				{
+					name = \"head\"
+					weight = 1.0
+				},
+				{
+					name = \"spine_3\"
+					weight = 0.85
+				},
+				{
+					name = \"spine_2\"
+					weight = 0.8
+				},
+				{
+					name = \"spine_1\"
+					weight = 0.7
+				},
+				{
+					name = \"spine_0\"
+					weight = 0.6
+				},
+				{
+					name = \"pelvis\"
+					weight = 0.5
+				},
+				{
+					name = \"pelvis_translations\"
+					weight = 0.4
+				},
+			]
+		}
+		bodyyawexperiment2wgun = 
+		{
+			name = \"bodyyawexperiment2wgun\"
+			bones = 
+			[
+				{
+					name = \"head\"
+					weight = 1.0
+				},
+				{
+					name = \"spine_3\"
+					weight = 0.85
+				},
+				{
+					name = \"spine_2\"
+					weight = 0.8
+				},
+				{
+					name = \"spine_1\"
+					weight = 0.7
+				},
+				{
+					name = \"spine_0\"
+					weight = 0.6
+				},
+				{
+					name = \"pelvis\"
+					weight = 0.5
+				},
+				{
+					name = \"pelvis_translations\"
+					weight = 0.4
+				},
+				{
+					name = \"righthand_ik_target\"
+					weight = 1.0
+				},
+				{
+					name = \"hand_ik_tweaker\"
+					weight = 0.5
+				},
+			]
+		}
+		gun_aim_lookat_absolute = 
+		{
+			name = \"gun_aim_lookat_absolute\"
+			bones = 
+			[
+				{
+					name = \"righthand_ik_target\"
+					weight = 1.0
+				},
+				{
+					name = \"hand_ik_tweaker\"
+					weight = 0.5
+				},
+			]
+		}
+		gun_aim_lookat_absolute_old = 
+		{
+			name = \"gun_aim_lookat_absolute_old\"
+			bones = 
+			[
+				{
+					name = \"righthand_ik_target\"
+					weight = 1.0
+				},
+				{
+					name = \"hand_ik_tweaker\"
+					weight = 0.66
+				},
+				{
+					name = \"spine_2\"
+					weight = 0.4
+				},
+				{
+					name = \"spine_1\"
+					weight = 0.3
+				},
+				{
+					name = \"spine_0\"
+					weight = 0.2
+				},
+			]
+		}
+		body_facing_chain_firing = 
+		{
+			name = \"body_facing_chain_firing\"
+			bones = 
+			[
+				{
+					name = \"spine_3\"
+					weight = 0.45
+				},
+				{
+					name = \"spine_2\"
+					weight = 0.32
+				},
+				{
+					name = \"spine_1\"
+					weight = 0.21
+				},
+				{
+					name = \"spine_0\"
+					weight = 0.14
+				},
+			]
+		}
+		head_aim_lookatlockontarget = 
+		{
+			name = \"head_aim_lookatlockontarget\"
+			bones = 
+			[
+				{
+					name = \"head\"
+					weight = 0.5
+				},
+			]
+		}
+		gun_aim_lookat_justgun = 
+		{
+			name = \"gun_aim_lookat_justgun\"
+			bones = 
+			[
+				{
+					name = \"righthand_ik_target\"
+					weight = 1.0
+				},
+			]
+		}
+		head_aim_lookatlockonheavy = 
+		{
+			name = \"head_aim_lookatlockonheavy\"
+			bones = 
+			[
+				{
+					name = \"head\"
+					weight = 0.5
+				},
+				{
+					name = \"neck_0\"
+					weight = 0.05
+				},
+			]
+		}
+		head_aim_lookat_patrol = 
+		{
+			name = \"head_aim_lookat_patrol\"
+			bones = 
+			[
+				{
+					name = \"head\"
+					weight = 0.5
+				},
+				{
+					name = \"neck_0\"
+					weight = 0.23
+				},
+				{
+					name = \"spine_3\"
+					weight = 0.17
+				},
+				{
+					name = \"spine_2\"
+					weight = 0.1
+				},
+				{
+					name = \"spine_1\"
+					weight = 0.07
+				},
+			]
+		}
+		orient_to_face_big_aimmatrix_halfsize = 
+		{
+			name = \"orient_to_face_big_aimmatrix_halfsize\"
+			bones = 
+			[
+				{
+					name = \"spine_0\"
+					weight = 0.42
+				},
+				{
+					name = \"pelvis\"
+					weight = 0.33
+				},
+				{
+					name = \"foot_L_IK_target_ytrans\"
+					weight = 0.1
+				},
+				{
+					name = \"foot_R_IK_target_ytrans\"
+					weight = 0.1
+				},
+			]
+		}
+		aim_9_dir_multiuse_lookat = 
+		{
+			name = \"aim_9_dir_multiuse_lookat\"
+			bones = 
+			[
+				{
+					name = \"hand_R_IK_target\"
+					weight = 1.0
+				},
+				{
+					name = \"hand_ik_tweaker\"
+					weight = 0.2
+				},
+				{
+					name = \"spine_1\"
+					weight = 0.2
+				},
+				{
+					name = \"spine_0\"
+					weight = 0.1
+				},
+			]
+		}
+		head_aim_lookatlockontargettemp = 
+		{
+			name = \"head_aim_lookatlockontargettemp\"
+			bones = 
+			[
+				{
+					name = \"head\"
+					weight = 0.5
+				},
+			]
+		}
+		orient_to_face_big_aimmatrix_heavy = 
+		{
+			name = \"orient_to_face_big_aimmatrix_heavy\"
+			bones = 
+			[
+				{
+					name = \"spine_0\"
+					weight = 0.84
+				},
+				{
+					name = \"pelvis\"
+					weight = 0.66
+				},
+				{
+					name = \"foot_L_IK_target_ytrans\"
+					weight = 0.2
+				},
+				{
+					name = \"foot_R_IK_target_ytrans\"
+					weight = 0.2
+				},
+			]
+		}
+		head_aim_lookat_grenade = 
+		{
+			name = \"head_aim_lookat_grenade\"
+			bones = 
+			[
+				{
+					name = \"head\"
+					weight = 1.0
+				},
+				{
+					name = \"neck_0\"
+					weight = 0.35
+				},
+				{
+					name = \"spine_3\"
+					weight = 0.12
+				},
+				{
+					name = \"spine_2\"
+					weight = 0.07
+				},
+				{
+					name = \"spine_1\"
+					weight = 0.05
+				},
+			]
+		}
+		gun_aim_lookat_absolute_new = 
+		{
+			name = \"gun_aim_lookat_absolute_new\"
+			bones = 
+			[
+				{
+					name = \"hand_ik_tweaker\"
+					weight = 0.66
+				},
+				{
+					name = \"spine_2\"
+					weight = 0.2
+				},
+				{
+					name = \"spine_1\"
+					weight = 0.15
+				},
+				{
+					name = \"spine_0\"
+					weight = 0.1
+				},
+			]
+		}
+		orient_to_face_big_aimmatrix = 
+		{
+			name = \"orient_to_face_big_aimmatrix\"
+			bones = 
+			[
+				{
+					name = \"spine_2\"
+					weight = 0.5
+				},
+				{
+					name = \"spine_1\"
+					weight = 0.25
+				},
+				{
+					name = \"spine_0\"
+					weight = 0.12
+				},
+				{
+					name = \"pelvis\"
+					weight = 0.05
+				},
+			]
+		}
+		orient_to_face_big_aimmatrix_halfsize1 = 
+		{
+			name = \"orient_to_face_big_aimmatrix_halfsize1\"
+			bones = 
+			[
+				{
+					name = \"spine_0\"
+					weight = 0.42
+				},
+				{
+					name = \"pelvis\"
+					weight = 0.33
+				},
+				{
+					name = \"foot_L_IK_target_ytrans\"
+					weight = 0.1
+				},
+				{
+					name = \"foot_R_IK_target_ytrans\"
+					weight = 0.1
+				},
+			]
+		}
+		gun_aim_lookat_absolute_half = 
+		{
+			name = \"gun_aim_lookat_absolute_half\"
+			bones = 
+			[
+				{
+					name = \"hand_R_IK_target\"
+					weight = 1.0
+				},
+				{
+					name = \"shoulderPad_L\"
+					weight = 0.5
+				},
+				{
+					name = \"shoulderPad_R\"
+					weight = 0.25
+				},
+			]
+		}
+	}
+	gastank_markup = 
+	{
+		radius = 3.5
+		point0 = [ -6.58737, 2.48438, 0.943416 ]
+		point1 = [ 2.75544, -1.94122, -14.8336 ]
+		attachment = \"gastank\"
+	}
+	ao_proxy_capsule_list = 
+	[
+		{
+			bonename = \"pelvis\"
+			radius = 6.2
+			point0 = [ -3.749842, 0.299079, 2.248147 ]
+			point1 = [ -3.749842, 0.299079, -2.695936 ]
+		},
+		{
+			bonename = \"spine_0\"
+			radius = 8.0
+			point0 = [ 3.891101, 1.307928, 0.005397 ]
+			point1 = [ 4.611794, 1.420224, -0.0 ]
+		},
+		{
+			bonename = \"spine_2\"
+			radius = 8.0
+			point0 = [ 3.182039, 0.831115, -0.0 ]
+			point1 = [ 4.527003, 0.501709, -0.0 ]
+		},
+		{
+			bonename = \"head\"
+			radius = 4.3
+			point0 = [ -0.192565, 4.761725, 0.0 ]
+			point1 = [ 2.648649, -1.159373, -0.0 ]
+		},
+		{
+			bonename = \"clavicle_L\"
+			radius = 4.0
+			point0 = [ 6.777667, 0.632219, 0.278087 ]
+			point1 = [ 8.083748, 0.950237, 0.677381 ]
+		},
+		{
+			bonename = \"arm_upper_L\"
+			radius = 4.0
+			point0 = [ 7.924461, 0.239297, -0.564372 ]
+			point1 = [ 11.08139, -0.0, -0.0 ]
+		},
+		{
+			bonename = \"arm_lower_L\"
+			radius = 4.0
+			point0 = [ 1.10007, -0.445285, 0.076186 ]
+			point1 = [ 9.320262, 0.481151, 0.332148 ]
+		},
+		{
+			bonename = \"leg_upper_L\"
+			radius = 4.25
+			point0 = [ 6.550803, -0.176145, 0.05944 ]
+			point1 = [ 14.322858, -0.094058, 0.017111 ]
+		},
+		{
+			bonename = \"leg_lower_L\"
+			radius = 4.0
+			point0 = [ 1.070797, -0.200504, -0.010669 ]
+			point1 = [ 13.897723, 0.509362, 0.027104 ]
+		},
+		{
+			bonename = \"clavicle_R\"
+			radius = 4.0
+			point0 = [ -6.955985, -0.727617, -0.135635 ]
+			point1 = [ -8.52474, -1.186163, -1.269524 ]
+		},
+		{
+			bonename = \"arm_upper_R\"
+			radius = 4.0
+			point0 = [ -7.924461, 0.386096, 0.476139 ]
+			point1 = [ -11.08139, -0.0, 0.0 ]
+		},
+		{
+			bonename = \"arm_lower_R\"
+			radius = 4.0
+			point0 = [ -1.10007, -0.347076, -0.289174 ]
+			point1 = [ -9.320262, 0.582837, -0.046146 ]
+		},
+		{
+			bonename = \"leg_upper_R\"
+			radius = 4.25
+			point0 = [ -6.550803, 0.185794, -0.006404 ]
+			point1 = [ -14.322858, 0.094058, -0.017111 ]
+		},
+		{
+			bonename = \"leg_lower_R\"
+			radius = 4.0
+			point0 = [ -1.070797, 0.200504, 0.010669 ]
+			point1 = [ -13.897723, -0.509362, -0.027104 ]
+		},
+		{
+			bonename = \"hand_L\"
+			radius = 3.3
+			point0 = [ 3.064592, 0.602226, 0.341812 ]
+			point1 = [ 5.048283, 0.970324, 0.505718 ]
+		},
+		{
+			bonename = \"ankle_L\"
+			radius = 3.6
+			point0 = [ 0.862287, -1.906708, -0.034972 ]
+			point1 = [ 7.270234, 1.715877, 0.137462 ]
+		},
+		{
+			bonename = \"hand_R\"
+			radius = 3.3
+			point0 = [ -3.046628, -0.534779, -0.550736 ]
+			point1 = [ -5.010902, -0.829983, -0.94044 ]
+		},
+		{
+			bonename = \"ankle_R\"
+			radius = 3.6
+			point0 = [ -0.861926, 1.906917, -0.032376 ]
+			point1 = [ -7.271232, -1.716455, 0.048986 ]
+		},
+		{
+			bonename = \"spine_3\"
+			radius = 3.5
+			point0 = [ 5.42905, -6.62953, -7.60917 ]
+			point1 = [ 8.76571, -6.72812, 3.46358 ]
+		},
+		{
+			bonename = \"spine_3\"
+			radius = 7.53516
+			point0 = [ -0.317777, -3.90387, 0.070558 ]
+			point1 = [ -0.307864, -3.90432, 0.071792 ]
+		},
+	]
+	FeetSettings = 
+	{
+		Foot_Left = 
+		{
+			m_name = \"Foot_Left\"
+			m_ankleBoneName = \"ankle_L\"
+			m_toeBoneName = \"ball_L\"
+			m_vBallOffset = [ 6.679048, -1.025163, -0.100814 ]
+			m_vHeelOffset = [ -0.756249, -5.243185, -0.09364 ]
+			m_flFootLength = 8.548415
+			m_flBindPoseDirectionMS = -165.856308
+			m_flTraceHeight = 30.0
+			m_flTraceRadius = 2.0
+		}
+		Foot_Right = 
+		{
+			m_name = \"Foot_Right\"
+			m_ankleBoneName = \"ankle_R\"
+			m_toeBoneName = \"ball_R\"
+			m_vBallOffset = [ -6.728901, 1.048145, 0.07159 ]
+			m_vHeelOffset = [ 0.738588, 5.284429, 0.024873 ]
+			m_flFootLength = 8.585548
+			m_flBindPoseDirectionMS = 165.592651
+			m_flTraceHeight = 30.0
+			m_flTraceRadius = 2.0
+		}
+	}
+	break_list = 
+	[
+		{
+			piece_name = \"helmet_default_01_0\"
+			model = resource:\"models/characters/combine_grunt/combine_grunt/helmet_default_01_01.vmdl\"
+			offset = [ 0.0, 0.0, 0.0 ]
+			fadetime = 20.0
+			fademindist = 0.0
+			fademaxdist = 0.0
+			random_spawn_chance = 1.0
+			is_essential_piece = false
+			placementbone = \"head\"
+		},
+		{
+			piece_name = \"helmet_default_01_1\"
+			model = resource:\"models/characters/combine_grunt/combine_grunt/helmet_default_01_14.vmdl\"
+			offset = [ 0.0, 0.0, 0.0 ]
+			fadetime = 20.0
+			fademindist = 0.0
+			fademaxdist = 0.0
+			random_spawn_chance = 1.0
+			is_essential_piece = false
+			placementbone = \"head\"
+		},
+		{
+			piece_name = \"helmet_default_01_2\"
+			model = resource:\"models/characters/combine_grunt/combine_grunt/helmet_default_01_15.vmdl\"
+			offset = [ 0.0, 0.0, 0.0 ]
+			fadetime = 20.0
+			fademindist = 0.0
+			fademaxdist = 0.0
+			random_spawn_chance = 1.0
+			is_essential_piece = false
+			placementbone = \"head\"
+		},
+		{
+			piece_name = \"helmet_default_01_3\"
+			model = resource:\"models/characters/combine_grunt/combine_grunt/helmet_default_01_16.vmdl\"
+			offset = [ 0.0, 0.0, 0.0 ]
+			fadetime = 20.0
+			fademindist = 0.0
+			fademaxdist = 0.0
+			random_spawn_chance = 1.0
+			is_essential_piece = false
+			placementbone = \"head\"
+		},
+		{
+			piece_name = \"helmet_default_01_4\"
+			model = resource:\"models/characters/combine_grunt/combine_grunt/helmet_default_01_17.vmdl\"
+			offset = [ 0.0, 0.0, 0.0 ]
+			fadetime = 20.0
+			fademindist = 0.0
+			fademaxdist = 0.0
+			random_spawn_chance = 1.0
+			is_essential_piece = false
+			placementbone = \"head\"
+		},
+		{
+			piece_name = \"helmet_default_01_5\"
+			model = resource:\"models/characters/combine_grunt/combine_grunt/helmet_default_01_18.vmdl\"
+			offset = [ 0.0, 0.0, 0.0 ]
+			fadetime = 20.0
+			fademindist = 0.0
+			fademaxdist = 0.0
+			random_spawn_chance = 1.0
+			is_essential_piece = false
+			placementbone = \"head\"
+		},
+		{
+			piece_name = \"helmet_default_01_6\"
+			model = resource:\"models/characters/combine_grunt/combine_grunt/helmet_default_01_19.vmdl\"
+			offset = [ 0.0, 0.0, 0.0 ]
+			fadetime = 20.0
+			fademindist = 0.0
+			fademaxdist = 0.0
+			random_spawn_chance = 1.0
+			is_essential_piece = false
+			placementbone = \"head\"
+		},
+		{
+			piece_name = \"helmet_default_01_7\"
+			model = resource:\"models/characters/combine_grunt/combine_grunt/helmet_default_01_20.vmdl\"
+			offset = [ 0.0, 0.0, 0.0 ]
+			fadetime = 20.0
+			fademindist = 0.0
+			fademaxdist = 0.0
+			random_spawn_chance = 1.0
+			is_essential_piece = false
+			placementbone = \"head\"
+		},
+		{
+			piece_name = \"helmet_default_01_8\"
+			model = resource:\"models/characters/combine_grunt/combine_grunt/helmet_default_01_21.vmdl\"
+			offset = [ 0.0, 0.0, 0.0 ]
+			fadetime = 20.0
+			fademindist = 0.0
+			fademaxdist = 0.0
+			random_spawn_chance = 1.0
+			is_essential_piece = false
+			placementbone = \"head\"
+		},
+		{
+			piece_name = \"helmet_default_01_9\"
+			model = resource:\"models/characters/combine_grunt/combine_grunt/helmet_default_01_22.vmdl\"
+			offset = [ 0.0, 0.0, 0.0 ]
+			fadetime = 20.0
+			fademindist = 0.0
+			fademaxdist = 0.0
+			random_spawn_chance = 1.0
+			is_essential_piece = false
+			placementbone = \"head\"
+		},
+		{
+			piece_name = \"helmet_default_01_10\"
+			model = resource:\"models/characters/combine_grunt/combine_grunt/helmet_default_01_23.vmdl\"
+			offset = [ 0.0, 0.0, 0.0 ]
+			fadetime = 20.0
+			fademindist = 0.0
+			fademaxdist = 0.0
+			random_spawn_chance = 1.0
+			is_essential_piece = false
+			placementbone = \"head\"
+		},
+		{
+			piece_name = \"helmet_default_01_11\"
+			model = resource:\"models/characters/combine_grunt/combine_grunt/helmet_default_01_24.vmdl\"
+			offset = [ 0.0, 0.0, 0.0 ]
+			fadetime = 20.0
+			fademindist = 0.0
+			fademaxdist = 0.0
+			random_spawn_chance = 1.0
+			is_essential_piece = false
+			placementbone = \"head\"
+		},
+		{
+			piece_name = \"helmet_default_01_12\"
+			model = resource:\"models/characters/combine_grunt/combine_grunt/helmet_default_01_25.vmdl\"
+			offset = [ 0.0, 0.0, 0.0 ]
+			fadetime = 20.0
+			fademindist = 0.0
+			fademaxdist = 0.0
+			random_spawn_chance = 1.0
+			is_essential_piece = false
+			placementbone = \"head\"
+		},
+		{
+			piece_name = \"helmet_default_01_13\"
+			model = resource:\"models/characters/combine_grunt/combine_grunt/helmet_default_01_26.vmdl\"
+			offset = [ 0.0, 0.0, 0.0 ]
+			fadetime = 20.0
+			fademindist = 0.0
+			fademaxdist = 0.0
+			random_spawn_chance = 1.0
+			is_essential_piece = false
+			placementbone = \"head\"
+		},
+		{
+			piece_name = \"helmet_default_01_filter\"
+			model = resource:\"models/characters/combine_grunt/combine_grunt/helmet_default_01_filter1.vmdl\"
+			offset = [ 0.0, 0.0, 0.0 ]
+			fadetime = 20.0
+			fademindist = 0.0
+			fademaxdist = 0.0
+			random_spawn_chance = 1.0
+			is_essential_piece = false
+			placementbone = \"head\"
+		},
+		{
+			piece_name = \"helmet_default_02_0\"
+			model = resource:\"models/characters/combine_grunt/combine_grunt/helmet_default_02_01.vmdl\"
+			offset = [ 0.0, 0.0, 0.0 ]
+			fadetime = 20.0
+			fademindist = 0.0
+			fademaxdist = 0.0
+			random_spawn_chance = 1.0
+			is_essential_piece = false
+			placementbone = \"head\"
+		},
+		{
+			piece_name = \"helmet_default_02_1\"
+			model = resource:\"models/characters/combine_grunt/combine_grunt/helmet_default_02_3.vmdl\"
+			offset = [ 0.0, 0.0, 0.0 ]
+			fadetime = 20.0
+			fademindist = 0.0
+			fademaxdist = 0.0
+			random_spawn_chance = 1.0
+			is_essential_piece = false
+			placementbone = \"head\"
+		},
+		{
+			piece_name = \"helmet_default_02_2\"
+			model = resource:\"models/characters/combine_grunt/combine_grunt/helmet_default_02_4.vmdl\"
+			offset = [ 0.0, 0.0, 0.0 ]
+			fadetime = 20.0
+			fademindist = 0.0
+			fademaxdist = 0.0
+			random_spawn_chance = 1.0
+			is_essential_piece = false
+			placementbone = \"head\"
+		},
+	]
+	cloth_sleep_enabled = true
+	ikdata = 
+	{
+		m_ControlRigData = 
+		{
+			m_ChainData = 
+			[
+				{
+					m_Name = \"right_arm\"
+					m_SolverType = \"IKSOLVER_TwoBone\"
+					m_bBonesOrientAlongPositiveX = true
+					m_flEndEffectorZOffsetFromFloor = 0.0
+					m_LockBoneInfluenceDriver = 
+					{
+						m_Name = \"\"
+					}
+					m_BoneInfluenceDriver = 
+					{
+						m_Name = \"\"
+					}
+					m_ReverseFootLockBone = 
+					{
+						m_Name = \"\"
+					}
+					m_EndEffectorBone = 
+					{
+						m_Name = \"hand_R\"
+					}
+					m_EndEffectorTargetBone = 
+					{
+						m_Name = \"\"
+					}
+					m_RootBone = 
+					{
+						m_Name = \"\"
+					}
+					m_flHyperExtensionLockReleaseDotThreshold = -0.996195
+					m_flMaxLockDistanceToTarget = 5.0
+					m_flUseTargetInsteadOfLockThreshold = 1.0
+					m_flBreakRestorationTime = 0.5
+					m_flSoftenPercentage = 0.1
+					m_flSoftenTime = 0.5
+					m_vPole = [ 1.0, 0.0, 0.0 ]
+					m_JointConstraintPairs = [  ]
+					m_RuleData = [  ]
+				},
+				{
+					m_Name = \"left_arm\"
+					m_SolverType = \"IKSOLVER_TwoBone\"
+					m_bBonesOrientAlongPositiveX = true
+					m_flEndEffectorZOffsetFromFloor = 0.0
+					m_LockBoneInfluenceDriver = 
+					{
+						m_Name = \"\"
+					}
+					m_BoneInfluenceDriver = 
+					{
+						m_Name = \"\"
+					}
+					m_ReverseFootLockBone = 
+					{
+						m_Name = \"\"
+					}
+					m_EndEffectorBone = 
+					{
+						m_Name = \"hand_L\"
+					}
+					m_EndEffectorTargetBone = 
+					{
+						m_Name = \"\"
+					}
+					m_RootBone = 
+					{
+						m_Name = \"\"
+					}
+					m_flHyperExtensionLockReleaseDotThreshold = -0.996195
+					m_flMaxLockDistanceToTarget = 5.0
+					m_flUseTargetInsteadOfLockThreshold = 1.0
+					m_flBreakRestorationTime = 0.5
+					m_flSoftenPercentage = 0.1
+					m_flSoftenTime = 0.5
+					m_vPole = [ 1.0, 0.0, 0.0 ]
+					m_JointConstraintPairs = [  ]
+					m_RuleData = [  ]
+				},
+			]
+			m_TiltBone = 
+			{
+				m_Name = \"\"
+			}
+			m_flInitialMasterBlendAmount = 1.0
+			m_flInitialTiltBoneInfluence = 1.0
+			m_flDefaultTiltSpringStrength = 5.0
+			m_SequenceNameForNeutralReferencePose = \"\"
+			m_flAbsOriginDropHeight = 24.0
+			m_flAbsOriginDropSpringStrength = 500.0
+			m_SystemType = \"IKSYSTEMTYPE_Animgraph\"
+			m_MasterBlendAnimgraphParameterName = \"f_ground ik blend amount\"
+		}
+		m_IKChains = 
+		[
+			{
+				m_Name = \"right_arm\"
+				m_Joints = [  ]
+				m_EndEffectorFixedOffsetAttachment = 
+				{
+					m_Name = \"\"
+				}
+				m_ParentJoint = 
+				{
+					m_Bone = 
+					{
+						m_Name = \"\"
+					}
+					m_JointConstraintData = [  ]
+					m_qFixupRotation = [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+				m_bDoBonesOrientAlongPositiveX = true
+				m_DefaultSolverSettings = 
+				{
+					m_SolverType = \"IKSOLVER_TwoBone\"
+				}
+				m_DefaultTargetSettings = 
+				{
+					m_TargetSource = \"Bone\"
+					m_Bone = 
+					{
+						m_Name = \"hand_R\"
+					}
+					m_AnimgraphParameterNamePosition = 
+					{
+						m_id = 4294967295
+					}
+					m_TargetCoordSystem = \"World Space\"
+				}
+				m_bParentJointRequiresAlignment = true
+			},
+			{
+				m_Name = \"left_arm\"
+				m_Joints = [  ]
+				m_EndEffectorFixedOffsetAttachment = 
+				{
+					m_Name = \"\"
+				}
+				m_ParentJoint = 
+				{
+					m_Bone = 
+					{
+						m_Name = \"\"
+					}
+					m_JointConstraintData = [  ]
+					m_qFixupRotation = [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+				m_bDoBonesOrientAlongPositiveX = true
+				m_DefaultSolverSettings = 
+				{
+					m_SolverType = \"IKSOLVER_TwoBone\"
+				}
+				m_DefaultTargetSettings = 
+				{
+					m_TargetSource = \"Bone\"
+					m_Bone = 
+					{
+						m_Name = \"hand_L\"
+					}
+					m_AnimgraphParameterNamePosition = 
+					{
+						m_id = 4294967295
+					}
+					m_TargetCoordSystem = \"World Space\"
+				}
+				m_bParentJointRequiresAlignment = true
+			},
+			{
+				m_Name = \"IKChain_Leg_Left\"
+				m_Joints = 
+				[
+					{
+						m_Bone = 
+						{
+							m_Name = \"leg_upper_L\"
+						}
+						m_JointConstraintData = [  ]
+						m_qFixupRotation = [ 0.0, 0.0, 0.0, 1.0 ]
+					},
+					{
+						m_Bone = 
+						{
+							m_Name = \"leg_lower_L\"
+						}
+						m_JointConstraintData = 
+						[
+							{
+								_class = \"CIKJointConstraintData_Hinge\"
+								m_flMinRadians = 0.0
+								m_flMaxRadians = 3.141593
+								m_HingeAxis = \"Down\"
+							},
+						]
+						m_qFixupRotation = [ 0.0, 0.0, 0.0, 1.0 ]
+					},
+					{
+						m_Bone = 
+						{
+							m_Name = \"ankle_L\"
+						}
+						m_JointConstraintData = [  ]
+						m_qFixupRotation = [ 0.0, 0.0, 0.0, 1.0 ]
+					},
+				]
+				m_EndEffectorFixedOffsetAttachment = 
+				{
+					m_Name = \"\"
+				}
+				m_ParentJoint = 
+				{
+					m_Bone = 
+					{
+						m_Name = \"\"
+					}
+					m_JointConstraintData = [  ]
+					m_qFixupRotation = [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+				m_bDoBonesOrientAlongPositiveX = true
+				m_DefaultSolverSettings = 
+				{
+					m_SolverType = \"IKSOLVER_TwoBone\"
+				}
+				m_DefaultTargetSettings = 
+				{
+					m_TargetSource = \"Bone\"
+					m_Bone = 
+					{
+						m_Name = \"foot_L_IK_target\"
+					}
+					m_AnimgraphParameterNamePosition = 
+					{
+						m_id = 4294967295
+					}
+					m_TargetCoordSystem = \"World Space\"
+				}
+				m_bParentJointRequiresAlignment = true
+			},
+			{
+				m_Name = \"IKChain_Leg_Right\"
+				m_Joints = 
+				[
+					{
+						m_Bone = 
+						{
+							m_Name = \"leg_upper_R\"
+						}
+						m_JointConstraintData = [  ]
+						m_qFixupRotation = [ 0.0, 0.0, 0.0, 1.0 ]
+					},
+					{
+						m_Bone = 
+						{
+							m_Name = \"leg_lower_R\"
+						}
+						m_JointConstraintData = 
+						[
+							{
+								_class = \"CIKJointConstraintData_Hinge\"
+								m_flMinRadians = 0.0
+								m_flMaxRadians = 3.141593
+								m_HingeAxis = \"Down\"
+							},
+						]
+						m_qFixupRotation = [ 0.0, 0.0, 0.0, 1.0 ]
+					},
+					{
+						m_Bone = 
+						{
+							m_Name = \"ankle_R\"
+						}
+						m_JointConstraintData = [  ]
+						m_qFixupRotation = [ 0.0, 0.0, 0.0, 1.0 ]
+					},
+				]
+				m_EndEffectorFixedOffsetAttachment = 
+				{
+					m_Name = \"\"
+				}
+				m_ParentJoint = 
+				{
+					m_Bone = 
+					{
+						m_Name = \"\"
+					}
+					m_JointConstraintData = [  ]
+					m_qFixupRotation = [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+				m_bDoBonesOrientAlongPositiveX = true
+				m_DefaultSolverSettings = 
+				{
+					m_SolverType = \"IKSOLVER_TwoBone\"
+				}
+				m_DefaultTargetSettings = 
+				{
+					m_TargetSource = \"Bone\"
+					m_Bone = 
+					{
+						m_Name = \"foot_R_IK_target\"
+					}
+					m_AnimgraphParameterNamePosition = 
+					{
+						m_id = 4294967295
+					}
+					m_TargetCoordSystem = \"World Space\"
+				}
+				m_bParentJointRequiresAlignment = true
+			},
+		]
+	}
+	anim_graph_resource = resource:\"animgraphs/combine_soldier_new_content_procedural.vanmgrph\"
+	BoneConstraintList = 
+	[
+		{
+			_class = \"CTiltTwistConstraint\"
+			m_name = \"\"
+			m_vUpVector = [ 0.0, 0.0, 0.0 ]
+			m_slaves = 
+			[
+				{
+					m_nBoneHash = 2728902531
+					m_flWeight = 0.5
+					m_vBasePosition = [ 0.0, 0.0, 0.0 ]
+					m_qBaseOrientation = [ 0.0, 0.0, 0.0, 1.0 ]
+					m_sName = \"\"
+				},
+			]
+			m_targets = 
+			[
+				{
+					m_nBoneHash = 2305728263
+					m_flWeight = 1.0
+					m_vOffset = [ 10.948377, -0.0, 0.0 ]
+					m_qOffset = [ 0.732984, -0.073651, 0.001582, 0.676245 ]
+					m_bIsAttachment = false
+					m_sName = \"\"
+				},
+			]
+			m_nTargetAxis = 0
+			m_nSlaveAxis = 0
+		},
+		{
+			_class = \"CTiltTwistConstraint\"
+			m_name = \"\"
+			m_vUpVector = [ 0.0, 0.0, 0.0 ]
+			m_slaves = 
+			[
+				{
+					m_nBoneHash = 3983226597
+					m_flWeight = 1.0
+					m_vBasePosition = [ 0.0, 0.0, 0.0 ]
+					m_qBaseOrientation = [ 0.0, 0.0, 0.0, 1.0 ]
+					m_sName = \"\"
+				},
+			]
+			m_targets = 
+			[
+				{
+					m_nBoneHash = 2305728263
+					m_flWeight = 1.0
+					m_vOffset = [ 10.948377, -0.0, 0.0 ]
+					m_qOffset = [ 0.732984, -0.073651, 0.001582, 0.676245 ]
+					m_bIsAttachment = false
+					m_sName = \"\"
+				},
+			]
+			m_nTargetAxis = 0
+			m_nSlaveAxis = 0
+		},
+		{
+			_class = \"CTiltTwistConstraint\"
+			m_name = \"\"
+			m_vUpVector = [ 0.0, 0.0, 0.0 ]
+			m_slaves = 
+			[
+				{
+					m_nBoneHash = 4111946261
+					m_flWeight = -1.0
+					m_vBasePosition = [ 0.0, 0.0, 0.0 ]
+					m_qBaseOrientation = [ 0.0, 0.0, 0.0, 1.0 ]
+					m_sName = \"\"
+				},
+			]
+			m_targets = 
+			[
+				{
+					m_nBoneHash = 1291619918
+					m_flWeight = 1.0
+					m_vOffset = [ 6.663421, -0.0, 0.0 ]
+					m_qOffset = [ 0.004459, -0.304369, 0.173382, 0.936631 ]
+					m_bIsAttachment = false
+					m_sName = \"\"
+				},
+			]
+			m_nTargetAxis = 0
+			m_nSlaveAxis = 0
+		},
+		{
+			_class = \"CTiltTwistConstraint\"
+			m_name = \"\"
+			m_vUpVector = [ 0.0, 0.0, 0.0 ]
+			m_slaves = 
+			[
+				{
+					m_nBoneHash = 3117775412
+					m_flWeight = -0.5
+					m_vBasePosition = [ 0.0, 0.0, 0.0 ]
+					m_qBaseOrientation = [ 0.0, 0.0, 0.0, 1.0 ]
+					m_sName = \"\"
+				},
+			]
+			m_targets = 
+			[
+				{
+					m_nBoneHash = 1291619918
+					m_flWeight = 1.0
+					m_vOffset = [ 6.663421, -0.0, 0.0 ]
+					m_qOffset = [ 0.004459, -0.304369, 0.173382, 0.936631 ]
+					m_bIsAttachment = false
+					m_sName = \"\"
+				},
+			]
+			m_nTargetAxis = 0
+			m_nSlaveAxis = 0
+		},
+		{
+			_class = \"CAimConstraint\"
+			m_name = \"\"
+			m_vUpVector = [ 0.0, 1.0, 0.0 ]
+			m_slaves = 
+			[
+				{
+					m_nBoneHash = 374359419
+					m_flWeight = 1.0
+					m_vBasePosition = [ -4.90549, 14.155221, 48.701389 ]
+					m_qBaseOrientation = [ -0.387689, -0.852455, 0.350617, -0.0092 ]
+					m_sName = \"\"
+				},
+			]
+			m_targets = 
+			[
+				{
+					m_nBoneHash = 3746923640
+					m_flWeight = 0.5
+					m_vOffset = [ 0.0, 0.0, 0.0 ]
+					m_qOffset = [ 0.0, 0.0, 0.0, 1.0 ]
+					m_bIsAttachment = true
+					m_sName = \"\"
+				},
+				{
+					m_nBoneHash = 2633985715
+					m_flWeight = 0.5
+					m_vOffset = [ 0.0, 0.0, 0.0 ]
+					m_qOffset = [ 0.0, 0.0, 0.0, 1.0 ]
+					m_bIsAttachment = true
+					m_sName = \"\"
+				},
+			]
+			m_qAimOffset = [ 0.5, 0.5, 0.5, 0.5 ]
+			m_nUpType = 3
+		},
+		{
+			_class = \"CTiltTwistConstraint\"
+			m_name = \"\"
+			m_vUpVector = [ 0.0, 0.0, 0.0 ]
+			m_slaves = 
+			[
+				{
+					m_nBoneHash = 2209750389
+					m_flWeight = 0.5
+					m_vBasePosition = [ 0.0, 0.0, 0.0 ]
+					m_qBaseOrientation = [ 0.0, 0.0, 0.0, 1.0 ]
+					m_sName = \"\"
+				},
+			]
+			m_targets = 
+			[
+				{
+					m_nBoneHash = 1237665725
+					m_flWeight = 1.0
+					m_vOffset = [ 5.764896, -0.0, -0.0 ]
+					m_qOffset = [ 0.0, -0.0, -0.142361, 0.989815 ]
+					m_bIsAttachment = false
+					m_sName = \"\"
+				},
+			]
+			m_nTargetAxis = 0
+			m_nSlaveAxis = 0
+		},
+		{
+			_class = \"CPointConstraint\"
+			m_name = \"\"
+			m_vUpVector = [ 0.0, 0.0, 0.0 ]
+			m_slaves = 
+			[
+				{
+					m_nBoneHash = 2075414681
+					m_flWeight = 1.0
+					m_vBasePosition = [ 0.750012, -0.0, 63.169426 ]
+					m_qBaseOrientation = [ -0.566088, -0.423727, -0.423727, 0.566088 ]
+					m_sName = \"\"
+				},
+			]
+			m_targets = 
+			[
+				{
+					m_nBoneHash = 1739083993
+					m_flWeight = 0.5
+					m_vOffset = [ 0.0, 0.0, 0.0 ]
+					m_qOffset = [ 0.0, 0.0, 0.0, 1.0 ]
+					m_bIsAttachment = false
+					m_sName = \"\"
+				},
+				{
+					m_nBoneHash = 2209750389
+					m_flWeight = 0.5
+					m_vOffset = [ 0.0, 0.0, 0.0 ]
+					m_qOffset = [ 0.0, 0.0, 0.0, 1.0 ]
+					m_bIsAttachment = false
+					m_sName = \"\"
+				},
+			]
+		},
+		{
+			_class = \"COrientConstraint\"
+			m_name = \"\"
+			m_vUpVector = [ 0.0, 0.0, 0.0 ]
+			m_slaves = 
+			[
+				{
+					m_nBoneHash = 2075414681
+					m_flWeight = 1.0
+					m_vBasePosition = [ -0.054764, -0.0, 63.702824 ]
+					m_qBaseOrientation = [ -0.566088, -0.423727, -0.423727, 0.566088 ]
+					m_sName = \"\"
+				},
+			]
+			m_targets = 
+			[
+				{
+					m_nBoneHash = 1237665725
+					m_flWeight = 0.5
+					m_vOffset = [ 0.0, 0.0, 0.0 ]
+					m_qOffset = [ 0.0, 0.0, 0.0, 1.0 ]
+					m_bIsAttachment = false
+					m_sName = \"\"
+				},
+				{
+					m_nBoneHash = 2209750389
+					m_flWeight = 0.5
+					m_vOffset = [ 0.0, 0.0, 0.0 ]
+					m_qOffset = [ 0.0, 0.0, 0.0, 1.0 ]
+					m_bIsAttachment = false
+					m_sName = \"\"
+				},
+			]
+		},
+		{
+			_class = \"CPointConstraint\"
+			m_name = \"\"
+			m_vUpVector = [ 0.0, 0.0, 0.0 ]
+			m_slaves = 
+			[
+				{
+					m_nBoneHash = 1869070580
+					m_flWeight = 1.0
+					m_vBasePosition = [ 59.809975, -3.969245, 42.266323 ]
+					m_qBaseOrientation = [ -0.566088, -0.423727, -0.423727, 0.566088 ]
+					m_sName = \"\"
+				},
+			]
+			m_targets = 
+			[
+				{
+					m_nBoneHash = 3903393060
+					m_flWeight = 0.5
+					m_vOffset = [ 0.0, 0.0, 0.0 ]
+					m_qOffset = [ 0.0, 0.0, 0.0, 1.0 ]
+					m_bIsAttachment = true
+					m_sName = \"\"
+				},
+				{
+					m_nBoneHash = 2209750389
+					m_flWeight = 0.5
+					m_vOffset = [ 0.0, 0.0, 0.0 ]
+					m_qOffset = [ 0.0, 0.0, 0.0, 1.0 ]
+					m_bIsAttachment = false
+					m_sName = \"\"
+				},
+			]
+		},
+		{
+			_class = \"COrientConstraint\"
+			m_name = \"\"
+			m_vUpVector = [ 0.0, 0.0, 0.0 ]
+			m_slaves = 
+			[
+				{
+					m_nBoneHash = 1869070580
+					m_flWeight = 1.0
+					m_vBasePosition = [ -3.84457, -0.0, 65.648201 ]
+					m_qBaseOrientation = [ 0.5, 0.5, 0.5, 0.5 ]
+					m_sName = \"\"
+				},
+			]
+			m_targets = 
+			[
+				{
+					m_nBoneHash = 2209750389
+					m_flWeight = 0.5
+					m_vOffset = [ 0.0, 0.0, 0.0 ]
+					m_qOffset = [ 0.0, 0.0, 0.0, 1.0 ]
+					m_bIsAttachment = false
+					m_sName = \"\"
+				},
+				{
+					m_nBoneHash = 3903393060
+					m_flWeight = 0.5
+					m_vOffset = [ 0.0, 0.0, 0.0 ]
+					m_qOffset = [ 0.0, 0.0, 0.0, 1.0 ]
+					m_bIsAttachment = true
+					m_sName = \"\"
+				},
+			]
+		},
+		{
+			_class = \"CTiltTwistConstraint\"
+			m_name = \"\"
+			m_vUpVector = [ 0.0, 0.0, 0.0 ]
+			m_slaves = 
+			[
+				{
+					m_nBoneHash = 2861220322
+					m_flWeight = 0.5
+					m_vBasePosition = [ 0.0, 0.0, 0.0 ]
+					m_qBaseOrientation = [ 0.0, 0.0, 0.0, 1.0 ]
+					m_sName = \"\"
+				},
+			]
+			m_targets = 
+			[
+				{
+					m_nBoneHash = 3782808388
+					m_flWeight = 1.0
+					m_vOffset = [ -10.948377, 0.0, -0.0 ]
+					m_qOffset = [ 0.732984, -0.073651, 0.001582, 0.676245 ]
+					m_bIsAttachment = false
+					m_sName = \"\"
+				},
+			]
+			m_nTargetAxis = 0
+			m_nSlaveAxis = 0
+		},
+		{
+			_class = \"CTiltTwistConstraint\"
+			m_name = \"\"
+			m_vUpVector = [ 0.0, 0.0, 0.0 ]
+			m_slaves = 
+			[
+				{
+					m_nBoneHash = 400205573
+					m_flWeight = 1.0
+					m_vBasePosition = [ 0.0, 0.0, 0.0 ]
+					m_qBaseOrientation = [ 0.0, 0.0, 0.0, 1.0 ]
+					m_sName = \"\"
+				},
+			]
+			m_targets = 
+			[
+				{
+					m_nBoneHash = 3782808388
+					m_flWeight = 1.0
+					m_vOffset = [ -10.948377, 0.0, -0.0 ]
+					m_qOffset = [ 0.732984, -0.073651, 0.001582, 0.676245 ]
+					m_bIsAttachment = false
+					m_sName = \"\"
+				},
+			]
+			m_nTargetAxis = 0
+			m_nSlaveAxis = 0
+		},
+		{
+			_class = \"CTiltTwistConstraint\"
+			m_name = \"\"
+			m_vUpVector = [ 0.0, 0.0, 0.0 ]
+			m_slaves = 
+			[
+				{
+					m_nBoneHash = 2620722844
+					m_flWeight = -1.0
+					m_vBasePosition = [ 0.0, 0.0, 0.0 ]
+					m_qBaseOrientation = [ 0.0, 0.0, 0.0, 1.0 ]
+					m_sName = \"\"
+				},
+			]
+			m_targets = 
+			[
+				{
+					m_nBoneHash = 1258956371
+					m_flWeight = 1.0
+					m_vOffset = [ -6.663421, 0.0, -0.0 ]
+					m_qOffset = [ 0.004459, -0.304369, 0.173382, 0.936631 ]
+					m_bIsAttachment = false
+					m_sName = \"\"
+				},
+			]
+			m_nTargetAxis = 0
+			m_nSlaveAxis = 0
+		},
+		{
+			_class = \"CTiltTwistConstraint\"
+			m_name = \"\"
+			m_vUpVector = [ 0.0, 0.0, 0.0 ]
+			m_slaves = 
+			[
+				{
+					m_nBoneHash = 3732228795
+					m_flWeight = -0.5
+					m_vBasePosition = [ 0.0, 0.0, 0.0 ]
+					m_qBaseOrientation = [ 0.0, 0.0, 0.0, 1.0 ]
+					m_sName = \"\"
+				},
+			]
+			m_targets = 
+			[
+				{
+					m_nBoneHash = 1258956371
+					m_flWeight = 1.0
+					m_vOffset = [ -6.663421, 0.0, -0.0 ]
+					m_qOffset = [ 0.004459, -0.304369, 0.173382, 0.936631 ]
+					m_bIsAttachment = false
+					m_sName = \"\"
+				},
+			]
+			m_nTargetAxis = 0
+			m_nSlaveAxis = 0
+		},
+		{
+			_class = \"CAimConstraint\"
+			m_name = \"\"
+			m_vUpVector = [ 0.0, -1.0, 0.0 ]
+			m_slaves = 
+			[
+				{
+					m_nBoneHash = 2861209108
+					m_flWeight = 1.0
+					m_vBasePosition = [ -4.90549, -14.1552, 48.701401 ]
+					m_qBaseOrientation = [ -0.127134, -0.695584, 0.438106, 0.555034 ]
+					m_sName = \"\"
+				},
+			]
+			m_targets = 
+			[
+				{
+					m_nBoneHash = 2704012011
+					m_flWeight = 0.5
+					m_vOffset = [ 0.0, 0.0, 0.0 ]
+					m_qOffset = [ 0.0, 0.0, 0.0, 1.0 ]
+					m_bIsAttachment = true
+					m_sName = \"\"
+				},
+				{
+					m_nBoneHash = 1982819027
+					m_flWeight = 0.5
+					m_vOffset = [ 0.0, 0.0, 0.0 ]
+					m_qOffset = [ 0.0, 0.0, 0.0, 1.0 ]
+					m_bIsAttachment = true
+					m_sName = \"\"
+				},
+			]
+			m_qAimOffset = [ -0.5, 0.5, -0.5, 0.5 ]
+			m_nUpType = 3
+		},
+		{
+			_class = \"CAimConstraint\"
+			m_name = \"\"
+			m_vUpVector = [ 0.0, 0.0, -1.0 ]
+			m_slaves = 
+			[
+				{
+					m_nBoneHash = 2313020112
+					m_flWeight = 1.0
+					m_vBasePosition = [ 1.239483, -3.729872, 53.444679 ]
+					m_qBaseOrientation = [ -0.930933, -0.21715, 0.292724, -0.022836 ]
+					m_sName = \"\"
+				},
+			]
+			m_targets = 
+			[
+				{
+					m_nBoneHash = 1258956371
+					m_flWeight = 1.0
+					m_vOffset = [ 0.0, 0.0, 0.0 ]
+					m_qOffset = [ 0.0, 0.0, 0.0, 1.0 ]
+					m_bIsAttachment = false
+					m_sName = \"\"
+				},
+				{
+					m_nBoneHash = 560415250
+					m_flWeight = 0.0
+					m_vOffset = [ 0.0, 0.0, 0.0 ]
+					m_qOffset = [ 0.0, 0.0, 0.0, 1.0 ]
+					m_bIsAttachment = false
+					m_sName = \"\"
+				},
+			]
+			m_qAimOffset = [ -0.5, 0.5, -0.5, 0.5 ]
+			m_nUpType = 2
+		},
+		{
+			_class = \"CPointConstraint\"
+			m_name = \"\"
+			m_vUpVector = [ 0.0, 0.0, 0.0 ]
+			m_slaves = 
+			[
+				{
+					m_nBoneHash = 3916071401
+					m_flWeight = 1.0
+					m_vBasePosition = [ -1.430813, -5.151483, 55.462654 ]
+					m_qBaseOrientation = [ -0.930933, -0.21715, 0.292724, -0.022836 ]
+					m_sName = \"\"
+				},
+			]
+			m_targets = 
+			[
+				{
+					m_nBoneHash = 1258956371
+					m_flWeight = 0.5
+					m_vOffset = [ 0.0, 0.0, 0.0 ]
+					m_qOffset = [ 0.0, 0.0, 0.0, 1.0 ]
+					m_bIsAttachment = false
+					m_sName = \"\"
+				},
+				{
+					m_nBoneHash = 2313020112
+					m_flWeight = 0.5
+					m_vOffset = [ 0.0, 0.0, 0.0 ]
+					m_qOffset = [ 0.0, 0.0, 0.0, 1.0 ]
+					m_bIsAttachment = false
+					m_sName = \"\"
+				},
+			]
+		},
+		{
+			_class = \"CAimConstraint\"
+			m_name = \"\"
+			m_vUpVector = [ 0.0, 0.0, 1.0 ]
+			m_slaves = 
+			[
+				{
+					m_nBoneHash = 2785030115
+					m_flWeight = 1.0
+					m_vBasePosition = [ 1.239483, 3.729872, 53.444679 ]
+					m_qBaseOrientation = [ 0.292724, -0.022836, 0.930933, 0.21715 ]
+					m_sName = \"\"
+				},
+			]
+			m_targets = 
+			[
+				{
+					m_nBoneHash = 1291619918
+					m_flWeight = 1.0
+					m_vOffset = [ 0.0, 0.0, 0.0 ]
+					m_qOffset = [ 0.0, 0.0, 0.0, 1.0 ]
+					m_bIsAttachment = false
+					m_sName = \"\"
+				},
+				{
+					m_nBoneHash = 560415250
+					m_flWeight = 0.0
+					m_vOffset = [ 0.0, 0.0, 0.0 ]
+					m_qOffset = [ 0.0, 0.0, 0.0, 1.0 ]
+					m_bIsAttachment = false
+					m_sName = \"\"
+				},
+			]
+			m_qAimOffset = [ 0.5, 0.5, 0.5, 0.5 ]
+			m_nUpType = 2
+		},
+		{
+			_class = \"CPointConstraint\"
+			m_name = \"\"
+			m_vUpVector = [ 0.0, 0.0, 0.0 ]
+			m_slaves = 
+			[
+				{
+					m_nBoneHash = 4188328520
+					m_flWeight = 1.0
+					m_vBasePosition = [ -1.430813, 5.151484, 55.462654 ]
+					m_qBaseOrientation = [ 0.292724, -0.022836, 0.930933, 0.21715 ]
+					m_sName = \"\"
+				},
+			]
+			m_targets = 
+			[
+				{
+					m_nBoneHash = 1291619918
+					m_flWeight = 0.5
+					m_vOffset = [ 0.0, 0.0, 0.0 ]
+					m_qOffset = [ 0.0, 0.0, 0.0, 1.0 ]
+					m_bIsAttachment = false
+					m_sName = \"\"
+				},
+				{
+					m_nBoneHash = 2785030115
+					m_flWeight = 0.5
+					m_vOffset = [ 0.0, 0.0, 0.0 ]
+					m_qOffset = [ 0.0, 0.0, 0.0, 1.0 ]
+					m_bIsAttachment = false
+					m_sName = \"\"
+				},
+			]
+		},
+		{
+			_class = \"CAimConstraint\"
+			m_name = \"\"
+			m_vUpVector = [ 0.0, 0.0, 1.0 ]
+			m_slaves = 
+			[
+				{
+					m_nBoneHash = 3199154445
+					m_flWeight = 1.0
+					m_vBasePosition = [ -4.130063, 5.393204, 59.730625 ]
+					m_qBaseOrientation = [ 0.543651, -0.254116, -0.799819, 0.012551 ]
+					m_sName = \"\"
+				},
+			]
+			m_targets = 
+			[
+				{
+					m_nBoneHash = 672172035
+					m_flWeight = 1.0
+					m_vOffset = [ 0.0, 0.0, 0.0 ]
+					m_qOffset = [ 0.0, 0.0, 0.0, 1.0 ]
+					m_bIsAttachment = true
+					m_sName = \"\"
+				},
+				{
+					m_nBoneHash = 268392351
+					m_flWeight = 0.0
+					m_vOffset = [ 0.0, 0.0, 0.0 ]
+					m_qOffset = [ 0.0, 0.0, 0.0, 1.0 ]
+					m_bIsAttachment = true
+					m_sName = \"\"
+				},
+			]
+			m_qAimOffset = [ 0.5, 0.5, 0.5, 0.5 ]
+			m_nUpType = 2
+		},
+		{
+			_class = \"CAimConstraint\"
+			m_name = \"\"
+			m_vUpVector = [ 0.0, 0.0, -1.0 ]
+			m_slaves = 
+			[
+				{
+					m_nBoneHash = 1865652511
+					m_flWeight = 1.0
+					m_vBasePosition = [ -4.130064, -5.393204, 59.730625 ]
+					m_qBaseOrientation = [ -0.799819, 0.012551, -0.543651, 0.254116 ]
+					m_sName = \"\"
+				},
+			]
+			m_targets = 
+			[
+				{
+					m_nBoneHash = 2836113959
+					m_flWeight = 1.0
+					m_vOffset = [ 0.0, 0.0, 0.0 ]
+					m_qOffset = [ 0.0, 0.0, 0.0, 1.0 ]
+					m_bIsAttachment = true
+					m_sName = \"\"
+				},
+				{
+					m_nBoneHash = 268392351
+					m_flWeight = 0.0
+					m_vOffset = [ 0.0, 0.0, 0.0 ]
+					m_qOffset = [ 0.0, 0.0, 0.0, 1.0 ]
+					m_bIsAttachment = true
+					m_sName = \"\"
+				},
+			]
+			m_qAimOffset = [ -0.5, 0.5, -0.5, 0.5 ]
+			m_nUpType = 2
+		},
+		{
+			_class = \"CTiltTwistConstraint\"
+			m_name = \"\"
+			m_vUpVector = [ 0.0, 0.0, 0.0 ]
+			m_slaves = 
+			[
+				{
+					m_nBoneHash = 3677634263
+					m_flWeight = -1.0
+					m_vBasePosition = [ 0.0, 0.0, 0.0 ]
+					m_qBaseOrientation = [ 0.0, 0.0, 0.0, 1.0 ]
+					m_sName = \"\"
+				},
+			]
+			m_targets = 
+			[
+				{
+					m_nBoneHash = 609771703
+					m_flWeight = 1.0
+					m_vOffset = [ -2.749282, 0.513712, -4.071473 ]
+					m_qOffset = [ -0.124212, -0.013613, -0.026897, 0.991798 ]
+					m_bIsAttachment = false
+					m_sName = \"\"
+				},
+			]
+			m_nTargetAxis = 0
+			m_nSlaveAxis = 0
+		},
+		{
+			_class = \"CTiltTwistConstraint\"
+			m_name = \"\"
+			m_vUpVector = [ 0.0, 0.0, 0.0 ]
+			m_slaves = 
+			[
+				{
+					m_nBoneHash = 892942652
+					m_flWeight = -0.5
+					m_vBasePosition = [ 0.0, 0.0, 0.0 ]
+					m_qBaseOrientation = [ 0.0, 0.0, 0.0, 1.0 ]
+					m_sName = \"\"
+				},
+			]
+			m_targets = 
+			[
+				{
+					m_nBoneHash = 609771703
+					m_flWeight = 1.0
+					m_vOffset = [ -2.749282, 0.513712, -4.071473 ]
+					m_qOffset = [ -0.124212, -0.013613, -0.026897, 0.991798 ]
+					m_bIsAttachment = false
+					m_sName = \"\"
+				},
+			]
+			m_nTargetAxis = 0
+			m_nSlaveAxis = 0
+		},
+		{
+			_class = \"CTiltTwistConstraint\"
+			m_name = \"\"
+			m_vUpVector = [ 0.0, 0.0, 0.0 ]
+			m_slaves = 
+			[
+				{
+					m_nBoneHash = 1884536544
+					m_flWeight = -1.0
+					m_vBasePosition = [ 0.0, 0.0, 0.0 ]
+					m_qBaseOrientation = [ 0.0, 0.0, 0.0, 1.0 ]
+					m_sName = \"\"
+				},
+			]
+			m_targets = 
+			[
+				{
+					m_nBoneHash = 475370876
+					m_flWeight = 1.0
+					m_vOffset = [ -2.749282, 0.513712, 4.071473 ]
+					m_qOffset = [ 0.013613, -0.124212, 0.991798, 0.026897 ]
+					m_bIsAttachment = false
+					m_sName = \"\"
+				},
+			]
+			m_nTargetAxis = 0
+			m_nSlaveAxis = 0
+		},
+		{
+			_class = \"CTiltTwistConstraint\"
+			m_name = \"\"
+			m_vUpVector = [ 0.0, 0.0, 0.0 ]
+			m_slaves = 
+			[
+				{
+					m_nBoneHash = 4249383454
+					m_flWeight = -0.5
+					m_vBasePosition = [ 0.0, 0.0, 0.0 ]
+					m_qBaseOrientation = [ 0.0, 0.0, 0.0, 1.0 ]
+					m_sName = \"\"
+				},
+			]
+			m_targets = 
+			[
+				{
+					m_nBoneHash = 475370876
+					m_flWeight = 1.0
+					m_vOffset = [ -2.749282, 0.513712, 4.071473 ]
+					m_qOffset = [ 0.013613, -0.124212, 0.991798, 0.026897 ]
+					m_bIsAttachment = false
+					m_sName = \"\"
+				},
+			]
+			m_nTargetAxis = 0
+			m_nSlaveAxis = 0
+		},
+		{
+			_class = \"CParentConstraint\"
+			m_name = \"\"
+			m_vUpVector = [ 0.0, 0.0, 0.0 ]
+			m_slaves = 
+			[
+				{
+					m_nBoneHash = 2604113621
+					m_flWeight = 1.0
+					m_vBasePosition = [ 0.0, 0.0, 0.0 ]
+					m_qBaseOrientation = [ 0.0, -0.707107, 0.0, 0.707107 ]
+					m_sName = \"\"
+				},
+			]
+			m_targets = 
+			[
+				{
+					m_nBoneHash = 883876778
+					m_flWeight = 1.0
+					m_vOffset = [ 0.0, 0.0, 0.0 ]
+					m_qOffset = [ 0.0, 0.0, 0.0, 1.0 ]
+					m_bIsAttachment = true
+					m_sName = \"\"
+				},
+			]
+		},
+	]
+}"
+	}
+	m_ExtParts = 
+	[
+	]
+	m_refMeshes = 
+	[
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+	]
+	m_refMeshGroupMasks = 
+	[
+		512,
+		1,
+		2,
+		8,
+		8,
+		8,
+		8,
+		512,
+		512,
+		512,
+		2,
+		2,
+		2,
+		1,
+		1,
+		1,
+		64,
+		32,
+		128,
+		256,
+		32,
+		32,
+		32,
+		64,
+		64,
+		64,
+	]
+	m_refPhysGroupMasks = 
+	[
+	]
+	m_refLODGroupMasks = 
+	[
+		1,
+		1,
+		1,
+		1,
+		2,
+		4,
+		8,
+		2,
+		4,
+		8,
+		2,
+		4,
+		8,
+		2,
+		4,
+		8,
+		1,
+		1,
+		15,
+		15,
+		2,
+		4,
+		8,
+		8,
+		2,
+		4,
+	]
+	m_lodGroupSwitchDistances = 
+	[
+		0.000000,
+		25.000000,
+		41.000000,
+		50.000000,
+	]
+	m_refPhysicsData = 
+	[
+	]
+	m_refPhysicsHitboxData = 
+	[
+	]
+	m_refAnimGroups = 
+	[
+	]
+	m_refSequenceGroups = 
+	[
+	]
+	m_meshGroups = 
+	[
+		"gas_tank_@0",
+		"gas_tank_@1",
+		"gas_tank_@2",
+		"grenadeholster_@0",
+		"grenadeholster_@1",
+		"DamageLevel_@0",
+		"DamageLevel_@1",
+		"DamageLevel_@2",
+		"DamageLevel_@3",
+		"autodefault",
+	]
+	m_materialGroups = 
+	[
+		
+		{
+			m_name = "default"
+			m_materials = 
+			[
+				resource:"models/characters/combine_grunt/materials/combine_grunt.vmat",
+				resource:"models/characters/combine_grunt/materials/combine_grunt_tank_tip.vmat",
+				resource:"models/characters/combine_grunt/materials/combine_grunt_tank.vmat",
+				resource:"models/characters/combine_grunt/materials/grenade_holster.vmat",
+				resource:"models/characters/combine_helmet/materials/combine_helmet_breakable.vmat",
+				resource:"models/characters/combine_helmet/materials/combine_helmet_breakable_blood.vmat",
+			]
+		},
+		
+		{
+			m_name = "suppression"
+			m_materials = 
+			[
+				resource:"models/characters/combine_grunt/materials/combine_grunt.vmat",
+				resource:"models/characters/combine_grunt/materials/combine_grunt_tank_tip.vmat",
+				resource:"models/characters/combine_grunt/materials/combine_grunt_tank.vmat",
+				resource:"models/characters/combine_grunt/materials/grenade_holster.vmat",
+				resource:"models/characters/combine_helmet/materials/combine_helmet_breakable.vmat",
+				resource:"models/characters/combine_helmet/materials/combine_helmet_breakable_blood.vmat",
+			]
+		},
+		
+		{
+			m_name = "commander"
+			m_materials = 
+			[
+				resource:"models/characters/combine_grunt/materials/combine_grunt.vmat",
+				resource:"models/characters/combine_grunt/materials/combine_grunt_tank_tip.vmat",
+				resource:"models/characters/combine_grunt/materials/combine_grunt_tank.vmat",
+				resource:"models/characters/combine_grunt/materials/grenade_holster.vmat",
+				resource:"models/characters/combine_helmet/materials/combine_helmet_breakable.vmat",
+				resource:"models/characters/combine_helmet/materials/combine_helmet_breakable_blood.vmat",
+			]
+		},
+		
+		{
+			m_name = "shotgun"
+			m_materials = 
+			[
+				resource:"models/characters/combine_grunt/materials/combine_grunt.vmat",
+				resource:"models/characters/combine_grunt/materials/combine_grunt_tank_tip.vmat",
+				resource:"models/characters/combine_grunt/materials/combine_grunt_tank.vmat",
+				resource:"models/characters/combine_grunt/materials/grenade_holster.vmat",
+				resource:"models/characters/combine_helmet/materials/combine_helmet_breakable.vmat",
+				resource:"models/characters/combine_helmet/materials/combine_helmet_breakable_blood.vmat",
+			]
+		},
+	]
+	m_nDefaultMeshGroupMask = 553
+	m_modelSkeleton = 
+	{
+		m_boneName = 
+		[
+			"root_motion",
+			"ground_root",
+			"pelvis_translations",
+			"pelvis",
+			"spine_0",
+			"spine_1",
+			"spine_2",
+			"spine_3",
+			"clavicle_L",
+			"arm_upper_L",
+			"arm_lower_L",
+			"hand_L",
+			"object_hand_L",
+			"arm_upper_L_TWIST",
+			"neck_0",
+			"head",
+			"clavicle_R",
+			"arm_upper_R",
+			"arm_lower_R",
+			"hand_R",
+			"weapon_hand_R",
+			"pect_0_L",
+			"pect_end_L",
+			"hand_ik_tweaker",
+			"hand_R_IK_target",
+			"hand_L_IK_target_childright",
+			"gun_direction_accurate",
+			"leg_upper_R",
+			"leg_lower_R",
+			"ankle_R",
+			"leg_upper_L",
+			"leg_lower_L",
+			"ankle_L",
+			"feet_offset_ground_root",
+			"ground_root_left_foot",
+			"foot_L_IK_target",
+			"foot_L_IK_target_ytrans",
+			"ground_root_right_foot",
+			"foot_R_IK_target",
+			"foot_R_IK_target_ytrans",
+			"finger_index_meta_L",
+			"finger_index_0_L",
+			"finger_index_1_L",
+			"finger_index_2_L",
+			"finger_pinky_meta_L",
+			"finger_pinky_0_L",
+			"finger_pinky_1_L",
+			"finger_pinky_2_L",
+			"finger_middle_meta_L",
+			"finger_middle_0_L",
+			"finger_middle_1_L",
+			"finger_middle_2_L",
+			"finger_ring_meta_L",
+			"finger_ring_0_L",
+			"finger_ring_1_L",
+			"finger_ring_2_L",
+			"finger_thumb_0_L",
+			"finger_thumb_1_L",
+			"finger_thumb_2_L",
+			"arm_lower_L_TWIST",
+			"arm_lower_L_TWIST1",
+			"arm_upper_L_TWIST1",
+			"scap_0_L",
+			"scap_end_L",
+			"shoulderCableEnd_0",
+			"shoulderCableEnd_end",
+			"jaw_0",
+			"jaw_end",
+			"neck_0_TWIST",
+			"jowel_HLPR",
+			"neckNape_HLPR",
+			"scap_0_R",
+			"scap_end_R",
+			"finger_thumb_0_R",
+			"finger_thumb_1_R",
+			"finger_thumb_2_R",
+			"finger_ring_meta_R",
+			"finger_ring_0_R",
+			"finger_ring_1_R",
+			"finger_ring_2_R",
+			"finger_middle_meta_R",
+			"finger_middle_0_R",
+			"finger_middle_1_R",
+			"finger_middle_2_R",
+			"finger_pinky_meta_R",
+			"finger_pinky_0_R",
+			"finger_pinky_1_R",
+			"finger_pinky_2_R",
+			"finger_index_meta_R",
+			"finger_index_0_R",
+			"finger_index_1_R",
+			"finger_index_2_R",
+			"arm_lower_R_TWIST",
+			"arm_lower_R_TWIST1",
+			"arm_upper_R_TWIST",
+			"arm_upper_R_TWIST1",
+			"packJGL",
+			"tankJGL",
+			"cableJGL_0",
+			"cableJGL_1",
+			"cableJGL_2",
+			"cableJGL_3",
+			"cableJGL_4",
+			"cableJGL_5",
+			"pect_0_R",
+			"pect_end_R",
+			"ball_R",
+			"leg_upper_R_TWIST",
+			"leg_upper_R_TWIST1",
+			"ball_L",
+			"leg_upper_L_TWIST",
+			"leg_upper_L_TWIST1",
+			"back_bag_jiggle",
+			"_iklockdriver_right_arm",
+			"_iklockdriver_left_arm",
+			"hand_end_L",
+			"finger_index_end_L",
+			"finger_pinky_end_L",
+			"finger_middle_end_L",
+			"finger_ring_end_L",
+			"weapon_hand_L",
+			"finger_thumb_end_L",
+			"elbowPad_0_L",
+			"elbowPad_end_L",
+			"eye_R",
+			"eye_end_R",
+			"head_end",
+			"eye_L",
+			"eye_end_L",
+			"object_hand_R",
+			"finger_thumb_end_R",
+			"finger_ring_end_R",
+			"finger_middle_end_R",
+			"finger_pinky_end_R",
+			"finger_index_end_R",
+			"hand_end_R",
+			"elbowPad_0_R",
+			"elbowPad_end_R",
+			"cableJGL_6",
+			"cableJGL_end",
+			"hand_L_IK_target",
+			"ball_end_R",
+			"ball_end_L",
+		]
+		m_nParent = 
+		[
+			-1,
+			0,
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			9,
+			7,
+			14,
+			7,
+			16,
+			17,
+			18,
+			19,
+			6,
+			21,
+			6,
+			23,
+			24,
+			24,
+			3,
+			27,
+			28,
+			3,
+			30,
+			31,
+			0,
+			33,
+			34,
+			35,
+			33,
+			37,
+			38,
+			11,
+			40,
+			41,
+			42,
+			11,
+			44,
+			45,
+			46,
+			11,
+			48,
+			49,
+			50,
+			11,
+			52,
+			53,
+			54,
+			11,
+			56,
+			57,
+			10,
+			10,
+			9,
+			8,
+			62,
+			8,
+			64,
+			15,
+			66,
+			14,
+			14,
+			14,
+			16,
+			71,
+			19,
+			73,
+			74,
+			19,
+			76,
+			77,
+			78,
+			19,
+			80,
+			81,
+			82,
+			19,
+			84,
+			85,
+			86,
+			19,
+			88,
+			89,
+			90,
+			18,
+			18,
+			17,
+			17,
+			7,
+			96,
+			96,
+			98,
+			99,
+			100,
+			101,
+			102,
+			6,
+			104,
+			29,
+			27,
+			27,
+			32,
+			30,
+			30,
+			3,
+			-1,
+			-1,
+			11,
+			43,
+			47,
+			51,
+			55,
+			11,
+			58,
+			10,
+			122,
+			15,
+			124,
+			15,
+			15,
+			127,
+			19,
+			75,
+			79,
+			83,
+			87,
+			91,
+			19,
+			18,
+			136,
+			103,
+			138,
+			23,
+			106,
+			109,
+		]
+		m_boneSphere = 
+		[
+			0.000000,
+			0.000000,
+			0.000000,
+			14.500299,
+			13.197705,
+			21.083126,
+			14.967335,
+			13.509027,
+			12.799169,
+			15.240294,
+			10.729312,
+			4.264579,
+			0.000000,
+			11.221251,
+			7.064397,
+			8.344009,
+			12.780236,
+			15.382586,
+			11.165973,
+			4.695980,
+			0.000000,
+			0.000000,
+			8.339175,
+			0.000000,
+			0.000000,
+			0.000000,
+			0.000000,
+			21.280556,
+			18.956776,
+			8.277205,
+			21.459963,
+			18.956774,
+			8.277199,
+			0.000000,
+			0.000000,
+			0.000000,
+			0.000000,
+			0.000000,
+			0.000000,
+			0.000000,
+			4.729190,
+			3.154282,
+			2.445173,
+			2.035825,
+			4.581327,
+			3.166065,
+			4.412997,
+			1.237477,
+			4.473921,
+			3.471288,
+			2.457457,
+			2.525079,
+			2.124331,
+			2.950600,
+			2.309600,
+			4.515113,
+			3.346362,
+			3.725973,
+			3.559444,
+			8.807631,
+			8.250751,
+			9.848016,
+			18.104382,
+			10.069238,
+			1.983161,
+			4.444869,
+			5.154419,
+			2.552093,
+			9.328279,
+			3.728192,
+			9.889371,
+			15.380741,
+			9.279087,
+			3.335927,
+			3.987563,
+			1.973138,
+			2.124413,
+			2.949755,
+			2.444737,
+			2.853443,
+			4.473914,
+			3.471291,
+			2.422125,
+			2.799155,
+			4.581326,
+			2.654044,
+			1.915366,
+			3.698125,
+			4.697155,
+			3.154281,
+			2.417866,
+			2.007138,
+			9.875288,
+			8.052979,
+			11.167700,
+			10.449992,
+			12.895330,
+			12.580836,
+			0.000000,
+			5.373718,
+			4.578258,
+			5.240231,
+			3.812201,
+			2.489906,
+			0.000000,
+			13.947823,
+			4.338499,
+			11.664176,
+			13.624865,
+			4.377095,
+			11.980194,
+			13.513711,
+			6.710114,
+			0.000000,
+			0.000000,
+			0.000000,
+			0.000000,
+			0.000000,
+			0.000000,
+			0.000000,
+			0.000000,
+			0.000000,
+			0.000000,
+			0.000000,
+			0.000000,
+			0.000000,
+			0.000000,
+			0.000000,
+			0.000000,
+			0.000000,
+			0.000000,
+			0.000000,
+			0.000000,
+			0.000000,
+			0.000000,
+			0.000000,
+			0.000000,
+			0.000000,
+			0.000000,
+			0.000000,
+			0.000000,
+			0.000000,
+			0.000000,
+		]
+		m_nFlag = 
+		[
+			15584,
+			15424,
+			15584,
+			15608,
+			15856,
+			15808,
+			15600,
+			15840,
+			15600,
+			15856,
+			15856,
+			15856,
+			15584,
+			15584,
+			15568,
+			15856,
+			15568,
+			15856,
+			15856,
+			15856,
+			15584,
+			15424,
+			15584,
+			15424,
+			15584,
+			15584,
+			15584,
+			15824,
+			15824,
+			15856,
+			15824,
+			15824,
+			15856,
+			15424,
+			15424,
+			15424,
+			15584,
+			15424,
+			15424,
+			15584,
+			15552,
+			15552,
+			15552,
+			15552,
+			15552,
+			15552,
+			15552,
+			15552,
+			15552,
+			15552,
+			15552,
+			15552,
+			15552,
+			15552,
+			15552,
+			15552,
+			15552,
+			15552,
+			15552,
+			15552,
+			15552,
+			15552,
+			15552,
+			15552,
+			4209864,
+			4209864,
+			15552,
+			15552,
+			15552,
+			15552,
+			15552,
+			15552,
+			15552,
+			15552,
+			15552,
+			15552,
+			15552,
+			15552,
+			15552,
+			15552,
+			15552,
+			15552,
+			15552,
+			15552,
+			15552,
+			15552,
+			15552,
+			15552,
+			15552,
+			15552,
+			15552,
+			15552,
+			15552,
+			15552,
+			15552,
+			15552,
+			4209864,
+			4209864,
+			4209736,
+			4209864,
+			4209864,
+			4209864,
+			4209864,
+			4209864,
+			15424,
+			15552,
+			15552,
+			15552,
+			15552,
+			15552,
+			15552,
+			15552,
+			4209864,
+			15552,
+			15552,
+			64,
+			64,
+			64,
+			64,
+			64,
+			64,
+			64,
+			64,
+			64,
+			64,
+			64,
+			64,
+			64,
+			64,
+			64,
+			64,
+			64,
+			64,
+			64,
+			64,
+			64,
+			64,
+			64,
+			4194376,
+			4194376,
+			64,
+			64,
+			64,
+		]
+		m_bonePosParent = 
+		[
+			
+			[
+				-2.671864,
+				-0.000000,
+				-0.000000,
+			],
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+			],
+			
+			[
+				0.000007,
+				41.453777,
+				0.085780,
+			],
+			
+			[
+				-0.000023,
+				0.000011,
+				0.000009,
+			],
+			
+			[
+				0.896793,
+				0.226164,
+				0.000010,
+			],
+			
+			[
+				3.941898,
+				0.000014,
+				0.000012,
+			],
+			
+			[
+				4.261295,
+				-0.000024,
+				-0.000030,
+			],
+			
+			[
+				5.296741,
+				0.000011,
+				0.000014,
+			],
+			
+			[
+				3.251408,
+				2.411369,
+				0.867280,
+			],
+			
+			[
+				6.663421,
+				0.000029,
+				0.000008,
+			],
+			
+			[
+				11.628008,
+				0.000021,
+				0.000000,
+			],
+			
+			[
+				10.948368,
+				0.000017,
+				0.000023,
+			],
+			
+			[
+				19.059782,
+				42.086403,
+				6.690230,
+			],
+			
+			[
+				3.876007,
+				0.000023,
+				0.000000,
+			],
+			
+			[
+				5.176212,
+				0.000018,
+				0.000015,
+			],
+			
+			[
+				5.764874,
+				0.000031,
+				0.000018,
+			],
+			
+			[
+				3.251385,
+				2.411371,
+				-0.867240,
+			],
+			
+			[
+				-6.663445,
+				0.000024,
+				0.000042,
+			],
+			
+			[
+				-11.628016,
+				-0.000007,
+				-0.000050,
+			],
+			
+			[
+				-10.948367,
+				0.000002,
+				-0.000034,
+			],
+			
+			[
+				-19.059799,
+				-42.086365,
+				-6.690211,
+			],
+			
+			[
+				2.035770,
+				3.933230,
+				3.729871,
+			],
+			
+			[
+				3.636414,
+				0.000002,
+				-0.000004,
+			],
+			
+			[
+				-3.444172,
+				-1.224316,
+				-0.000000,
+			],
+			
+			[
+				-21.416101,
+				-5.412819,
+				1.383047,
+			],
+			
+			[
+				25.416367,
+				-34.106480,
+				5.035473,
+			],
+			
+			[
+				-0.000011,
+				-0.000031,
+				-0.000006,
+			],
+			
+			[
+				-2.749294,
+				0.513718,
+				-4.071461,
+			],
+			
+			[
+				-17.299475,
+				-0.000006,
+				0.000002,
+			],
+			
+			[
+				-16.970440,
+				-0.000044,
+				-0.000037,
+			],
+			
+			[
+				-2.749287,
+				0.513723,
+				4.071476,
+			],
+			
+			[
+				17.299469,
+				0.000003,
+				-0.000004,
+			],
+			
+			[
+				16.970453,
+				0.000060,
+				-0.000005,
+			],
+			
+			[
+				-0.000000,
+				0.000000,
+				0.000000,
+			],
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+			],
+			
+			[
+				4.211005,
+				4.759085,
+				-1.644912,
+			],
+			
+			[
+				-0.000001,
+				0.000000,
+				0.000002,
+			],
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+			],
+			
+			[
+				-4.211004,
+				4.759084,
+				-1.644912,
+			],
+			
+			[
+				0.000001,
+				-0.000004,
+				0.000000,
+			],
+			
+			[
+				0.619570,
+				0.100742,
+				-0.871548,
+			],
+			
+			[
+				3.252003,
+				0.000008,
+				-0.000020,
+			],
+			
+			[
+				1.946688,
+				0.000015,
+				-0.000020,
+			],
+			
+			[
+				1.285885,
+				0.000002,
+				-0.000018,
+			],
+			
+			[
+				0.639975,
+				0.371410,
+				1.102196,
+			],
+			
+			[
+				2.661459,
+				0.000034,
+				-0.000008,
+			],
+			
+			[
+				1.575274,
+				0.000010,
+				-0.000009,
+			],
+			
+			[
+				1.012154,
+				0.000015,
+				-0.000010,
+			],
+			
+			[
+				0.654806,
+				-0.017132,
+				-0.232243,
+			],
+			
+			[
+				3.243989,
+				0.000011,
+				-0.000019,
+			],
+			
+			[
+				2.212139,
+				0.000011,
+				-0.000018,
+			],
+			
+			[
+				1.431522,
+				0.000010,
+				-0.000015,
+			],
+			
+			[
+				0.585197,
+				0.043152,
+				0.410292,
+			],
+			
+			[
+				3.062896,
+				0.000031,
+				-0.000015,
+			],
+			
+			[
+				1.893822,
+				0.000008,
+				-0.000014,
+			],
+			
+			[
+				1.325920,
+				0.000008,
+				-0.000016,
+			],
+			
+			[
+				1.015512,
+				0.560692,
+				-1.057839,
+			],
+			
+			[
+				1.805794,
+				-0.000002,
+				-0.000015,
+			],
+			
+			[
+				1.440998,
+				-0.000010,
+				-0.000011,
+			],
+			
+			[
+				3.649458,
+				0.000026,
+				0.000008,
+			],
+			
+			[
+				7.298916,
+				0.000020,
+				0.000008,
+			],
+			
+			[
+				7.752005,
+				0.000021,
+				0.000000,
+			],
+			
+			[
+				5.178458,
+				-0.820673,
+				-1.891254,
+			],
+			
+			[
+				3.234947,
+				-0.000013,
+				-0.000011,
+			],
+			
+			[
+				3.005024,
+				4.769543,
+				-3.183380,
+			],
+			
+			[
+				1.715424,
+				0.000015,
+				0.000001,
+			],
+			
+			[
+				0.198700,
+				0.771183,
+				0.000016,
+			],
+			
+			[
+				4.446804,
+				-0.000004,
+				0.000016,
+			],
+			
+			[
+				2.882423,
+				0.000031,
+				0.000016,
+			],
+			
+			[
+				3.696407,
+				2.404140,
+				0.000017,
+			],
+			
+			[
+				4.494865,
+				-1.780293,
+				0.000016,
+			],
+			
+			[
+				-5.178432,
+				0.820690,
+				1.891228,
+			],
+			
+			[
+				-3.234966,
+				-0.000008,
+				0.000025,
+			],
+			
+			[
+				-1.015507,
+				-0.560719,
+				1.057819,
+			],
+			
+			[
+				-1.805790,
+				-0.000002,
+				0.000048,
+			],
+			
+			[
+				-1.440989,
+				-0.000001,
+				0.000046,
+			],
+			
+			[
+				-0.585196,
+				-0.043167,
+				-0.410306,
+			],
+			
+			[
+				-3.062894,
+				-0.000053,
+				-0.000004,
+			],
+			
+			[
+				-1.893837,
+				-0.000042,
+				-0.000003,
+			],
+			
+			[
+				-1.325935,
+				-0.000031,
+				-0.000005,
+			],
+			
+			[
+				-0.654814,
+				0.017124,
+				0.232228,
+			],
+			
+			[
+				-3.243980,
+				-0.000034,
+				0.000006,
+			],
+			
+			[
+				-2.212149,
+				-0.000031,
+				0.000005,
+			],
+			
+			[
+				-1.431541,
+				-0.000020,
+				0.000003,
+			],
+			
+			[
+				-0.639982,
+				-0.371433,
+				-1.102216,
+			],
+			
+			[
+				-2.661459,
+				-0.000042,
+				-0.000021,
+			],
+			
+			[
+				-1.575298,
+				-0.000029,
+				-0.000013,
+			],
+			
+			[
+				-1.012177,
+				-0.000027,
+				-0.000010,
+			],
+			
+			[
+				-0.619568,
+				-0.100742,
+				0.871533,
+			],
+			
+			[
+				-3.251995,
+				-0.000050,
+				0.000009,
+			],
+			
+			[
+				-1.946684,
+				-0.000042,
+				0.000010,
+			],
+			
+			[
+				-1.285900,
+				-0.000034,
+				0.000010,
+			],
+			
+			[
+				-3.649464,
+				-0.000003,
+				-0.000050,
+			],
+			
+			[
+				-7.298914,
+				-0.000003,
+				-0.000034,
+			],
+			
+			[
+				-3.876003,
+				-0.000011,
+				-0.000038,
+			],
+			
+			[
+				-7.752005,
+				-0.000009,
+				-0.000042,
+			],
+			
+			[
+				0.897331,
+				-7.749657,
+				0.000009,
+			],
+			
+			[
+				-1.622040,
+				6.837193,
+				0.972911,
+			],
+			
+			[
+				5.450606,
+				-5.392040,
+				-1.112190,
+			],
+			
+			[
+				2.419369,
+				-0.229923,
+				0.000093,
+			],
+			
+			[
+				2.408279,
+				-0.000034,
+				-0.000019,
+			],
+			
+			[
+				2.660681,
+				-0.000042,
+				-0.000015,
+			],
+			
+			[
+				2.215218,
+				-0.000038,
+				-0.000009,
+			],
+			
+			[
+				2.701447,
+				-0.000008,
+				0.000006,
+			],
+			
+			[
+				2.035770,
+				3.933230,
+				-3.729871,
+			],
+			
+			[
+				-3.636534,
+				0.000014,
+				-0.000046,
+			],
+			
+			[
+				-6.118883,
+				-0.000002,
+				-0.000002,
+			],
+			
+			[
+				-5.766499,
+				0.000002,
+				0.000010,
+			],
+			
+			[
+				-11.532988,
+				-0.000000,
+				0.000006,
+			],
+			
+			[
+				6.118883,
+				0.000005,
+				0.000003,
+			],
+			
+			[
+				5.766491,
+				-0.000008,
+				0.000001,
+			],
+			
+			[
+				11.532986,
+				-0.000004,
+				-0.000002,
+			],
+			
+			[
+				2.686531,
+				-3.421269,
+				4.139413,
+			],
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+			],
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+			],
+			
+			[
+				3.113342,
+				0.000008,
+				-0.000002,
+			],
+			
+			[
+				0.824192,
+				0.000000,
+				0.000000,
+			],
+			
+			[
+				0.761326,
+				0.000000,
+				0.000000,
+			],
+			
+			[
+				0.895599,
+				0.000005,
+				-0.000001,
+			],
+			
+			[
+				0.997509,
+				0.000000,
+				-0.000000,
+			],
+			
+			[
+				19.059788,
+				42.086418,
+				6.690214,
+			],
+			
+			[
+				1.334059,
+				0.000000,
+				0.000000,
+			],
+			
+			[
+				-0.000006,
+				0.000002,
+				0.000004,
+			],
+			
+			[
+				1.499998,
+				0.000000,
+				0.000008,
+			],
+			
+			[
+				1.982025,
+				3.101028,
+				-1.411288,
+			],
+			
+			[
+				0.716692,
+				0.000000,
+				0.000000,
+			],
+			
+			[
+				6.053879,
+				-0.000000,
+				0.000001,
+			],
+			
+			[
+				1.982025,
+				3.101029,
+				1.411289,
+			],
+			
+			[
+				0.716691,
+				0.000000,
+				0.000000,
+			],
+			
+			[
+				-19.059805,
+				-42.086411,
+				-6.690207,
+			],
+			
+			[
+				-1.334057,
+				0.000002,
+				0.000004,
+			],
+			
+			[
+				-0.997501,
+				0.000000,
+				0.000001,
+			],
+			
+			[
+				-0.895615,
+				0.000003,
+				-0.000001,
+			],
+			
+			[
+				-0.761337,
+				-0.000002,
+				0.000000,
+			],
+			
+			[
+				-0.824188,
+				0.000001,
+				-0.000001,
+			],
+			
+			[
+				-3.113355,
+				-0.000004,
+				-0.000001,
+			],
+			
+			[
+				0.000021,
+				-0.000006,
+				-0.000008,
+			],
+			
+			[
+				-1.499989,
+				-0.000027,
+				0.000008,
+			],
+			
+			[
+				1.491386,
+				-0.000004,
+				-0.000001,
+			],
+			
+			[
+				1.081879,
+				-0.041397,
+				-0.823481,
+			],
+			
+			[
+				21.416119,
+				-5.412834,
+				1.383054,
+			],
+			
+			[
+				-3.337504,
+				-0.000002,
+				0.000001,
+			],
+			
+			[
+				3.337501,
+				0.000001,
+				-0.000001,
+			],
+		]
+		m_boneRotParent = 
+		[
+			
+			[
+				0.500000,
+				0.500000,
+				0.500000,
+				0.500000,
+			],
+			
+			[
+				0.000000,
+				-0.000000,
+				-0.000000,
+				1.000000,
+			],
+			
+			[
+				0.500000,
+				0.500000,
+				0.500000,
+				0.500000,
+			],
+			
+			[
+				0.000000,
+				-0.000000,
+				0.000000,
+				1.000000,
+			],
+			
+			[
+				0.000000,
+				-0.000000,
+				0.062030,
+				0.998074,
+			],
+			
+			[
+				0.000000,
+				-0.000000,
+				-0.086940,
+				0.996214,
+			],
+			
+			[
+				0.000000,
+				0.000000,
+				-0.097000,
+				0.995284,
+			],
+			
+			[
+				0.000000,
+				-0.000000,
+				0.118231,
+				0.992986,
+			],
+			
+			[
+				0.193364,
+				-0.765132,
+				-0.146158,
+				0.596508,
+			],
+			
+			[
+				0.004459,
+				-0.304369,
+				0.173382,
+				0.936631,
+			],
+			
+			[
+				0.000000,
+				0.000000,
+				0.215648,
+				0.976471,
+			],
+			
+			[
+				0.732984,
+				-0.073651,
+				0.001582,
+				0.676245,
+			],
+			
+			[
+				0.888481,
+				-0.437706,
+				0.108246,
+				-0.085430,
+			],
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				1.000000,
+			],
+			
+			[
+				0.000000,
+				-0.000000,
+				0.145947,
+				0.989292,
+			],
+			
+			[
+				0.000000,
+				-0.000000,
+				-0.142361,
+				0.989815,
+			],
+			
+			[
+				0.765132,
+				0.193364,
+				0.596508,
+				0.146157,
+			],
+			
+			[
+				0.004458,
+				-0.304369,
+				0.173382,
+				0.936631,
+			],
+			
+			[
+				0.000000,
+				0.000000,
+				0.215649,
+				0.976471,
+			],
+			
+			[
+				0.732984,
+				-0.073651,
+				0.001582,
+				0.676245,
+			],
+			
+			[
+				0.085430,
+				-0.108246,
+				-0.437705,
+				0.888481,
+			],
+			
+			[
+				-0.753410,
+				0.131137,
+				-0.353241,
+				0.538885,
+			],
+			
+			[
+				0.000000,
+				-0.000000,
+				-0.000000,
+				1.000000,
+			],
+			
+			[
+				-0.435361,
+				-0.557190,
+				-0.435361,
+				0.557190,
+			],
+			
+			[
+				-0.085430,
+				0.108246,
+				0.437705,
+				0.888481,
+			],
+			
+			[
+				-0.165957,
+				0.977255,
+				-0.100658,
+				0.085430,
+			],
+			
+			[
+				0.085430,
+				-0.108246,
+				-0.437705,
+				0.888481,
+			],
+			
+			[
+				-0.124212,
+				-0.013613,
+				-0.026897,
+				0.991798,
+			],
+			
+			[
+				0.000000,
+				-0.000000,
+				0.120603,
+				0.992701,
+			],
+			
+			[
+				0.813886,
+				-0.580933,
+				-0.010004,
+				0.002583,
+			],
+			
+			[
+				0.013613,
+				-0.124212,
+				0.991798,
+				0.026897,
+			],
+			
+			[
+				0.000000,
+				0.000000,
+				0.120603,
+				0.992701,
+			],
+			
+			[
+				0.813886,
+				-0.580933,
+				-0.010004,
+				0.002583,
+			],
+			
+			[
+				0.000000,
+				-0.000000,
+				0.000000,
+				1.000000,
+			],
+			
+			[
+				0.000000,
+				-0.000000,
+				-0.000000,
+				1.000000,
+			],
+			
+			[
+				0.000000,
+				-0.000000,
+				0.000000,
+				1.000000,
+			],
+			
+			[
+				-0.000000,
+				-0.000000,
+				0.000000,
+				1.000000,
+			],
+			
+			[
+				0.000000,
+				-0.000000,
+				-0.000000,
+				1.000000,
+			],
+			
+			[
+				0.000000,
+				-0.000000,
+				0.000000,
+				1.000000,
+			],
+			
+			[
+				-0.000000,
+				-0.000000,
+				0.000000,
+				1.000000,
+			],
+			
+			[
+				0.089838,
+				0.068342,
+				-0.093516,
+				0.989198,
+			],
+			
+			[
+				0.011558,
+				-0.057945,
+				0.173173,
+				0.983117,
+			],
+			
+			[
+				-0.001200,
+				0.016660,
+				0.300382,
+				0.953673,
+			],
+			
+			[
+				-0.004312,
+				-0.033046,
+				0.127526,
+				0.991275,
+			],
+			
+			[
+				-0.236679,
+				-0.085795,
+				-0.054773,
+				0.966241,
+			],
+			
+			[
+				0.002022,
+				-0.154236,
+				0.166667,
+				0.973873,
+			],
+			
+			[
+				-0.000000,
+				-0.000434,
+				0.147732,
+				0.989027,
+			],
+			
+			[
+				-0.002091,
+				0.042832,
+				0.009984,
+				0.999030,
+			],
+			
+			[
+				0.047451,
+				-0.005187,
+				-0.092122,
+				0.994603,
+			],
+			
+			[
+				0.005399,
+				-0.037683,
+				0.230355,
+				0.972362,
+			],
+			
+			[
+				-0.000393,
+				0.013197,
+				0.305957,
+				0.951954,
+			],
+			
+			[
+				-0.000884,
+				-0.011889,
+				0.067906,
+				0.997621,
+			],
+			
+			[
+				-0.086953,
+				-0.046816,
+				-0.060785,
+				0.993254,
+			],
+			
+			[
+				0.014979,
+				-0.089868,
+				0.156175,
+				0.983519,
+			],
+			
+			[
+				0.000183,
+				-0.004148,
+				0.275495,
+				0.961293,
+			],
+			
+			[
+				0.000698,
+				0.008553,
+				0.065330,
+				0.997827,
+			],
+			
+			[
+				0.650375,
+				0.348209,
+				-0.047868,
+				0.673403,
+			],
+			
+			[
+				0.017892,
+				-0.101183,
+				0.201890,
+				0.974003,
+			],
+			
+			[
+				-0.001216,
+				0.003840,
+				0.065249,
+				0.997861,
+			],
+			
+			[
+				0.000000,
+				-0.000000,
+				0.000000,
+				1.000000,
+			],
+			
+			[
+				0.000000,
+				-0.000000,
+				0.000000,
+				1.000000,
+			],
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				1.000000,
+			],
+			
+			[
+				0.735346,
+				-0.378278,
+				0.542579,
+				0.147579,
+			],
+			
+			[
+				0.000000,
+				-0.000000,
+				-0.000000,
+				1.000000,
+			],
+			
+			[
+				-0.246931,
+				-0.610949,
+				0.258339,
+				0.706418,
+			],
+			
+			[
+				0.000000,
+				-0.000000,
+				0.000000,
+				1.000000,
+			],
+			
+			[
+				0.000000,
+				-0.000000,
+				0.900027,
+				0.435835,
+			],
+			
+			[
+				-0.000000,
+				-0.000000,
+				0.000000,
+				1.000000,
+			],
+			
+			[
+				0.000000,
+				-0.000000,
+				0.000000,
+				1.000000,
+			],
+			
+			[
+				-0.001365,
+				-0.001022,
+				-0.071433,
+				0.997444,
+			],
+			
+			[
+				-0.001365,
+				-0.001022,
+				-0.071433,
+				0.997444,
+			],
+			
+			[
+				0.735346,
+				-0.378278,
+				0.542579,
+				0.147579,
+			],
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				1.000000,
+			],
+			
+			[
+				0.650375,
+				0.348209,
+				-0.047869,
+				0.673403,
+			],
+			
+			[
+				0.017892,
+				-0.101183,
+				0.201890,
+				0.974003,
+			],
+			
+			[
+				-0.001216,
+				0.003840,
+				0.065249,
+				0.997861,
+			],
+			
+			[
+				-0.086953,
+				-0.046816,
+				-0.060785,
+				0.993254,
+			],
+			
+			[
+				0.014979,
+				-0.089868,
+				0.156175,
+				0.983519,
+			],
+			
+			[
+				0.000183,
+				-0.004148,
+				0.275495,
+				0.961293,
+			],
+			
+			[
+				0.000698,
+				0.008553,
+				0.065330,
+				0.997827,
+			],
+			
+			[
+				0.047451,
+				-0.005187,
+				-0.092122,
+				0.994603,
+			],
+			
+			[
+				0.005399,
+				-0.037683,
+				0.230355,
+				0.972362,
+			],
+			
+			[
+				-0.000393,
+				0.013198,
+				0.305957,
+				0.951954,
+			],
+			
+			[
+				-0.000884,
+				-0.011889,
+				0.067906,
+				0.997621,
+			],
+			
+			[
+				-0.236679,
+				-0.085795,
+				-0.054773,
+				0.966241,
+			],
+			
+			[
+				0.002022,
+				-0.154236,
+				0.166667,
+				0.973873,
+			],
+			
+			[
+				0.000000,
+				-0.000434,
+				0.147732,
+				0.989027,
+			],
+			
+			[
+				-0.002092,
+				0.042832,
+				0.009984,
+				0.999030,
+			],
+			
+			[
+				0.089838,
+				0.068342,
+				-0.093516,
+				0.989198,
+			],
+			
+			[
+				0.011558,
+				-0.057945,
+				0.173173,
+				0.983118,
+			],
+			
+			[
+				-0.001200,
+				0.016660,
+				0.300382,
+				0.953673,
+			],
+			
+			[
+				-0.004312,
+				-0.033046,
+				0.127526,
+				0.991275,
+			],
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				1.000000,
+			],
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				1.000000,
+			],
+			
+			[
+				-0.000000,
+				0.000000,
+				0.000000,
+				1.000000,
+			],
+			
+			[
+				-0.000000,
+				0.000000,
+				0.000000,
+				1.000000,
+			],
+			
+			[
+				-0.498184,
+				-0.501809,
+				-0.498184,
+				0.501810,
+			],
+			
+			[
+				-0.000000,
+				-0.000001,
+				0.000000,
+				1.000000,
+			],
+			
+			[
+				0.473968,
+				-0.863940,
+				-0.081854,
+				0.149202,
+			],
+			
+			[
+				0.094824,
+				-0.082717,
+				0.148315,
+				0.980902,
+			],
+			
+			[
+				0.013433,
+				-0.027307,
+				0.243660,
+				0.969383,
+			],
+			
+			[
+				0.000103,
+				-0.114292,
+				0.207100,
+				0.971621,
+			],
+			
+			[
+				-0.123113,
+				-0.215609,
+				0.295251,
+				0.922596,
+			],
+			
+			[
+				0.200440,
+				0.159212,
+				0.068563,
+				0.964248,
+			],
+			
+			[
+				-0.131137,
+				-0.753410,
+				0.538885,
+				0.353241,
+			],
+			
+			[
+				0.000000,
+				-0.000000,
+				-0.000000,
+				1.000000,
+			],
+			
+			[
+				-0.000640,
+				0.002330,
+				0.245561,
+				0.969378,
+			],
+			
+			[
+				0.000000,
+				-0.000000,
+				0.000000,
+				1.000000,
+			],
+			
+			[
+				0.000000,
+				-0.000000,
+				0.000000,
+				1.000000,
+			],
+			
+			[
+				-0.000640,
+				0.002330,
+				0.245561,
+				0.969378,
+			],
+			
+			[
+				-0.000000,
+				0.000000,
+				0.000000,
+				1.000000,
+			],
+			
+			[
+				-0.000000,
+				0.000000,
+				0.000000,
+				1.000000,
+			],
+			
+			[
+				-0.500000,
+				-0.500000,
+				-0.500000,
+				0.500001,
+			],
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				1.000000,
+			],
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				1.000000,
+			],
+			
+			[
+				-0.888481,
+				0.437706,
+				-0.108246,
+				0.085430,
+			],
+			
+			[
+				0.000000,
+				-0.000000,
+				-0.000000,
+				1.000000,
+			],
+			
+			[
+				-0.000000,
+				-0.000000,
+				0.000000,
+				1.000000,
+			],
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				1.000000,
+			],
+			
+			[
+				-0.000000,
+				0.000000,
+				0.000000,
+				1.000000,
+			],
+			
+			[
+				-0.888481,
+				0.437706,
+				-0.108246,
+				0.085430,
+			],
+			
+			[
+				-0.000000,
+				0.000000,
+				-0.000000,
+				1.000000,
+			],
+			
+			[
+				0.000000,
+				-0.000001,
+				0.000000,
+				1.000000,
+			],
+			
+			[
+				-0.000000,
+				-0.000000,
+				0.000000,
+				1.000000,
+			],
+			
+			[
+				0.449676,
+				0.545703,
+				0.449676,
+				0.545703,
+			],
+			
+			[
+				0.000000,
+				0.000000,
+				-0.000000,
+				1.000000,
+			],
+			
+			[
+				0.000000,
+				-0.000000,
+				0.000000,
+				1.000000,
+			],
+			
+			[
+				0.545703,
+				0.449676,
+				0.545703,
+				0.449676,
+			],
+			
+			[
+				0.000000,
+				-0.000000,
+				0.000000,
+				1.000000,
+			],
+			
+			[
+				0.085430,
+				-0.108246,
+				-0.437705,
+				0.888481,
+			],
+			
+			[
+				-0.000000,
+				-0.000000,
+				-0.000000,
+				1.000000,
+			],
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				1.000000,
+			],
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				1.000000,
+			],
+			
+			[
+				-0.000000,
+				-0.000000,
+				0.000000,
+				1.000000,
+			],
+			
+			[
+				0.000000,
+				-0.000000,
+				0.000000,
+				1.000000,
+			],
+			
+			[
+				0.085430,
+				-0.108246,
+				-0.437705,
+				0.888481,
+			],
+			
+			[
+				-0.000000,
+				0.000007,
+				0.000002,
+				1.000000,
+			],
+			
+			[
+				-0.000000,
+				0.000000,
+				0.000000,
+				1.000000,
+			],
+			
+			[
+				-0.064875,
+				-0.046212,
+				-0.018607,
+				0.996649,
+			],
+			
+			[
+				0.443214,
+				0.879941,
+				0.076955,
+				-0.152784,
+			],
+			
+			[
+				-0.000000,
+				0.000000,
+				0.000000,
+				1.000000,
+			],
+			
+			[
+				0.000000,
+				-0.000000,
+				0.000000,
+				1.000000,
+			],
+			
+			[
+				-0.000000,
+				0.000000,
+				0.000000,
+				1.000000,
+			],
+		]
+	}
+	m_remappingTable = 
+	[
+		0,
+		2,
+		3,
+		4,
+		5,
+		6,
+		7,
+		8,
+		16,
+		9,
+		17,
+		10,
+		18,
+		96,
+		11,
+		19,
+		99,
+		40,
+		44,
+		48,
+		52,
+		76,
+		80,
+		84,
+		88,
+		100,
+		27,
+		30,
+		41,
+		45,
+		49,
+		53,
+		56,
+		73,
+		77,
+		81,
+		85,
+		89,
+		101,
+		28,
+		31,
+		42,
+		46,
+		50,
+		54,
+		57,
+		62,
+		64,
+		14,
+		71,
+		74,
+		78,
+		82,
+		86,
+		90,
+		102,
+		24,
+		29,
+		32,
+		43,
+		47,
+		51,
+		55,
+		12,
+		58,
+		59,
+		60,
+		13,
+		61,
+		63,
+		65,
+		15,
+		68,
+		70,
+		72,
+		75,
+		20,
+		79,
+		83,
+		87,
+		91,
+		92,
+		93,
+		94,
+		95,
+		103,
+		105,
+		22,
+		25,
+		26,
+		106,
+		107,
+		108,
+		109,
+		110,
+		111,
+		112,
+		36,
+		39,
+		113,
+		114,
+		4,
+		5,
+		7,
+		17,
+		9,
+		18,
+		10,
+		19,
+		11,
+		30,
+		27,
+		31,
+		28,
+		32,
+		29,
+		15,
+		7,
+		7,
+		4,
+		5,
+		7,
+		17,
+		9,
+		18,
+		10,
+		19,
+		11,
+		30,
+		27,
+		31,
+		28,
+		32,
+		29,
+		15,
+		0,
+		2,
+		3,
+		4,
+		5,
+		6,
+		7,
+		8,
+		9,
+		17,
+		10,
+		18,
+		11,
+		62,
+		19,
+		96,
+		24,
+		12,
+		13,
+		63,
+		15,
+		20,
+		97,
+		22,
+		25,
+		26,
+		29,
+		32,
+		36,
+		39,
+		113,
+		114,
+		4,
+		5,
+		7,
+		17,
+		9,
+		18,
+		10,
+		19,
+		11,
+		30,
+		27,
+		31,
+		28,
+		32,
+		29,
+		15,
+		7,
+		7,
+		4,
+		5,
+		7,
+		17,
+		9,
+		18,
+		10,
+		19,
+		11,
+		30,
+		27,
+		31,
+		28,
+		32,
+		29,
+		15,
+		0,
+		2,
+		3,
+		4,
+		6,
+		7,
+		8,
+		9,
+		17,
+		10,
+		18,
+		11,
+		19,
+		24,
+		12,
+		13,
+		15,
+		20,
+		97,
+		22,
+		25,
+		26,
+		29,
+		32,
+		36,
+		39,
+		113,
+		114,
+		4,
+		5,
+		7,
+		17,
+		9,
+		18,
+		10,
+		19,
+		11,
+		30,
+		27,
+		31,
+		28,
+		32,
+		29,
+		15,
+		7,
+		7,
+		4,
+		5,
+		7,
+		17,
+		9,
+		18,
+		10,
+		19,
+		11,
+		30,
+		27,
+		31,
+		28,
+		32,
+		29,
+		15,
+		0,
+		2,
+		3,
+		4,
+		5,
+		6,
+		7,
+		8,
+		16,
+		9,
+		17,
+		10,
+		18,
+		11,
+		19,
+		24,
+		12,
+		13,
+		15,
+		20,
+		105,
+		22,
+		25,
+		26,
+		29,
+		32,
+		36,
+		39,
+		113,
+		114,
+		4,
+		5,
+		7,
+		17,
+		9,
+		18,
+		10,
+		19,
+		11,
+		30,
+		27,
+		31,
+		28,
+		32,
+		29,
+		15,
+		7,
+		7,
+		4,
+		5,
+		7,
+		17,
+		9,
+		18,
+		10,
+		19,
+		11,
+		30,
+		27,
+		31,
+		28,
+		32,
+		29,
+		15,
+		0,
+		2,
+		3,
+		4,
+		5,
+		6,
+		7,
+		8,
+		16,
+		9,
+		17,
+		10,
+		18,
+		11,
+		19,
+		24,
+		12,
+		13,
+		15,
+		20,
+		105,
+		22,
+		25,
+		26,
+		29,
+		32,
+		36,
+		39,
+		113,
+		114,
+		4,
+		5,
+		7,
+		17,
+		9,
+		18,
+		10,
+		19,
+		11,
+		30,
+		27,
+		31,
+		28,
+		32,
+		29,
+		15,
+		7,
+		7,
+		4,
+		5,
+		7,
+		17,
+		9,
+		18,
+		10,
+		19,
+		11,
+		30,
+		27,
+		31,
+		28,
+		32,
+		29,
+		15,
+		0,
+		2,
+		3,
+		4,
+		5,
+		6,
+		7,
+		8,
+		16,
+		9,
+		17,
+		10,
+		18,
+		11,
+		19,
+		24,
+		12,
+		13,
+		15,
+		20,
+		105,
+		22,
+		25,
+		26,
+		29,
+		32,
+		36,
+		39,
+		113,
+		114,
+		4,
+		5,
+		7,
+		17,
+		9,
+		18,
+		10,
+		19,
+		11,
+		30,
+		27,
+		31,
+		28,
+		32,
+		29,
+		15,
+		7,
+		7,
+		4,
+		5,
+		7,
+		17,
+		9,
+		18,
+		10,
+		19,
+		11,
+		30,
+		27,
+		31,
+		28,
+		32,
+		29,
+		15,
+		0,
+		2,
+		3,
+		4,
+		5,
+		6,
+		7,
+		8,
+		16,
+		9,
+		17,
+		10,
+		18,
+		11,
+		19,
+		24,
+		12,
+		13,
+		15,
+		20,
+		105,
+		22,
+		25,
+		26,
+		29,
+		32,
+		36,
+		39,
+		113,
+		114,
+		4,
+		5,
+		7,
+		17,
+		9,
+		18,
+		10,
+		19,
+		11,
+		30,
+		27,
+		31,
+		28,
+		32,
+		29,
+		15,
+		7,
+		7,
+		4,
+		5,
+		7,
+		17,
+		9,
+		18,
+		10,
+		19,
+		11,
+		30,
+		27,
+		31,
+		28,
+		32,
+		29,
+		15,
+		0,
+		2,
+		3,
+		4,
+		5,
+		6,
+		7,
+		8,
+		16,
+		9,
+		17,
+		10,
+		18,
+		96,
+		11,
+		19,
+		99,
+		40,
+		44,
+		48,
+		52,
+		76,
+		80,
+		84,
+		88,
+		100,
+		27,
+		30,
+		41,
+		45,
+		49,
+		53,
+		56,
+		73,
+		77,
+		81,
+		85,
+		89,
+		101,
+		28,
+		31,
+		42,
+		46,
+		50,
+		54,
+		57,
+		62,
+		64,
+		14,
+		71,
+		74,
+		78,
+		82,
+		86,
+		90,
+		102,
+		24,
+		29,
+		32,
+		43,
+		47,
+		51,
+		55,
+		12,
+		58,
+		59,
+		60,
+		13,
+		61,
+		63,
+		65,
+		15,
+		68,
+		70,
+		72,
+		75,
+		20,
+		79,
+		83,
+		87,
+		91,
+		92,
+		93,
+		94,
+		95,
+		103,
+		105,
+		22,
+		25,
+		26,
+		106,
+		107,
+		108,
+		109,
+		110,
+		111,
+		112,
+		36,
+		39,
+		113,
+		114,
+		4,
+		5,
+		7,
+		17,
+		9,
+		18,
+		10,
+		19,
+		11,
+		30,
+		27,
+		31,
+		28,
+		32,
+		29,
+		15,
+		7,
+		7,
+		4,
+		5,
+		7,
+		17,
+		9,
+		18,
+		10,
+		19,
+		11,
+		30,
+		27,
+		31,
+		28,
+		32,
+		29,
+		15,
+		0,
+		2,
+		3,
+		4,
+		5,
+		6,
+		7,
+		8,
+		16,
+		9,
+		17,
+		10,
+		18,
+		96,
+		11,
+		19,
+		99,
+		40,
+		44,
+		48,
+		76,
+		80,
+		84,
+		88,
+		100,
+		27,
+		30,
+		41,
+		45,
+		49,
+		53,
+		56,
+		73,
+		77,
+		81,
+		85,
+		89,
+		101,
+		28,
+		31,
+		42,
+		46,
+		50,
+		54,
+		57,
+		62,
+		64,
+		14,
+		71,
+		74,
+		78,
+		82,
+		86,
+		90,
+		102,
+		24,
+		29,
+		32,
+		43,
+		47,
+		51,
+		55,
+		12,
+		58,
+		59,
+		60,
+		13,
+		61,
+		63,
+		65,
+		15,
+		68,
+		70,
+		72,
+		75,
+		20,
+		79,
+		83,
+		87,
+		91,
+		92,
+		93,
+		94,
+		95,
+		103,
+		105,
+		22,
+		25,
+		26,
+		106,
+		107,
+		108,
+		109,
+		110,
+		111,
+		112,
+		36,
+		39,
+		113,
+		114,
+		4,
+		5,
+		7,
+		17,
+		9,
+		18,
+		10,
+		19,
+		11,
+		30,
+		27,
+		31,
+		28,
+		32,
+		29,
+		15,
+		7,
+		7,
+		4,
+		5,
+		7,
+		17,
+		9,
+		18,
+		10,
+		19,
+		11,
+		30,
+		27,
+		31,
+		28,
+		32,
+		29,
+		15,
+		0,
+		2,
+		3,
+		4,
+		5,
+		6,
+		7,
+		8,
+		16,
+		9,
+		17,
+		10,
+		18,
+		96,
+		11,
+		19,
+		99,
+		40,
+		44,
+		48,
+		80,
+		84,
+		88,
+		100,
+		27,
+		30,
+		41,
+		45,
+		49,
+		53,
+		56,
+		73,
+		77,
+		81,
+		85,
+		89,
+		101,
+		28,
+		31,
+		42,
+		46,
+		50,
+		54,
+		57,
+		62,
+		64,
+		14,
+		71,
+		74,
+		78,
+		82,
+		86,
+		90,
+		102,
+		24,
+		29,
+		32,
+		43,
+		47,
+		51,
+		55,
+		12,
+		58,
+		59,
+		60,
+		13,
+		61,
+		63,
+		65,
+		15,
+		68,
+		72,
+		75,
+		20,
+		79,
+		83,
+		87,
+		91,
+		92,
+		93,
+		94,
+		95,
+		103,
+		105,
+		22,
+		25,
+		26,
+		106,
+		107,
+		108,
+		109,
+		110,
+		111,
+		112,
+		36,
+		39,
+		113,
+		114,
+		4,
+		5,
+		7,
+		17,
+		9,
+		18,
+		10,
+		19,
+		11,
+		30,
+		27,
+		31,
+		28,
+		32,
+		29,
+		15,
+		7,
+		7,
+		4,
+		5,
+		7,
+		17,
+		9,
+		18,
+		10,
+		19,
+		11,
+		30,
+		27,
+		31,
+		28,
+		32,
+		29,
+		15,
+		0,
+		2,
+		3,
+		4,
+		6,
+		7,
+		8,
+		9,
+		17,
+		10,
+		18,
+		11,
+		19,
+		24,
+		12,
+		13,
+		15,
+		20,
+		97,
+		22,
+		25,
+		26,
+		29,
+		32,
+		36,
+		39,
+		113,
+		114,
+		4,
+		5,
+		7,
+		17,
+		9,
+		18,
+		10,
+		19,
+		11,
+		30,
+		27,
+		31,
+		28,
+		32,
+		29,
+		15,
+		7,
+		7,
+		4,
+		5,
+		7,
+		17,
+		9,
+		18,
+		10,
+		19,
+		11,
+		30,
+		27,
+		31,
+		28,
+		32,
+		29,
+		15,
+		0,
+		2,
+		3,
+		4,
+		6,
+		7,
+		8,
+		9,
+		17,
+		10,
+		18,
+		11,
+		19,
+		24,
+		12,
+		13,
+		15,
+		20,
+		97,
+		22,
+		25,
+		26,
+		29,
+		32,
+		36,
+		39,
+		113,
+		114,
+		4,
+		5,
+		7,
+		17,
+		9,
+		18,
+		10,
+		19,
+		11,
+		30,
+		27,
+		31,
+		28,
+		32,
+		29,
+		15,
+		7,
+		7,
+		4,
+		5,
+		7,
+		17,
+		9,
+		18,
+		10,
+		19,
+		11,
+		30,
+		27,
+		31,
+		28,
+		32,
+		29,
+		15,
+		0,
+		2,
+		3,
+		4,
+		6,
+		7,
+		8,
+		9,
+		17,
+		10,
+		18,
+		11,
+		19,
+		24,
+		12,
+		13,
+		15,
+		20,
+		97,
+		22,
+		25,
+		26,
+		29,
+		32,
+		36,
+		39,
+		113,
+		114,
+		4,
+		5,
+		7,
+		17,
+		9,
+		18,
+		10,
+		19,
+		11,
+		30,
+		27,
+		31,
+		28,
+		32,
+		29,
+		15,
+		7,
+		7,
+		4,
+		5,
+		7,
+		17,
+		9,
+		18,
+		10,
+		19,
+		11,
+		30,
+		27,
+		31,
+		28,
+		32,
+		29,
+		15,
+		0,
+		2,
+		3,
+		4,
+		5,
+		6,
+		7,
+		8,
+		9,
+		17,
+		10,
+		18,
+		11,
+		62,
+		19,
+		96,
+		24,
+		12,
+		13,
+		63,
+		15,
+		20,
+		97,
+		22,
+		25,
+		26,
+		29,
+		32,
+		36,
+		39,
+		113,
+		114,
+		4,
+		5,
+		7,
+		17,
+		9,
+		18,
+		10,
+		19,
+		11,
+		30,
+		27,
+		31,
+		28,
+		32,
+		29,
+		15,
+		7,
+		7,
+		4,
+		5,
+		7,
+		17,
+		9,
+		18,
+		10,
+		19,
+		11,
+		30,
+		27,
+		31,
+		28,
+		32,
+		29,
+		15,
+		0,
+		2,
+		3,
+		4,
+		5,
+		6,
+		7,
+		8,
+		9,
+		17,
+		10,
+		18,
+		11,
+		62,
+		19,
+		96,
+		24,
+		12,
+		13,
+		63,
+		15,
+		20,
+		97,
+		22,
+		25,
+		26,
+		29,
+		32,
+		36,
+		39,
+		113,
+		114,
+		4,
+		5,
+		7,
+		17,
+		9,
+		18,
+		10,
+		19,
+		11,
+		30,
+		27,
+		31,
+		28,
+		32,
+		29,
+		15,
+		7,
+		7,
+		4,
+		5,
+		7,
+		17,
+		9,
+		18,
+		10,
+		19,
+		11,
+		30,
+		27,
+		31,
+		28,
+		32,
+		29,
+		15,
+		0,
+		2,
+		3,
+		4,
+		5,
+		6,
+		7,
+		8,
+		9,
+		17,
+		10,
+		18,
+		11,
+		62,
+		19,
+		96,
+		24,
+		12,
+		13,
+		63,
+		15,
+		20,
+		97,
+		22,
+		25,
+		26,
+		29,
+		32,
+		36,
+		39,
+		113,
+		114,
+		4,
+		5,
+		7,
+		17,
+		9,
+		18,
+		10,
+		19,
+		11,
+		30,
+		27,
+		31,
+		28,
+		32,
+		29,
+		15,
+		7,
+		7,
+		4,
+		5,
+		7,
+		17,
+		9,
+		18,
+		10,
+		19,
+		11,
+		30,
+		27,
+		31,
+		28,
+		32,
+		29,
+		15,
+		0,
+		2,
+		3,
+		4,
+		6,
+		7,
+		8,
+		9,
+		14,
+		17,
+		10,
+		15,
+		18,
+		11,
+		66,
+		19,
+		24,
+		12,
+		13,
+		67,
+		68,
+		69,
+		70,
+		20,
+		22,
+		25,
+		26,
+		29,
+		32,
+		36,
+		39,
+		113,
+		114,
+		4,
+		5,
+		7,
+		17,
+		9,
+		18,
+		10,
+		19,
+		11,
+		30,
+		27,
+		31,
+		28,
+		32,
+		29,
+		15,
+		7,
+		7,
+		4,
+		5,
+		7,
+		17,
+		9,
+		18,
+		10,
+		19,
+		11,
+		30,
+		27,
+		31,
+		28,
+		32,
+		29,
+		15,
+		0,
+		2,
+		3,
+		4,
+		6,
+		7,
+		8,
+		9,
+		14,
+		17,
+		10,
+		15,
+		18,
+		11,
+		66,
+		19,
+		24,
+		12,
+		13,
+		67,
+		68,
+		69,
+		70,
+		20,
+		22,
+		25,
+		26,
+		29,
+		32,
+		36,
+		39,
+		113,
+		114,
+		4,
+		5,
+		7,
+		17,
+		9,
+		18,
+		10,
+		19,
+		11,
+		30,
+		27,
+		31,
+		28,
+		32,
+		29,
+		15,
+		7,
+		7,
+		4,
+		5,
+		7,
+		17,
+		9,
+		18,
+		10,
+		19,
+		11,
+		30,
+		27,
+		31,
+		28,
+		32,
+		29,
+		15,
+		0,
+		2,
+		3,
+		4,
+		6,
+		7,
+		8,
+		9,
+		14,
+		17,
+		10,
+		15,
+		18,
+		11,
+		66,
+		19,
+		24,
+		12,
+		13,
+		67,
+		68,
+		69,
+		70,
+		20,
+		22,
+		25,
+		26,
+		29,
+		32,
+		36,
+		39,
+		113,
+		114,
+		4,
+		5,
+		7,
+		17,
+		9,
+		18,
+		10,
+		19,
+		11,
+		30,
+		27,
+		31,
+		28,
+		32,
+		29,
+		15,
+		7,
+		7,
+		4,
+		5,
+		7,
+		17,
+		9,
+		18,
+		10,
+		19,
+		11,
+		30,
+		27,
+		31,
+		28,
+		32,
+		29,
+		15,
+		0,
+		2,
+		3,
+		4,
+		6,
+		7,
+		8,
+		9,
+		14,
+		17,
+		10,
+		15,
+		18,
+		11,
+		66,
+		19,
+		24,
+		12,
+		13,
+		67,
+		68,
+		69,
+		70,
+		20,
+		22,
+		25,
+		26,
+		29,
+		32,
+		36,
+		39,
+		113,
+		114,
+		4,
+		5,
+		7,
+		17,
+		9,
+		18,
+		10,
+		19,
+		11,
+		30,
+		27,
+		31,
+		28,
+		32,
+		29,
+		15,
+		7,
+		7,
+		4,
+		5,
+		7,
+		17,
+		9,
+		18,
+		10,
+		19,
+		11,
+		30,
+		27,
+		31,
+		28,
+		32,
+		29,
+		15,
+		0,
+		2,
+		3,
+		4,
+		6,
+		7,
+		8,
+		9,
+		14,
+		17,
+		10,
+		15,
+		18,
+		11,
+		66,
+		19,
+		24,
+		12,
+		13,
+		67,
+		68,
+		69,
+		70,
+		20,
+		22,
+		25,
+		26,
+		29,
+		32,
+		36,
+		39,
+		113,
+		114,
+		4,
+		5,
+		7,
+		17,
+		9,
+		18,
+		10,
+		19,
+		11,
+		30,
+		27,
+		31,
+		28,
+		32,
+		29,
+		15,
+		7,
+		7,
+		4,
+		5,
+		7,
+		17,
+		9,
+		18,
+		10,
+		19,
+		11,
+		30,
+		27,
+		31,
+		28,
+		32,
+		29,
+		15,
+		0,
+		2,
+		3,
+		4,
+		6,
+		7,
+		8,
+		9,
+		14,
+		17,
+		10,
+		15,
+		18,
+		11,
+		66,
+		19,
+		24,
+		12,
+		13,
+		67,
+		68,
+		69,
+		70,
+		20,
+		22,
+		25,
+		26,
+		29,
+		32,
+		36,
+		39,
+		113,
+		114,
+		4,
+		5,
+		7,
+		17,
+		9,
+		18,
+		10,
+		19,
+		11,
+		30,
+		27,
+		31,
+		28,
+		32,
+		29,
+		15,
+		7,
+		7,
+		4,
+		5,
+		7,
+		17,
+		9,
+		18,
+		10,
+		19,
+		11,
+		30,
+		27,
+		31,
+		28,
+		32,
+		29,
+		15,
+		0,
+		2,
+		3,
+		4,
+		6,
+		7,
+		8,
+		9,
+		14,
+		17,
+		10,
+		15,
+		18,
+		11,
+		66,
+		19,
+		24,
+		12,
+		13,
+		67,
+		68,
+		69,
+		70,
+		20,
+		22,
+		25,
+		26,
+		29,
+		32,
+		36,
+		39,
+		113,
+		114,
+		4,
+		5,
+		7,
+		17,
+		9,
+		18,
+		10,
+		19,
+		11,
+		30,
+		27,
+		31,
+		28,
+		32,
+		29,
+		15,
+		7,
+		7,
+		4,
+		5,
+		7,
+		17,
+		9,
+		18,
+		10,
+		19,
+		11,
+		30,
+		27,
+		31,
+		28,
+		32,
+		29,
+		15,
+		0,
+		2,
+		3,
+		4,
+		6,
+		7,
+		8,
+		9,
+		14,
+		17,
+		10,
+		15,
+		18,
+		11,
+		66,
+		19,
+		24,
+		12,
+		13,
+		67,
+		68,
+		69,
+		70,
+		20,
+		22,
+		25,
+		26,
+		29,
+		32,
+		36,
+		39,
+		113,
+		114,
+		4,
+		5,
+		7,
+		17,
+		9,
+		18,
+		10,
+		19,
+		11,
+		30,
+		27,
+		31,
+		28,
+		32,
+		29,
+		15,
+		7,
+		7,
+		4,
+		5,
+		7,
+		17,
+		9,
+		18,
+		10,
+		19,
+		11,
+		30,
+		27,
+		31,
+		28,
+		32,
+		29,
+		15,
+		0,
+		2,
+		3,
+		4,
+		6,
+		7,
+		8,
+		9,
+		14,
+		17,
+		10,
+		15,
+		18,
+		11,
+		66,
+		19,
+		24,
+		12,
+		13,
+		67,
+		68,
+		69,
+		70,
+		20,
+		22,
+		25,
+		26,
+		29,
+		32,
+		36,
+		39,
+		113,
+		114,
+		4,
+		5,
+		7,
+		17,
+		9,
+		18,
+		10,
+		19,
+		11,
+		30,
+		27,
+		31,
+		28,
+		32,
+		29,
+		15,
+		7,
+		7,
+		4,
+		5,
+		7,
+		17,
+		9,
+		18,
+		10,
+		19,
+		11,
+		30,
+		27,
+		31,
+		28,
+		32,
+		29,
+		15,
+		0,
+		2,
+		3,
+		4,
+		6,
+		7,
+		8,
+		9,
+		14,
+		17,
+		10,
+		15,
+		18,
+		11,
+		66,
+		19,
+		24,
+		12,
+		13,
+		67,
+		68,
+		69,
+		70,
+		20,
+		22,
+		25,
+		26,
+		29,
+		32,
+		36,
+		39,
+		113,
+		114,
+		4,
+		5,
+		7,
+		17,
+		9,
+		18,
+		10,
+		19,
+		11,
+		30,
+		27,
+		31,
+		28,
+		32,
+		29,
+		15,
+		7,
+		7,
+		4,
+		5,
+		7,
+		17,
+		9,
+		18,
+		10,
+		19,
+		11,
+		30,
+		27,
+		31,
+		28,
+		32,
+		29,
+		15,
+	]
+	m_remappingTableStarts = 
+	[
+		0,
+		135,
+		201,
+		263,
+		327,
+		391,
+		455,
+		519,
+		654,
+		788,
+		920,
+		982,
+		1044,
+		1106,
+		1172,
+		1238,
+		1304,
+		1371,
+		1438,
+		1505,
+		1572,
+		1639,
+		1706,
+		1773,
+		1840,
+		1907,
+	]
+	m_boneFlexDrivers = 
+	[
+	]
+	m_pModelConfigList = 
+	{
+		m_bHideMaterialGroupInTools = true
+		m_bHideRenderColorInTools = true
+		m_Configs = 
+		[
+			
+			{
+				m_ConfigName = "@spawn"
+				m_Elements = 
+				[
+					
+					{
+						_class = "CModelConfigElement_UserPick"
+						m_ElementName = "gas_tank"
+						m_NestedElements = 
+						[
+						]
+						m_Choices = 
+						[
+							"yes_tank",
+							"no_tank",
+						]
+					},
+				]
+				m_bTopLevel = true
+			},
+			
+			{
+				m_ConfigName = "yes_tank"
+				m_Elements = 
+				[
+				]
+				m_bTopLevel = false
+			},
+			
+			{
+				m_ConfigName = "no_tank"
+				m_Elements = 
+				[
+					
+					{
+						_class = "CModelConfigElement_SetBodygroup"
+						m_ElementName = "no_tank"
+						m_NestedElements = 
+						[
+						]
+						m_GroupName = "gas_tank"
+						m_nChoice = 2
+					},
+				]
+				m_bTopLevel = false
+			},
+		]
+	}
+	m_BodyGroupsHiddenInTools = 
+	[
+		"gas_tank",
+		"grenadeholster",
+	]
+}

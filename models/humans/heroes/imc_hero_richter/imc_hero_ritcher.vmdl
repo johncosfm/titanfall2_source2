@@ -1,0 +1,132 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "BodyGroupList"
+				children = 
+				[
+					{
+						_class = "BodyGroup"
+						name = "helmet"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								meshes = [  ]
+							},
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"unnamed_3",
+								]
+							},
+						]
+						hidden_in_tools = false
+					},
+				]
+			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "vil_imc_richter_body_skn_01.vmat"
+								to = "models/humans/heroes/imc_hero_richter/materials/vil_imc_richter_body_skn_01.vmat"
+							},
+							{
+								from = "vil_imc_richter_eyes_clear_skn_01.vmat"
+								to = "models/humans/heroes/mlt_hero_jack/models/humans/heroes/mat/eye_clear.vmat"
+							},
+							{
+								from = "vil_imc_richter_eyes_skn_01.vmat"
+								to = "models/humans/grunts/materials/grunts_imc_eyes.vmat"
+							},
+							{
+								from = "vil_imc_richter_gear_skn_01.vmat"
+								to = "models/humans/heroes/imc_hero_richter/materials/vil_imc_richter_gear_skn_01.vmat"
+							},
+							{
+								from = "vil_imc_richter_head_skn_01.vmat"
+								to = "models/props/grunt_ear/materials/vil_imc_richter_head_skn_01.vmat"
+							},
+							{
+								from = "vil_imc_richter_ghillie_skn_01.vmat"
+								to = "models/humans/heroes/imc_hero_richter/materials/vil_imc_richter_ghillie_skn_01.vmat"
+							},
+							{
+								from = "vil_imc_richter_helmet_skn_01.vmat"
+								to = "models/humans/heroes/imc_hero_richter/materials/vil_imc_richter_helmet_skn_01.vmat"
+							},
+							{
+								from = "vil_imc_richter_jumpkit_skn_01.vmat"
+								to = "models/humans/heroes/imc_hero_richter/materials/vil_imc_richter_jumpkit_skn_01.vmat"
+							},
+							{
+								from = "vil_imc_richter_viewhand_skn_01.vmat"
+								to = "models/humans/heroes/imc_hero_richter/materials/vil_imc_richter_viewhand_skn_01.vmat"
+							},
+							{
+								from = "vil_imc_richter_wig_skn_01.vmat"
+								to = "models/humans/heroes/imc_hero_richter/materials/vil_imc_richter_wig_skn_01.vmat"
+							},
+							{
+								from = "vil_imc_richter_wig_trans_skn_01.vmat"
+								to = "models/humans/heroes/imc_hero_richter/materials/vil_imc_richter_wig_skn_01.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						filename = "models/humans/heroes/imc_hero_richter/imc_hero_ritcher_body_lod0.smd"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						filename = "models/humans/heroes/imc_hero_richter/imc_hero_ritcher_head_lod0.smd"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						filename = "models/humans/heroes/imc_hero_richter/imc_hero_ritcher_helmet_lod0.smd"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+	}
+}
