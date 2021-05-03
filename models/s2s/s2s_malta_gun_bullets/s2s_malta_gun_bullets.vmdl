@@ -15,7 +15,7 @@
 						[
 							{
 								from = "titan_bullet_casing_01.vmat"
-								to = "titan_bullet_casing_01.vmat"
+								to = "models/s2s/s2s_malta_gun_bullets/materials/titan_bullet_casing_01.vmat"
 							},
 						]
 						use_global_default = false

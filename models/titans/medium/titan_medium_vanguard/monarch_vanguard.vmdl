@@ -34,8 +34,8 @@
 								to = "materials/models/titans_r2/medium_vanguard/warpaint/warpaint_01/t_m_vanguard_prime_warpaint_skin01_color.vmat"
 							},
 						]
-						use_global_default = false
-						global_default_material = ""
+						use_global_default = true
+						global_default_material = "materials/particle/hologram_generic.vmat"
 					},
 				]
 			},

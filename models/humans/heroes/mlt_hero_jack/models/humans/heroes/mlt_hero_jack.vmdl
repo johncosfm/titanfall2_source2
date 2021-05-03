@@ -159,6 +159,10 @@
 									"helmet_1",
 								]
 							},
+							{
+								_class = "BodyGroupChoice"
+								meshes = [  ]
+							},
 						]
 						hidden_in_tools = false
 					},
