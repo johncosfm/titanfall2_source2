@@ -1,25 +1,10 @@
 ------------------------------------------------------
 --------------------Extraction Log--------------------
---------------------4/27/2021 8:38:39 AM-------------
+--------------------6/19/2021 5:36:20 PM-------------
 ------------------------------------------------------
 
 
-file:: boomtown_assembly_sky.mdl {
-Extraction Status: Succesful
-};
-
-
-file:: boomtown_assembly_mid_se.mdl {
-Extraction Status: Succesful
-};
-
-
-file:: boomtown_assembly_right.mdl {
-Extraction Status: Succesful
-};
-
-
-file:: boomtown_assembly_highway.mdl {
+file:: wf_platform_4_rail_3.mdl {
 Extraction Status: Succesful
 };
 

@@ -1,0 +1,143 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "t_cockpit_atlas_01.vmat"
+								to = "models/titans/bt_7274/mats/t_cockpit_atlas_01/t_cockpit_atlas_01.vmat"
+							},
+							{
+								from = "t_l_northstar_nose_art_v12.vmat"
+								to = "models/titans/light/titan_northstar_scripted_version/materials/t_l_northstar_nose_art_v10.vmat"
+							},
+							{
+								from = "t_l_northstar_warpaint_skin02.vmat"
+								to = "models/titans/light/titan_light_raptor/materials/t_l_northstar_warpaint_skin05.vmat"
+							},
+							{
+								from = "debugempty.vmat"
+								to = "materials/dev/invis.vmat"
+							},
+							{
+								from = "ivis.vmat"
+								to = "ivis.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						filename = "models/titans/light/titan_northstar_scripted_version/scripted_raptor_titan_hatch_lod0.smd"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						filename = "models/titans/light/titan_northstar_scripted_version/scripted_raptor_titan_torso_lod0.smd"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						filename = "models/titans/light/titan_northstar_scripted_version/sp_raptor_titan_hip_lod0.smd"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						filename = "models/titans/light/titan_northstar_scripted_version/sp_raptor_titan_l_arm_lod0.smd"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						filename = "models/titans/light/titan_northstar_scripted_version/sp_raptor_titan_l_leg_lod0.smd"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						filename = "models/titans/light/titan_northstar_scripted_version/sp_raptor_titan_r_arm_lod0.smd"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						filename = "models/titans/light/titan_northstar_scripted_version/sp_raptor_titan_r_leg_lod0.smd"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						filename = "models/BONES/ja_c_propGun.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						filename = "models/BONES/jx_c_start.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+	}
+}

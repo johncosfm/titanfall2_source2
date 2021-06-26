@@ -277,6 +277,10 @@
 								from = "titan_damaged_limbs.vmat"
 								to = "models/titans/bt_7274/mats/titan_damaged_limbs/titan_damaged_limbs.vmat"
 							},
+							{
+								from = "ivis.vmat"
+								to = "materials/dev/invis.vmat"
+							},
 						]
 						use_global_default = false
 						global_default_material = ""
@@ -485,6 +489,26 @@
 							exception_list = [  ]
 						}
 					},
+					{
+						_class = "RenderMeshFile"
+						filename = "models/BONES/jx_c_start.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						filename = "models/BONES/ja_c_propGun.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
 				]
 			},
 			{
@@ -528,6 +552,346 @@
 						source_filename = "models/titans/bt_7274/run_to_open.dmx"
 						start_frame = -1
 						end_frame = 192
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "bt_timeshift_corpse_search_loop"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/titans/buddy/titan_buddy_scripted_timeshift/titan_buddy_scripted_timeshift_anims/anims/@bt_timeshift_corpse_search_loop.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "bt_hotdrop_skyway"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/titans/buddy/titan_buddy_scripted_skyway/bt_hotdrop_skyway.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "bt_s2s_bridge_punch"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/titans/buddy/titan_buddy_scripted_s2s/bt_s2s_bridge_punch.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "bt_s2s_end_fight_finale"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/titans/buddy/titan_buddy_scripted_s2s/bt_s2s_end_fight_finale.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "bt_s2s_end_fight_start"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/titans/buddy/titan_buddy_scripted_s2s/bt_s2s_end_fight_start.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "BT_wilds_OG_victory"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/titans/buddy/titan_buddy_scripted_wilds/BT_wilds_OG_victory.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "BT_intro_scene_OG"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/titans/buddy/titan_buddy_scripted/BT_intro_scene_OG.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "bt_skyway_reunion_insert"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/titans/buddy/titan_buddy_scripted_skyway/bt_skyway_reunion_insert.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "bt_skyway_reunion_getup"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/titans/buddy/titan_buddy_scripted_skyway/bt_skyway_reunion_getup.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "bt_beacon_approach_a_start"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/titans/buddy/titan_buddy_scripted_beacon/bt_beacon_approach_a_start.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "bt_beacon_approach_a_loop"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/titans/buddy/titan_buddy_scripted_beacon/bt_beacon_approach_a_loop.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "bt_beacon_approach_b_start"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/titans/buddy/titan_buddy_scripted_beacon/bt_beacon_approach_b_start.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "bt_beacon_approach_b_loop"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/titans/buddy/titan_buddy_scripted_beacon/bt_beacon_approach_b_loop.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "bt_beacon_satellite_catch"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/titans/buddy/titan_buddy_scripted_beacon/bt_beacon_satellite_catch.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "bt_beacon_fastball_throw_start"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/titans/buddy/titan_buddy_scripted_beacon/bt_beacon_fastball_throw_start.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "bt_beacon_fastball_throw_idle"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/titans/buddy/titan_buddy_scripted_beacon/bt_beacon_fastball_throw_idle.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "bt_beacon_fastball_throw_end"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/titans/buddy/titan_buddy_scripted_beacon/bt_beacon_fastball_throw_end.fbx"
+						start_frame = -1
+						end_frame = -1
 						framerate = -1.0
 						reverse = false
 					},

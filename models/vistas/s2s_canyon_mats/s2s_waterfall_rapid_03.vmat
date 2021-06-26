@@ -4,9 +4,6 @@ Layer0
 {
 	shader "vr_complex.vfx"
 
-	//---- Animation ----
-	F_FOLIAGE_ANIMATION 4 // Simple Wind
-
 	//---- Rendering ----
 	F_RENDER_BACKFACES 1
 
@@ -29,14 +26,6 @@ Layer0
 
 	//---- Fog ----
 	g_bFogEnabled "1"
-
-	//---- Foliage Animation ----
-	g_bFrondAnimationNormalFacing "0"
-	g_bUseObjectPivot "0"
-	g_flFrondDeflectionEnd "0.001"
-	g_flFrondDeflectionStart "0.000"
-	g_flFrondFlutter "0.052"
-	g_flFrondSpatialIncoherence "1.000"
 
 	//---- Metalness ----
 	g_flMetalness "0.603"

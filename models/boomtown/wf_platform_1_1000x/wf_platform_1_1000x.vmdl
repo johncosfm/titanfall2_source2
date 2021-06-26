@@ -1,0 +1,176 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "ceiling_padded_mendoko.vmat"
+								to = "models/boomtown/wf_platform_1_1000x/materials/ceiling_padded_mendoko.vmat"
+							},
+							{
+								from = "dam_concrete_01_dirty_bm.vmat"
+								to = "models/boomtown/wf_platform_1_1000x/materials/dam_concrete_01_dirty_bm.vmat"
+							},
+							{
+								from = "dirt_forest_ground_01_dirt_mud_01_bm.vmat"
+								to = "models/boomtown/wf_platform_1_1000x/materials/dirt_forest_ground_01_dirt_mud_01_bm.vmat"
+							},
+							{
+								from = "side_frame_tile.vmat"
+								to = "models/boomtown/wf_platform_1_1000x/materials/side_frame_tile.vmat"
+							},
+							{
+								from = "sidewalk_curb_trim_03.vmat"
+								to = "models/boomtown/wf_platform_1_1000x/materials/sidewalk_curb_trim_03.vmat"
+							},
+							{
+								from = "grass_green_long.vmat"
+								to = "models/boomtown/wf_platform_1_1000x/materials/grass_green_long.vmat"
+							},
+							{
+								from = "panel_trim_mendoko.vmat"
+								to = "models/boomtown/wf_platform_1_1000x/materials/panel_trim_mendoko.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+					{
+						_class = "MaterialGroup"
+						name = "concrete"
+						remaps = 
+						[
+							{
+								from = "models/boomtown/wf_platform_1_1000x/materials/grass_green_long.vmat"
+								to = "materials/dev/invis.vmat"
+							},
+							{
+								from = "models/boomtown/wf_platform_1_1000x/materials/dirt_forest_ground_01_dirt_mud_01_bm.vmat"
+								to = "materials/world/concrete/concrete_wall_dirty_02.vmat"
+							},
+						]
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						filename = "models/boomtown/wf_platform_1_1000x/wf_platform_1_dirt_1_lod0.smd"
+						import_scale = 200.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						filename = "models/boomtown/wf_platform_1_1000x/wf_platform_1_grass_1_lod0.smd"
+						import_scale = 200.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						filename = "models/boomtown/wf_platform_1_1000x/wf_platform_1_grass_2_lod0.smd"
+						import_scale = 200.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						filename = "models/boomtown/wf_platform_1_1000x/wf_platform_1_grass_3_lod0.smd"
+						import_scale = 200.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						filename = "models/boomtown/wf_platform_1_1000x/wf_platform_1_grass_4_lod0.smd"
+						import_scale = 200.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						filename = "models/boomtown/wf_platform_1_1000x/wf_platform_1_grass_5_lod0.smd"
+						import_scale = 200.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						filename = "models/boomtown/wf_platform_1_1000x/wf_platform_1_grass_6_lod0.smd"
+						import_scale = 200.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						filename = "models/boomtown/wf_platform_1_1000x/wf_platform_1_grass_7_lod0.smd"
+						import_scale = 200.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						filename = "models/boomtown/wf_platform_1_1000x/wf_platform_1_grass_8_lod0.smd"
+						import_scale = 200.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						filename = "models/boomtown/wf_platform_1_1000x/wf_platform_1_lod0.smd"
+						import_scale = 200.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+	}
+}

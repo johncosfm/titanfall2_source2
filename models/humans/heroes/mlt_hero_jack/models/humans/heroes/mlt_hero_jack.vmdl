@@ -89,16 +89,6 @@
 				[
 					{
 						_class = "RenderMeshFile"
-						filename = "models/humans/heroes/mlt_hero_jack/models/humans/heroes/w_mlt_hero_jack_body_lod0.smd"
-						import_scale = 1.0
-						import_filter = 
-						{
-							exclude_by_default = false
-							exception_list = [  ]
-						}
-					},
-					{
-						_class = "RenderMeshFile"
 						filename = "models/humans/heroes/mlt_hero_jack/models/humans/heroes/w_mlt_hero_jack_head_lod0.smd"
 						import_scale = 1.0
 						import_filter = 
@@ -131,11 +121,11 @@
 					},
 					{
 						_class = "RenderMeshFile"
-						filename = "models/humans/heroes/mlt_hero_jack/models/humans/heroes/w_pete_mri.smd"
+						filename = "models/humans/heroes/mlt_hero_jack/models/humans/heroes/w_mlt_hero_jack_body_lod0.smd"
 						import_scale = 1.0
 						import_filter = 
 						{
-							exclude_by_default = true
+							exclude_by_default = false
 							exception_list = [  ]
 						}
 					},

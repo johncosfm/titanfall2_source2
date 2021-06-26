@@ -7,7 +7,7 @@
 			_class = "CCurvesColorCorrectionLayer"
 			m_name = "Curves 0"
 			m_nOpacityPercent = 100
-			m_bVisible = true
+			m_bVisible = false
 			m_pLayerMask = null
 			m_curvePointsRGB = 
 			[
@@ -45,7 +45,7 @@
 				m_flBloomStrength = 10.0
 				m_flScreenBloomStrength = 1.0
 				m_flBlurBloomStrength = 1.0
-				m_flBloomThreshold = 1.591
+				m_flBloomThreshold = 1.534
 				m_flBloomThresholdWidth = 0.0
 				m_flSkyboxBloomStrength = 1.0
 				m_flBloomStartValue = 1.0

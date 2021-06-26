@@ -2,46 +2,60 @@
 
 Layer0
 {
-	shader "vr_monitor.vfx"
+	shader "vr_complex.vfx"
+
+	//---- PBR ----
+	F_SELF_ILLUM 1
 
 	//---- Translucent ----
-	F_ADDITIVE_BLEND_OVER_ALPHA 1
+	F_ADDITIVE_BLEND 1
+	F_TRANSLUCENT 1
 
-	//---- Additive Blend Over Alpha ----
-	g_flAlphaOutputMaximum "21.121"
-	g_flAlphaOutputMinimum "0.000"
+	//---- Ambient Occlusion ----
+	g_flAmbientOcclusionDirectDiffuse "0.000"
+	g_flAmbientOcclusionDirectSpecular "0.000"
+	TextureAmbientOcclusion "materials/default/default_ao.tga"
 
-	//---- Chromatic Abberation ----
-	g_flBlueShift "0.000"
-	g_flGreenShift "0.000"
-	g_flJitterSpeed "1.700"
-	g_flRedShift "0.000"
-	TextureJitterControl "materials/default/default.tga"
-
-	//---- Contrast ----
-	TextureContrastControl "models/vistas/boomtown_endless_assembly_se/materials/boomtown_endless_lights_blink/boomtown_endless_lights_blink_control.png"
-
-	//---- Display ----
-	g_flFilmGrainStrength "0.500"
-	g_flTexCoordOffsetU "0.000"
-	g_flTexCoordOffsetV "0.000"
-	g_flTintScale "4.000"
+	//---- Color ----
+	g_flModelTintAmount "1.000"
 	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
-	g_vScanlineTextureOffset "[0.000 0.000]"
-	g_vTexCoordScale "[1.000 1.000]"
-	ScanlineDistortion "[0.498039 0.498039 0.498039 0.000000]"
 	TextureColor "models/vistas/boomtown_endless_assembly_se/materials/boomtown_endless_lights_blink/boomtown_endless_lights_blink_color.png"
-	TextureFilmGrain "materials/workshop_examples/monitor/jitter_control.tga"
-	TextureScanlines "materials/default/default_color.tga"
-	TextureVignette "materials/default/default.tga"
 
-	//---- Specular ----
-	g_flReflectionStrength "10.000"
-	g_fSpecularRoughness "0.350"
-	SpecularDirt "materials/default/default_normal.tga"
-	SpecularDistortion "materials/default/default_normal.tga"
+	//---- Fade ----
+	g_flFadeExponent "1.000"
 
-	//---- VSYNC ----
-	g_flVSYNCJumpScale "0.000"
-	VSyncControl "materials/default/default.tga"
+	//---- Fog ----
+	g_bFogEnabled "1"
+
+	//---- Lighting ----
+	g_flDirectionalLightmapMinZ "0.050"
+	g_flDirectionalLightmapStrength "1.000"
+
+	//---- Metalness ----
+	g_flMetalness "0.000"
+
+	//---- Normal ----
+	TextureNormal "materials/default/default_normal.tga"
+
+	//---- Roughness ----
+	TextureRoughness "materials/default/default_rough.tga"
+
+	//---- Self Illum ----
+	g_flSelfIllumAlbedoFactor "1.000"
+	g_flSelfIllumBrightness "7.647"
+	g_flSelfIllumScale "1.000"
+	g_vSelfIllumScrollSpeed "[0.000 0.000]"
+	g_vSelfIllumTint "[1.000000 1.000000 1.000000 0.000000]"
+	TextureSelfIllumMask "models/vistas/boomtown_endless_assembly_se/materials/boomtown_endless_lights_blink/boomtown_endless_lights_blink_color.png"
+
+	//---- Texture Coordinates ----
+	g_nScaleTexCoordUByModelScaleAxis "0"
+	g_nScaleTexCoordVByModelScaleAxis "0"
+	g_vTexCoordOffset "[0.000 0.000]"
+	g_vTexCoordScale "[1.000 1.000]"
+	g_vTexCoordScrollSpeed "[0.000 0.000]"
+
+	//---- Translucent ----
+	g_flOpacityScale "1.000"
+	TextureTranslucency "materials/default/default_trans.tga"
 }

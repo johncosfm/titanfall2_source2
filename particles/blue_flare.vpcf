@@ -392,6 +392,7 @@
 			m_nFeatheringMode = "PARTICLE_DEPTH_FEATHERING_ON_OPTIONAL"
 			m_flOverbrightFactor = 10.0
 			m_hTexture = resource:"materials/particle/particle_flares/particle_flare_009.vtex"
+			m_bDisableOperator = true
 		},
 	]
 	m_Initializers = 

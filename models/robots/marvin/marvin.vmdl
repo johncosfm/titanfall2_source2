@@ -29,6 +29,10 @@
 								from = "rbt_marvin_v1_chassis_top_skn_01.vmat"
 								to = "models/robots/marvin/materials/rbt_marvin_v1_chassis_top_skn_01.vmat"
 							},
+							{
+								from = "ivis.vmat"
+								to = "materials/dev/invis.vmat"
+							},
 						]
 						use_global_default = false
 						global_default_material = ""
@@ -70,7 +74,94 @@
 							exception_list = [  ]
 						}
 					},
+					{
+						_class = "RenderMeshFile"
+						filename = "models/humans/jx_c_start.fbx"
+						import_scale = 0.01
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						filename = "models/BONES/ja_c_propGun.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
 				]
+			},
+			{
+				_class = "AnimationList"
+				children = 
+				[
+					{
+						_class = "AnimFile"
+						name = "mv_marvin_CPRkill_skit"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/robots/marvin/anims/@mv_marvin_CPRkill_skit.smd"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "mv_combatscene"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/robots/marvin/anims/mv_combatscene.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "mv_killer_spin"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/robots/marvin/anims/@mv_killer_spin.smd"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+				]
+				default_root_bone_name = ""
 			},
 		]
 		model_archetype = ""

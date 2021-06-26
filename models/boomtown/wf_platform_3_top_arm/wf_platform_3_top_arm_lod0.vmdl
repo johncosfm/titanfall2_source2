@@ -1,0 +1,87 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "beacon_vent_trim_01.vmat"
+								to = "models/boomtown/wf_platform_3_top_arm/materials/beacon_vent_trim_01.vmat"
+							},
+							{
+								from = "boomtown_int_trims_01.vmat"
+								to = "models/props/titan_rack/materials/boomtown_int_trims_01.vmat"
+							},
+							{
+								from = "fs_panel_arm_01.vmat"
+								to = "models/boomtown/wf_platform_3_top_arm/materials/fs_panel_arm_01.vmat"
+							},
+							{
+								from = "rubber_tile_01.vmat"
+								to = "models/boomtown/wf_platform_3_top_arm/materials/rubber_tile_01.vmat"
+							},
+							{
+								from = "stasis_trim_01.vmat"
+								to = "models/levels_terrain/sp_tday/tday_intro_baydoor/materials/stasis_trim_01.vmat"
+							},
+							{
+								from = "wf_floating_greeble_01.vmat"
+								to = "models/boomtown/wf_platform_3_top_arm/materials/wf_floating_greeble_01.vmat"
+							},
+							{
+								from = "wf_kodex_01.vmat"
+								to = "models/boomtown/wf_platform_3_top_arm/materials/wf_kodex_01.vmat"
+							},
+							{
+								from = "wf_painted_metal_01_black.vmat"
+								to = "models/props/titan_rack/materials/wf_painted_metal_01_black.vmat"
+							},
+							{
+								from = "wf_painted_metal_01_blue.vmat"
+								to = "models/boomtown/wf_platform_3_top_arm/materials/wf_painted_metal_01_blue.vmat"
+							},
+							{
+								from = "wf_painted_metal_01_orange.vmat"
+								to = "models/boomtown/wf_platform_3_top_arm/materials/wf_painted_metal_01_orange.vmat"
+							},
+							{
+								from = "wf_painted_metal_01_white.vmat"
+								to = "models/boomtown/wf_platform_3_top_arm/materials/wf_painted_metal_01_white.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						filename = "models/boomtown/wf_platform_3_top_arm/wf_platform_3_top_arm_lod0.smd"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+	}
+}

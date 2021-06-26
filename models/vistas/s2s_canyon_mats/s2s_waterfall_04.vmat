@@ -45,6 +45,6 @@ Layer0
 	g_vTexCoordScrollSpeed "[-0.060 0.000]"
 
 	//---- Translucent ----
-	g_flOpacityScale "1.000"
+	g_flOpacityScale "0.045"
 	TextureTranslucency "models/vistas/s2s_canyon_mats/s2s_waterfall_04/s2s_waterfall_04_trans.png"
 }

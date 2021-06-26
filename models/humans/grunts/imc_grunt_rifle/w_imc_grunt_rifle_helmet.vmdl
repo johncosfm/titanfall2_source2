@@ -37,6 +37,10 @@
 								from = "grunts_imc_eyes.vmat"
 								to = "models/humans/grunts/materials/grunts_imc_eyes.vmat"
 							},
+							{
+								from = "ivis.vmat"
+								to = "materials/dev/invis.vmat"
+							},
 						]
 						use_global_default = false
 						global_default_material = ""
@@ -86,7 +90,314 @@
 							exception_list = [  ]
 						}
 					},
+					{
+						_class = "RenderMeshFile"
+						filename = "models/humans/jx_c_start.fbx"
+						import_scale = 0.01
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						filename = "models/BONES/ja_c_propGun.fbx"
+						import_scale = 0.1
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
 				]
+			},
+			{
+				_class = "AnimationList"
+				children = 
+				[
+					{
+						_class = "AnimFile"
+						name = "pt_ghost_C_scene"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/humans/pete/pete_scripted_timeshift/pt_ghost_C_scene.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "pt_brawl_A_skit_preidle"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/humans/pete/pete_skits/pt_brawl_A_skit_preidle.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "pt_brawl_A_skit"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/humans/pete/pete_skits/pt_brawl_A_skit.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "pt_brawl_B_skit_preidle"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/humans/pete/pete_skits/pt_brawl_B_skit_preidle.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "pt_brawl_B_skit"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/humans/pete/pete_skits/pt_brawl_B_skit.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "pt_brawl_C_skit_preidle"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/humans/pete/pete_skits/pt_brawl_C_skit_preidle.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "pt_brawl_C_skit"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/humans/pete/pete_skits/pt_brawl_C_skit.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "pt_wounded_carry_zinger_A"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/humans/pete/pete_skits/pt_wounded_carry_zinger_A.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "pt_wounded_carry_zinger_A_preidle"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/humans/pete/pete_skits/pt_wounded_carry_zinger_A_preidle.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "pt_wounded_carry_zinger_B"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/humans/pete/pete_skits/pt_wounded_carry_zinger_B.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "pt_wounded_carry_zinger_B_preidle"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/humans/pete/pete_skits/pt_wounded_carry_zinger_B_preidle.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "pt_marvin_CPRkill_skit"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/humans/pete/pete_skits/pt_marvin_CPRkill_skit.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "pt_walk_death_forward_fetal"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/humans/pete/pete_reations/pt_walk_death_forward_fetal.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "pt_Pistol_ADS_Walk_Forward"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/humans/pete/pete_core/pt_Pistol_ADS_Walk_Forward.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+				]
+				default_root_bone_name = ""
 			},
 		]
 		model_archetype = ""

@@ -39,10 +39,10 @@ Layer0
 
 	//---- Self Illum ----
 	g_flSelfIllumAlbedoFactor "0.000"
-	g_flSelfIllumBrightness "3.000"
+	g_flSelfIllumBrightness "8.000"
 	g_flSelfIllumScale "1.000"
 	g_vSelfIllumScrollSpeed "[0.000 0.000]"
-	g_vSelfIllumTint "[1.000000 1.000000 1.000000 0.000000]"
+	g_vSelfIllumTint "[1.000000 0.000000 0.000000 0.000000]"
 	TextureSelfIllumMask "models/humans/grunts/imc_grunt_rifle/materials/grt_imc_gear_rif_skn_01/grt_imc_gear_rif_skn_01_selfillum.png"
 
 	//---- Texture Coordinates ----
