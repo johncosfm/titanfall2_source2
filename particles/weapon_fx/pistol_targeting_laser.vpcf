@@ -32,10 +32,9 @@
 		{
 			_class = "C_OP_Noise"
 			m_nFieldOutput = "16"
-			m_flOutputMin = -0.65
+			m_flOutputMin = -0.5
 			m_fl4NoiseScale = 0.075
 			m_flNoiseAnimationTimeScale = 0.1
-			m_flOutputMax = 0.4
 		},
 		{
 			_class = "C_OP_PercentageBetweenCPs"
@@ -87,13 +86,45 @@
 			m_nMaxTesselation = 10
 			m_flTextureVWorldSize = 50.0
 			m_flTextureVScrollRate = -5.0
-			m_flRadiusScale = 5.0
+			m_flRadiusScale = 
+			{
+				m_nType = "PF_TYPE_LITERAL"
+				m_nMapType = "PF_MAP_TYPE_DIRECT"
+				m_flLiteralValue = 2.0
+				m_nControlPoint = 0
+				m_nScalarAttribute = 3
+				m_nVectorAttribute = 6
+				m_nVectorComponent = 0
+				m_flRandomMin = 0.0
+				m_flRandomMax = 1.0
+				m_nRandomMode = "PF_RANDOM_MODE_CONSTANT"
+				m_flLOD0 = 0.0
+				m_flLOD1 = 0.0
+				m_flLOD2 = 0.0
+				m_flLOD3 = 0.0
+				m_nInputMode = "PF_INPUT_MODE_CLAMPED"
+				m_flMultFactor = 1.0
+				m_flInput0 = 0.0
+				m_flInput1 = 1.0
+				m_flOutput0 = 0.0
+				m_flOutput1 = 1.0
+				m_nBiasType = "PF_BIAS_TYPE_STANDARD"
+				m_flBiasParameter = 0.0
+				m_Curve = 
+				{
+					m_spline = [  ]
+					m_tangents = [  ]
+					m_vDomainMins = [ 0.0, 0.0 ]
+					m_vDomainMaxs = [ 0.0, 0.0 ]
+				}
+			}
 			m_flAnimationRate = 0.0
 			m_flSelfIllumAmount = 1.0
 			m_flDiffuseAmount = 0.0
 			m_bAdditive = true
 			m_hTexture = resource:"materials/particle/beam_smoke_01.vtex"
 			m_flTessScale = 10.0
+			m_flOverbrightFactor = 5.0
 		},
 		{
 			_class = "C_OP_RenderRopes"
@@ -164,6 +195,7 @@
 			m_bAdditive = true
 			m_bOnlyRenderInEffectsBloomPass = true
 			m_hTexture = resource:"materials/particle/beam_hotwhite.vtex"
+			m_flOverbrightFactor = 5.0
 		},
 	]
 	m_Initializers = 
@@ -226,7 +258,6 @@
 	[
 		{
 			m_ChildRef = resource:"particles/weapon_fx/pistol_targeting_laser_end.vpcf"
-			m_bDisableChild = true
 		},
 		{
 			m_ChildRef = resource:"particles/weapon_fx/pistol_targeting_laser_smoke.vpcf"
@@ -236,7 +267,6 @@
 		},
 		{
 			m_ChildRef = resource:"particles/weapon_fx/pistol_targeting_laser_start.vpcf"
-			m_bDisableChild = true
 		},
 		{
 			m_ChildRef = resource:"particles/weapon_fx/pistol_targeting_laser_start_ss.vpcf"
