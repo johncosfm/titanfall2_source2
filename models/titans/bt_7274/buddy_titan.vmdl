@@ -279,11 +279,22 @@
 							},
 							{
 								from = "ivis.vmat"
-								to = "materials/dev/invis.vmat"
+								to = "materials/tools/toolsskip.vmat"
 							},
 						]
 						use_global_default = false
 						global_default_material = ""
+					},
+					{
+						_class = "MaterialGroup"
+						name = "notbt"
+						remaps = 
+						[
+							{
+								from = "models/titans/bt_7274/mats/bt_decal_02/bt_decal_02.vmat"
+								to = "materials/tools/toolsinvisible.vmat"
+							},
+						]
 					},
 				]
 			},
@@ -515,26 +526,6 @@
 				_class = "AnimationList"
 				children = 
 				[
-					{
-						_class = "AnimFile"
-						name = "idle"
-						activity_name = ""
-						activity_weight = 1
-						weight_list_name = ""
-						fade_in_time = 0.2
-						fade_out_time = 0.2
-						looping = true
-						delta = false
-						worldSpace = false
-						hidden = false
-						anim_markup_ordered = false
-						disable_compression = false
-						source_filename = "models/titans/bt_7274/idle.dmx"
-						start_frame = -1
-						end_frame = 48
-						framerate = -1.0
-						reverse = false
-					},
 					{
 						_class = "AnimFile"
 						name = "run_to_open"

@@ -82,6 +82,547 @@
 					},
 				]
 			},
+			{
+				_class = "GameDataList"
+				children = 
+				[
+					{
+						_class = "Folder"
+						name = "skids"
+						children = 
+						[
+							{
+								_class = "GenericGameData"
+								game_class = "ao_proxy_box"
+								game_keys = 
+								{
+									bonename = "def_c_skid"
+									dimensions = [ 37.0, 4.0, 54.0 ]
+									offset_origin = [ 5.0, -6.5, 0.0 ]
+									offset_angles = [ 0.0, 0.0, 0.0 ]
+								}
+							},
+							{
+								_class = "GenericGameData"
+								game_class = "ao_proxy_box"
+								game_keys = 
+								{
+									bonename = "def_c_skid"
+									dimensions = [ 37.0, 4.0, 54.0 ]
+									offset_origin = [ 40.7278, -2.69437, -0.000198 ]
+									offset_angles = [ -0.001853, 13.3079, 0.000055 ]
+								}
+							},
+							{
+								_class = "GenericGameData"
+								game_class = "ao_proxy_box"
+								game_keys = 
+								{
+									bonename = "def_l_skid"
+									dimensions = [ 20.0, 4.0, 7.0 ]
+									offset_origin = [ 35.0617, -4.17444, -9.07021 ]
+									offset_angles = [ 0.001347, 14.728, -0.001454 ]
+								}
+							},
+							{
+								_class = "GenericGameData"
+								game_class = "ao_proxy_box"
+								game_keys = 
+								{
+									bonename = "def_l_skid"
+									dimensions = [ 48.7082, 4.0, 32.7906 ]
+									offset_origin = [ -0.450792, -6.49764, -0.00025 ]
+									offset_angles = [ 0.0, 0.0, 0.0 ]
+								}
+							},
+							{
+								_class = "GenericGameData"
+								game_class = "ao_proxy_box"
+								game_keys = 
+								{
+									bonename = "def_l_skid"
+									dimensions = [ 10.0, 4.0, 32.7906 ]
+									offset_origin = [ -27.5316, -5.53533, -0.000566 ]
+									offset_angles = [ 0.001483, -18.4841, 0.000029 ]
+								}
+							},
+							{
+								_class = "GenericGameData"
+								game_class = "ao_proxy_box"
+								game_keys = 
+								{
+									bonename = "def_r_skid"
+									dimensions = [ 10.0, 4.0, 32.7906 ]
+									offset_origin = [ 27.0715, 5.90265, -1.42498 ]
+									offset_angles = [ 0.001483, -18.4841, 0.000029 ]
+								}
+							},
+							{
+								_class = "GenericGameData"
+								game_class = "ao_proxy_box"
+								game_keys = 
+								{
+									bonename = "def_r_skid"
+									dimensions = [ 48.7082, 4.0, 32.7906 ]
+									offset_origin = [ -0.36088, 7.06896, -0.162183 ]
+									offset_angles = [ 0.0, 0.0, 0.0 ]
+								}
+							},
+							{
+								_class = "GenericGameData"
+								game_class = "ao_proxy_box"
+								game_keys = 
+								{
+									bonename = "def_r_skid"
+									dimensions = [ 20.0, 4.0, 7.0 ]
+									offset_origin = [ -34.4721, 4.40033, -8.94716 ]
+									offset_angles = [ 0.001347, 14.728, -0.001454 ]
+								}
+							},
+							{
+								_class = "GenericGameData"
+								game_class = "ao_proxy_box"
+								game_keys = 
+								{
+									bonename = "def_r_skid"
+									dimensions = [ 20.0, 4.0, 7.0 ]
+									offset_origin = [ -34.0514, 4.61012, 8.86292 ]
+									offset_angles = [ 0.001347, 14.728, -0.001454 ]
+								}
+							},
+							{
+								_class = "GenericGameData"
+								game_class = "ao_proxy_box"
+								game_keys = 
+								{
+									bonename = "def_l_skid"
+									dimensions = [ 20.0, 4.0, 7.0 ]
+									offset_origin = [ 35.0628, -4.17694, 8.89217 ]
+									offset_angles = [ 0.001347, 14.728, -0.001454 ]
+								}
+							},
+							{
+								_class = "GenericGameData"
+								name = "_copy"
+								game_class = "ao_proxy_box"
+								game_keys = 
+								{
+									bonename = "def_c_skid"
+									dimensions = [ 37.0, 4.0, 54.0 ]
+									offset_origin = [ 5.0, -6.5, 0.0 ]
+									offset_angles = [ 0.0, 0.0, 0.0 ]
+								}
+							},
+							{
+								_class = "GenericGameData"
+								name = "_copy1"
+								game_class = "ao_proxy_box"
+								game_keys = 
+								{
+									bonename = "def_c_skid"
+									dimensions = [ 37.0, 4.0, 54.0 ]
+									offset_origin = [ 40.7278, -2.69437, -0.000198 ]
+									offset_angles = [ -0.001853, 13.3079, 0.000055 ]
+								}
+							},
+							{
+								_class = "GenericGameData"
+								name = "_copy2"
+								game_class = "ao_proxy_box"
+								game_keys = 
+								{
+									bonename = "def_l_skid"
+									dimensions = [ 20.0, 4.0, 7.0 ]
+									offset_origin = [ 35.0617, -4.17444, -9.07021 ]
+									offset_angles = [ 0.001347, 14.728, -0.001454 ]
+								}
+							},
+							{
+								_class = "GenericGameData"
+								name = "_copy3"
+								game_class = "ao_proxy_box"
+								game_keys = 
+								{
+									bonename = "def_l_skid"
+									dimensions = [ 48.7082, 4.0, 32.7906 ]
+									offset_origin = [ -0.450792, -6.49764, -0.00025 ]
+									offset_angles = [ 0.0, 0.0, 0.0 ]
+								}
+							},
+							{
+								_class = "GenericGameData"
+								name = "_copy4"
+								game_class = "ao_proxy_box"
+								game_keys = 
+								{
+									bonename = "def_l_skid"
+									dimensions = [ 10.0, 4.0, 32.7906 ]
+									offset_origin = [ -27.5316, -5.53533, -0.000566 ]
+									offset_angles = [ 0.001483, -18.4841, 0.000029 ]
+								}
+							},
+							{
+								_class = "GenericGameData"
+								name = "_copy5"
+								game_class = "ao_proxy_box"
+								game_keys = 
+								{
+									bonename = "def_r_skid"
+									dimensions = [ 10.0, 4.0, 32.7906 ]
+									offset_origin = [ 27.0715, 5.90265, -1.42498 ]
+									offset_angles = [ 0.001483, -18.4841, 0.000029 ]
+								}
+							},
+							{
+								_class = "GenericGameData"
+								name = "_copy6"
+								game_class = "ao_proxy_box"
+								game_keys = 
+								{
+									bonename = "def_r_skid"
+									dimensions = [ 48.7082, 4.0, 32.7906 ]
+									offset_origin = [ -0.36088, 7.06896, -0.162183 ]
+									offset_angles = [ 0.0, 0.0, 0.0 ]
+								}
+							},
+							{
+								_class = "GenericGameData"
+								name = "_copy7"
+								game_class = "ao_proxy_box"
+								game_keys = 
+								{
+									bonename = "def_r_skid"
+									dimensions = [ 20.0, 4.0, 7.0 ]
+									offset_origin = [ -34.4721, 4.40033, -8.94716 ]
+									offset_angles = [ 0.001347, 14.728, -0.001454 ]
+								}
+							},
+							{
+								_class = "GenericGameData"
+								name = "_copy8"
+								game_class = "ao_proxy_box"
+								game_keys = 
+								{
+									bonename = "def_r_skid"
+									dimensions = [ 20.0, 4.0, 7.0 ]
+									offset_origin = [ -34.0514, 4.61012, 8.86292 ]
+									offset_angles = [ 0.001347, 14.728, -0.001454 ]
+								}
+							},
+							{
+								_class = "GenericGameData"
+								name = "_copy9"
+								game_class = "ao_proxy_box"
+								game_keys = 
+								{
+									bonename = "def_l_skid"
+									dimensions = [ 20.0, 4.0, 7.0 ]
+									offset_origin = [ 35.0628, -4.17694, 8.89217 ]
+									offset_angles = [ 0.001347, 14.728, -0.001454 ]
+								}
+							},
+							{
+								_class = "GenericGameData"
+								name = "_copy_copy"
+								game_class = "ao_proxy_box"
+								game_keys = 
+								{
+									bonename = "def_c_skid"
+									dimensions = [ 37.0, 4.0, 54.0 ]
+									offset_origin = [ 5.0, -6.5, 0.0 ]
+									offset_angles = [ 0.0, 0.0, 0.0 ]
+								}
+							},
+							{
+								_class = "GenericGameData"
+								name = "_copy1_copy"
+								game_class = "ao_proxy_box"
+								game_keys = 
+								{
+									bonename = "def_c_skid"
+									dimensions = [ 37.0, 4.0, 54.0 ]
+									offset_origin = [ 40.7278, -2.69437, -0.000198 ]
+									offset_angles = [ -0.001853, 13.3079, 0.000055 ]
+								}
+							},
+							{
+								_class = "GenericGameData"
+								name = "_copy2_copy"
+								game_class = "ao_proxy_box"
+								game_keys = 
+								{
+									bonename = "def_l_skid"
+									dimensions = [ 20.0, 4.0, 7.0 ]
+									offset_origin = [ 35.0617, -4.17444, -9.07021 ]
+									offset_angles = [ 0.001347, 14.728, -0.001454 ]
+								}
+							},
+							{
+								_class = "GenericGameData"
+								name = "_copy3_copy"
+								game_class = "ao_proxy_box"
+								game_keys = 
+								{
+									bonename = "def_l_skid"
+									dimensions = [ 48.7082, 4.0, 32.7906 ]
+									offset_origin = [ -0.450792, -6.49764, -0.00025 ]
+									offset_angles = [ 0.0, 0.0, 0.0 ]
+								}
+							},
+							{
+								_class = "GenericGameData"
+								name = "_copy4_copy"
+								game_class = "ao_proxy_box"
+								game_keys = 
+								{
+									bonename = "def_l_skid"
+									dimensions = [ 10.0, 4.0, 32.7906 ]
+									offset_origin = [ -27.5316, -5.53533, -0.000566 ]
+									offset_angles = [ 0.001483, -18.4841, 0.000029 ]
+								}
+							},
+							{
+								_class = "GenericGameData"
+								name = "_copy5_copy"
+								game_class = "ao_proxy_box"
+								game_keys = 
+								{
+									bonename = "def_r_skid"
+									dimensions = [ 10.0, 4.0, 32.7906 ]
+									offset_origin = [ 27.0715, 5.90265, -1.42498 ]
+									offset_angles = [ 0.001483, -18.4841, 0.000029 ]
+								}
+							},
+							{
+								_class = "GenericGameData"
+								name = "_copy6_copy"
+								game_class = "ao_proxy_box"
+								game_keys = 
+								{
+									bonename = "def_r_skid"
+									dimensions = [ 48.7082, 4.0, 32.7906 ]
+									offset_origin = [ -0.36088, 7.06896, -0.162183 ]
+									offset_angles = [ 0.0, 0.0, 0.0 ]
+								}
+							},
+							{
+								_class = "GenericGameData"
+								name = "_copy7_copy"
+								game_class = "ao_proxy_box"
+								game_keys = 
+								{
+									bonename = "def_r_skid"
+									dimensions = [ 20.0, 4.0, 7.0 ]
+									offset_origin = [ -34.4721, 4.40033, -8.94716 ]
+									offset_angles = [ 0.001347, 14.728, -0.001454 ]
+								}
+							},
+							{
+								_class = "GenericGameData"
+								name = "_copy8_copy"
+								game_class = "ao_proxy_box"
+								game_keys = 
+								{
+									bonename = "def_r_skid"
+									dimensions = [ 20.0, 4.0, 7.0 ]
+									offset_origin = [ -34.0514, 4.61012, 8.86292 ]
+									offset_angles = [ 0.001347, 14.728, -0.001454 ]
+								}
+							},
+							{
+								_class = "GenericGameData"
+								name = "_copy9_copy"
+								game_class = "ao_proxy_box"
+								game_keys = 
+								{
+									bonename = "def_l_skid"
+									dimensions = [ 20.0, 4.0, 7.0 ]
+									offset_origin = [ 35.0628, -4.17694, 8.89217 ]
+									offset_angles = [ 0.001347, 14.728, -0.001454 ]
+								}
+							},
+							{
+								_class = "GenericGameData"
+								name = "_copy_copy_copy"
+								game_class = "ao_proxy_box"
+								game_keys = 
+								{
+									bonename = "def_c_skid"
+									dimensions = [ 37.0, 4.0, 54.0 ]
+									offset_origin = [ 5.0, -6.5, 0.0 ]
+									offset_angles = [ 0.0, 0.0, 0.0 ]
+								}
+							},
+							{
+								_class = "GenericGameData"
+								name = "_copy1_copy_copy"
+								game_class = "ao_proxy_box"
+								game_keys = 
+								{
+									bonename = "def_c_skid"
+									dimensions = [ 37.0, 4.0, 54.0 ]
+									offset_origin = [ 40.7278, -2.69437, -0.000198 ]
+									offset_angles = [ -0.001853, 13.3079, 0.000055 ]
+								}
+							},
+							{
+								_class = "GenericGameData"
+								name = "_copy2_copy_copy"
+								game_class = "ao_proxy_box"
+								game_keys = 
+								{
+									bonename = "def_l_skid"
+									dimensions = [ 20.0, 4.0, 7.0 ]
+									offset_origin = [ 35.0617, -4.17444, -9.07021 ]
+									offset_angles = [ 0.001347, 14.728, -0.001454 ]
+								}
+							},
+							{
+								_class = "GenericGameData"
+								name = "_copy3_copy_copy"
+								game_class = "ao_proxy_box"
+								game_keys = 
+								{
+									bonename = "def_l_skid"
+									dimensions = [ 48.7082, 4.0, 32.7906 ]
+									offset_origin = [ -0.450792, -6.49764, -0.00025 ]
+									offset_angles = [ 0.0, 0.0, 0.0 ]
+								}
+							},
+							{
+								_class = "GenericGameData"
+								name = "_copy4_copy_copy"
+								game_class = "ao_proxy_box"
+								game_keys = 
+								{
+									bonename = "def_l_skid"
+									dimensions = [ 10.0, 4.0, 32.7906 ]
+									offset_origin = [ -27.5316, -5.53533, -0.000566 ]
+									offset_angles = [ 0.001483, -18.4841, 0.000029 ]
+								}
+							},
+							{
+								_class = "GenericGameData"
+								name = "_copy5_copy_copy"
+								game_class = "ao_proxy_box"
+								game_keys = 
+								{
+									bonename = "def_r_skid"
+									dimensions = [ 10.0, 4.0, 32.7906 ]
+									offset_origin = [ 27.0715, 5.90265, -1.42498 ]
+									offset_angles = [ 0.001483, -18.4841, 0.000029 ]
+								}
+							},
+							{
+								_class = "GenericGameData"
+								name = "_copy6_copy_copy"
+								game_class = "ao_proxy_box"
+								game_keys = 
+								{
+									bonename = "def_r_skid"
+									dimensions = [ 48.7082, 4.0, 32.7906 ]
+									offset_origin = [ -0.36088, 7.06896, -0.162183 ]
+									offset_angles = [ 0.0, 0.0, 0.0 ]
+								}
+							},
+							{
+								_class = "GenericGameData"
+								name = "_copy7_copy_copy"
+								game_class = "ao_proxy_box"
+								game_keys = 
+								{
+									bonename = "def_r_skid"
+									dimensions = [ 20.0, 4.0, 7.0 ]
+									offset_origin = [ -34.4721, 4.40033, -8.94716 ]
+									offset_angles = [ 0.001347, 14.728, -0.001454 ]
+								}
+							},
+							{
+								_class = "GenericGameData"
+								name = "_copy8_copy_copy"
+								game_class = "ao_proxy_box"
+								game_keys = 
+								{
+									bonename = "def_r_skid"
+									dimensions = [ 20.0, 4.0, 7.0 ]
+									offset_origin = [ -34.0514, 4.61012, 8.86292 ]
+									offset_angles = [ 0.001347, 14.728, -0.001454 ]
+								}
+							},
+							{
+								_class = "GenericGameData"
+								name = "_copy9_copy_copy"
+								game_class = "ao_proxy_box"
+								game_keys = 
+								{
+									bonename = "def_l_skid"
+									dimensions = [ 20.0, 4.0, 7.0 ]
+									offset_origin = [ 35.0628, -4.17694, 8.89217 ]
+									offset_angles = [ 0.001347, 14.728, -0.001454 ]
+								}
+							},
+						]
+					},
+					{
+						_class = "GenericGameData"
+						game_class = "ao_proxy_box"
+						game_keys = 
+						{
+							bonename = "def_c_hull"
+							dimensions = [ 120.0, 5.0, 300.0 ]
+							offset_origin = [ -0.86898, -68.0459, 36.7306 ]
+							offset_angles = [ 0.0, 0.0, 0.0 ]
+						}
+					},
+				]
+			},
+			{
+				_class = "AnimationList"
+				children = 
+				[
+					{
+						_class = "AnimFile"
+						name = "idle"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/vehicle/goblin_dropship/landing.dmx"
+						start_frame = 514
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "landing"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/vehicle/goblin_dropship/landing.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+				]
+				default_root_bone_name = ""
+			},
 		]
 		model_archetype = ""
 		primary_associated_entity = ""

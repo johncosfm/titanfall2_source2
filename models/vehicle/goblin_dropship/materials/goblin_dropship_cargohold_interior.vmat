@@ -39,10 +39,10 @@ Layer0
 
 	//---- Self Illum ----
 	g_flSelfIllumAlbedoFactor "0.000"
-	g_flSelfIllumBrightness "3.000"
+	g_flSelfIllumBrightness "6.364"
 	g_flSelfIllumScale "1.000"
 	g_vSelfIllumScrollSpeed "[0.000 0.000]"
-	g_vSelfIllumTint "[1.000000 1.000000 1.000000 0.000000]"
+	g_vSelfIllumTint "[0.678431 0.858824 1.000000 0.000000]"
 	TextureSelfIllumMask "models/vehicle/goblin_dropship/materials/goblin_dropship_cargohold_interior/goblin_dropship_cargohold_interior_selfillum.png"
 
 	//---- Texture Coordinates ----

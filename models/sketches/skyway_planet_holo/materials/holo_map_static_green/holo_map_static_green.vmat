@@ -1,0 +1,22 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "vr_wireframe_hologram.vfx"
+
+	//---- Rendering ----
+	F_DO_NOT_CAST_SHADOWS 1
+
+	//---- Color ----
+	TextureColor "materials/dev/whitepanel_color.tga"
+
+	//---- Fog ----
+	g_bFogEnabled "1"
+
+	//---- Hologram ----
+	g_flFadeEndDistance "365.591"
+	g_flFadeStartDistance "107.527"
+	g_flFresnelExponent "1.174"
+	g_flLineWidth "3.400"
+	g_vHologramColor "[0.007843 0.196078 0.043137 0.000000]"
+}

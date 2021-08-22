@@ -11,9 +11,6 @@ Layer0
 	F_DIFFUSE_WRAP 1
 	F_SPECULAR 1
 
-	//---- Rendering ----
-	F_DO_NOT_CAST_SHADOWS 1
-
 	//---- Translucent ----
 	F_ALPHA_TEST 1
 

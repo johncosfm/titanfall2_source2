@@ -59,6 +59,210 @@
 					},
 				]
 			},
+			{
+				_class = "GameDataList"
+				children = 
+				[
+					{
+						_class = "GenericGameData"
+						game_class = "ao_proxy_capsule"
+						game_keys = 
+						{
+							bonename = "def_c_hip"
+							radius = 6.23937
+							point0 = [ 1.34968, -1.40505, 0.0 ]
+							point1 = [ -1.37155, -1.40505, 0.0 ]
+						}
+					},
+					{
+						_class = "GenericGameData"
+						game_class = "ao_proxy_capsule"
+						game_keys = 
+						{
+							bonename = "def_c_spinec"
+							radius = 9.16313
+							point0 = [ -0.02902, -9.37831, -2.19201 ]
+							point1 = [ -0.008413, 3.13634, -2.7524 ]
+						}
+					},
+					{
+						_class = "GenericGameData"
+						game_class = "ao_proxy_capsule"
+						game_keys = 
+						{
+							bonename = "def_c_necka"
+							radius = 5.40641
+							point0 = [ 0.012261, -3.71968, -0.025539 ]
+							point1 = [ 0.0, 0.0, 0.0 ]
+						}
+					},
+					{
+						_class = "GenericGameData"
+						game_class = "ao_proxy_capsule"
+						game_keys = 
+						{
+							bonename = "def_c_head"
+							radius = 6.2063
+							point0 = [ 0.336493, 0.0, 0.0 ]
+							point1 = [ 0.326493, 0.0, 0.0 ]
+						}
+					},
+					{
+						_class = "GenericGameData"
+						game_class = "ao_proxy_capsule"
+						game_keys = 
+						{
+							bonename = "def_l_clav"
+							radius = 4.03972
+							point0 = [ 5.02242, -2.0917, -0.31858 ]
+							point1 = [ -0.426435, -2.0917, -0.31858 ]
+						}
+					},
+					{
+						_class = "GenericGameData"
+						game_class = "ao_proxy_capsule"
+						game_keys = 
+						{
+							bonename = "def_l_shoulder"
+							radius = 2.907551
+							point0 = [ 10.3997, 0.0, 0.0 ]
+							point1 = [ 0.0, 0.0, 0.0 ]
+						}
+					},
+					{
+						_class = "GenericGameData"
+						game_class = "ao_proxy_capsule"
+						game_keys = 
+						{
+							bonename = "def_l_elbowb"
+							radius = 1.90314
+							point0 = [ 0.0, 0.0, 0.0 ]
+							point1 = [ 8.41678, -0.491374, -0.033143 ]
+						}
+					},
+					{
+						_class = "GenericGameData"
+						game_class = "ao_proxy_capsule"
+						game_keys = 
+						{
+							bonename = "def_l_wrist"
+							radius = 1.43765
+							point0 = [ 2.33845, -0.297698, 0.19282 ]
+							point1 = [ 0.0, 0.0, 0.0 ]
+						}
+					},
+					{
+						_class = "GenericGameData"
+						game_class = "ao_proxy_capsule"
+						game_keys = 
+						{
+							bonename = "def_r_clav"
+							radius = 3.79685
+							point0 = [ 0.0, 0.0, 0.0 ]
+							point1 = [ -5.39646, 1.66379, -0.128423 ]
+						}
+					},
+					{
+						_class = "GenericGameData"
+						game_class = "ao_proxy_capsule"
+						game_keys = 
+						{
+							bonename = "def_r_shoulder"
+							radius = 3.10891
+							point0 = [ 0.0, 0.0, 0.0 ]
+							point1 = [ -9.89343, 0.0, 0.0 ]
+						}
+					},
+					{
+						_class = "GenericGameData"
+						game_class = "ao_proxy_capsule"
+						game_keys = 
+						{
+							bonename = "def_r_elbow"
+							radius = 1.88493
+							point0 = [ 0.0, 0.0, 0.0 ]
+							point1 = [ -8.82481, 0.363091, -0.187292 ]
+						}
+					},
+					{
+						_class = "GenericGameData"
+						game_class = "ao_proxy_capsule"
+						game_keys = 
+						{
+							bonename = "def_r_wrist"
+							radius = 1.58712
+							point0 = [ 0.0, 0.0, 0.0 ]
+							point1 = [ -2.65815, 1.08522, 0.073491 ]
+						}
+					},
+					{
+						_class = "GenericGameData"
+						game_class = "ao_proxy_capsule"
+						game_keys = 
+						{
+							bonename = "def_l_thigh"
+							radius = 5.0211
+							point0 = [ 18.098, 0.0, 0.0 ]
+							point1 = [ 0.0, 0.0, 0.0 ]
+						}
+					},
+					{
+						_class = "GenericGameData"
+						game_class = "ao_proxy_capsule"
+						game_keys = 
+						{
+							bonename = "def_l_knee"
+							radius = 3.22442
+							point0 = [ 17.311798, 0.0, 0.0 ]
+							point1 = [ 0.0, 0.0, 0.0 ]
+						}
+					},
+					{
+						_class = "GenericGameData"
+						game_class = "ao_proxy_capsule"
+						game_keys = 
+						{
+							bonename = "def_l_ankle"
+							radius = 2.18198
+							point0 = [ 5.292375, 0.0, 0.0 ]
+							point1 = [ 0.0, 0.0, 0.0 ]
+						}
+					},
+					{
+						_class = "GenericGameData"
+						game_class = "ao_proxy_capsule"
+						game_keys = 
+						{
+							bonename = "def_r_thigh"
+							radius = 3.837
+							point0 = [ -0.415312, -1.70745, -0.819668 ]
+							point1 = [ -18.5133, -1.70745, -0.819668 ]
+						}
+					},
+					{
+						_class = "GenericGameData"
+						game_class = "ao_proxy_capsule"
+						game_keys = 
+						{
+							bonename = "def_r_knee"
+							radius = 2.91005
+							point0 = [ 0.0, 0.0, 0.0 ]
+							point1 = [ -17.311798, 0.0, 0.0 ]
+						}
+					},
+					{
+						_class = "GenericGameData"
+						game_class = "ao_proxy_capsule"
+						game_keys = 
+						{
+							bonename = "def_r_ankle"
+							radius = 2.75738
+							point0 = [ 0.0, 0.0, 0.0 ]
+							point1 = [ -5.292376, 0.0, 0.0 ]
+						}
+					},
+				]
+			},
 		]
 		model_archetype = ""
 		primary_associated_entity = ""

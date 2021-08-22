@@ -39,10 +39,10 @@ Layer0
 
 	//---- Self Illum ----
 	g_flSelfIllumAlbedoFactor "0.000"
-	g_flSelfIllumBrightness "3.000"
+	g_flSelfIllumBrightness "5.844"
 	g_flSelfIllumScale "1.000"
 	g_vSelfIllumScrollSpeed "[0.000 0.000]"
-	g_vSelfIllumTint "[1.000000 1.000000 1.000000 0.000000]"
+	g_vSelfIllumTint "[0.803922 0.913726 1.000000 0.000000]"
 	TextureSelfIllumMask "models/vehicle/goblin_dropship/materials/goblin_dropship_1_big/goblin_dropship_1_big_selfillum.png"
 
 	//---- Texture Coordinates ----
@@ -51,4 +51,9 @@ Layer0
 	g_vTexCoordOffset "[0.000 0.000]"
 	g_vTexCoordScale "[1.000 1.000]"
 	g_vTexCoordScrollSpeed "[0.000 0.000]"
+
+	DynamicParams
+	{
+		g_flSelfIllumScale "lights1"
+	}
 }

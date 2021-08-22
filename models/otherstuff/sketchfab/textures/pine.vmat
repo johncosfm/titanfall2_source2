@@ -1,0 +1,67 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "vr_complex.vfx"
+
+	//---- Animation ----
+	F_FOLIAGE_ANIMATION 4 // Simple Wind
+
+	//---- PBR ----
+	F_SPECULAR 1
+
+	//---- Rendering ----
+	F_RENDER_BACKFACES 1
+
+	//---- Translucent ----
+	F_ALPHA_TEST 1
+
+	//---- Ambient Occlusion ----
+	g_flAmbientOcclusionDirectDiffuse "0.000"
+	g_flAmbientOcclusionDirectSpecular "0.000"
+	TextureAmbientOcclusion "materials/default/default_ao.tga"
+
+	//---- Color ----
+	g_flModelTintAmount "1.000"
+	g_vColorTint "[0.796079 0.796079 0.796079 0.000000]"
+	TextureColor "models/otherstuff/sketchfab/textures/pine_color.png"
+
+	//---- Fade ----
+	g_flFadeExponent "1.000"
+
+	//---- Fog ----
+	g_bFogEnabled "1"
+
+	//---- Foliage Animation ----
+	g_bFrondAnimationNormalFacing "1"
+	g_bUseObjectPivot "0"
+	g_flFrondDeflectionEnd "188.313"
+	g_flFrondDeflectionStart "0.000"
+	g_flFrondFlutter "0.013"
+	g_flFrondSpatialIncoherence "0.299"
+
+	//---- Lighting ----
+	g_flDirectionalLightmapMinZ "0.050"
+	g_flDirectionalLightmapStrength "1.000"
+
+	//---- Metalness ----
+	g_flMetalness "0.000"
+
+	//---- Normal ----
+	TextureNormal "models/otherstuff/sketchfab/textures/pine_normal.png"
+
+	//---- Roughness ----
+	TextureRoughness "[0.831373 0.831373 0.831373 0.000000]"
+
+	//---- Texture Coordinates ----
+	g_nScaleTexCoordUByModelScaleAxis "0"
+	g_nScaleTexCoordVByModelScaleAxis "0"
+	g_vTexCoordOffset "[0.000 0.000]"
+	g_vTexCoordScale "[1.000 1.000]"
+	g_vTexCoordScrollSpeed "[0.000 0.000]"
+
+	//---- Translucent ----
+	g_flAlphaTestReference "0.500"
+	g_flAntiAliasedEdgeStrength "0.000"
+	TextureTranslucency "models/otherstuff/sketchfab/textures/pine_trans.png"
+}

@@ -19,7 +19,7 @@ Layer0
 	g_flGreenShift "0.000"
 	g_flJitterSpeed "1.700"
 	g_flRedShift "0.000"
-	TextureJitterControl "materials/default/default.tga"
+	TextureJitterControl "materials/workshop_examples/monitor/jitter_control.tga"
 
 	//---- Contrast ----
 	TextureContrastControl "models/vistas/wild_drop_sky_animated/materials/wild_drop_lightning/wild_drop_lightning_control.png"
@@ -45,6 +45,6 @@ Layer0
 	SpecularDistortion "materials/default/default_normal.tga"
 
 	//---- VSYNC ----
-	g_flVSYNCJumpScale "0.000"
+	g_flVSYNCJumpScale "1.000"
 	VSyncControl "models/vistas/wild_drop_sky_animated/materials/wild_drop_lightning/wild_drop_lightning_control.png"
 }

@@ -1,0 +1,121 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "BoneMarkupList"
+				children = 
+				[
+					{
+						_class = "BoneMarkup"
+						target_bone = "jx_c_start"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "ja_c_propgun"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+				]
+				bone_cull_type = "Aggressive"
+			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "p_m_stalker_male_b_v1_skn01.vmat"
+								to = "models/humans/pilots/sp_medium_stalker_m/materials/p_m_stalker_male_b_v1_skn01.vmat"
+							},
+							{
+								from = "p_m_stalker_male_g_v1_skn01.vmat"
+								to = "models/humans/pilots/sp_medium_stalker_m/materials/p_m_stalker_male_g_v1_skn01.vmat"
+							},
+							{
+								from = "p_m_stalker_male_j_v1_skn01.vmat"
+								to = "models/humans/pilots/sp_medium_stalker_m/materials/p_m_stalker_male_j_v1_skn01.vmat"
+							},
+							{
+								from = "p_m_stalker_male_vh_v1_skn01.vmat"
+								to = "models/humans/pilots/sp_medium_stalker_m/materials/p_m_stalker_male_vh_v1_skn01.vmat"
+							},
+							{
+								from = "pilot_med_helmet_davis_v1_skn_01.vmat"
+								to = "models/humans/pilots/sp_medium_stalker_m/materials/pilot_med_helmet_davis_v1_skn_01.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						filename = "models/humans/pilots/sp_medium_stalker_m/w_sp_pilot_medium_stalker_m_body_lod0.smd"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						filename = "models/humans/pilots/sp_medium_stalker_m/w_sp_pilot_medium_stalker_m_head_lod0.smd"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "AnimationList"
+				children = 
+				[
+					{
+						_class = "AnimFile"
+						name = "pt_gundeck_zipline_Davis"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/humans/pete/pete_scripted_ship2ship/pt_gundeck_zipline_Davis.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+				]
+				default_root_bone_name = ""
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+	}
+}

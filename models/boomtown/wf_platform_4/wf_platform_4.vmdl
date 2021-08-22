@@ -47,7 +47,7 @@
 							},
 							{
 								from = "grass_green_long.vmat"
-								to = "models/boomtown/wf_platform_1_1000x/materials/grass_green_long.vmat"
+								to = "materials/tools/toolsskip.vmat"
 							},
 							{
 								from = "kitchen_set02.vmat"
