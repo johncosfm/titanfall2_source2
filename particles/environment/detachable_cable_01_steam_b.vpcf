@@ -382,7 +382,6 @@
 		},
 		{
 			_class = "C_INIT_CreateWithinSphere"
-			m_nControlPointNumber = 1
 		},
 		{
 			_class = "C_INIT_InitialVelocityNoise"
@@ -713,7 +712,6 @@
 			m_vecWarpMax = [ 0.1, 0.1, 0.1 ]
 			m_flWarpTime = 1.5
 			m_flWarpStartTime = 1.0
-			m_nControlPointNumber = 1
 		},
 		{
 			_class = "C_INIT_RandomTrailLength"

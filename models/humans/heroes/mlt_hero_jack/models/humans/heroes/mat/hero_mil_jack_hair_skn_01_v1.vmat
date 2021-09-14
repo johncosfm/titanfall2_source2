@@ -16,7 +16,7 @@ Layer0
 	g_flFadeExponent "1.000"
 
 	//---- Lighting ----
-	g_flDirectionalLightmapMinZ "0.050"
+	g_flDirectionalLightmapMinZ "0.074"
 	g_flDirectionalLightmapStrength "1.000"
 
 	//---- Metalness ----

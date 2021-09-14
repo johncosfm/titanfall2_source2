@@ -42,12 +42,12 @@
 			m_params = 
 			{
 				m_blendMode = "BLOOM_BLEND_ADD"
-				m_flBloomStrength = 10.0
+				m_flBloomStrength = 0.341
 				m_flScreenBloomStrength = 1.0
 				m_flBlurBloomStrength = 1.0
 				m_flBloomThreshold = 1.533
 				m_flBloomThresholdWidth = 0.0
-				m_flSkyboxBloomStrength = 1.0
+				m_flSkyboxBloomStrength = 0.0398
 				m_flBloomStartValue = 1.0
 				m_flBlurWeight = 
 				[

@@ -277,10 +277,6 @@
 								from = "titan_damaged_limbs.vmat"
 								to = "models/titans/bt_7274/mats/titan_damaged_limbs/titan_damaged_limbs.vmat"
 							},
-							{
-								from = "ivis.vmat"
-								to = "materials/tools/toolsskip.vmat"
-							},
 						]
 						use_global_default = false
 						global_default_material = ""
@@ -293,6 +289,25 @@
 							{
 								from = "models/titans/bt_7274/mats/bt_decal_02/bt_decal_02.vmat"
 								to = "materials/tools/toolsinvisible.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "bright"
+						remaps = 
+						[
+							{
+								from = "models/titans/bt_7274/mats/bt_a_eye_cine/bt_a_eye_cine.vmat"
+								to = "models/titans/bt_7274/mats/bt_a_eye_cine/bt_a_eye_cine_bright.vmat"
+							},
+							{
+								from = "models/titans/bt_7274/mats/bt_a_all_factory/bt_a_all_factory.vmat"
+								to = "models/titans/bt_7274/mats/bt_a_all_factory/bt_a_all_factory_bright.vmat"
+							},
+							{
+								from = "models/titans/bt_7274/mats/bt_a_all/bt_a_all.vmat"
+								to = "models/titans/bt_7274/mats/bt_a_all/bt_a_all_bright.vmat"
 							},
 						]
 					},
@@ -493,26 +508,6 @@
 						_class = "RenderMeshFile"
 						name = "r_leg"
 						filename = "models/titans/bt_7274/buddy_titan_r_leg_lod0.smd"
-						import_scale = 1.0
-						import_filter = 
-						{
-							exclude_by_default = false
-							exception_list = [  ]
-						}
-					},
-					{
-						_class = "RenderMeshFile"
-						filename = "models/BONES/jx_c_start.fbx"
-						import_scale = 1.0
-						import_filter = 
-						{
-							exclude_by_default = false
-							exception_list = [  ]
-						}
-					},
-					{
-						_class = "RenderMeshFile"
-						filename = "models/BONES/ja_c_propGun.fbx"
 						import_scale = 1.0
 						import_filter = 
 						{
@@ -888,6 +883,27 @@
 					},
 				]
 				default_root_bone_name = ""
+			},
+			{
+				_class = "BoneMarkupList"
+				children = 
+				[
+					{
+						_class = "BoneMarkup"
+						target_bone = "jx_c_start"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "ja_c_propgun"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+				]
+				bone_cull_type = "Aggressive"
 			},
 		]
 		model_archetype = ""

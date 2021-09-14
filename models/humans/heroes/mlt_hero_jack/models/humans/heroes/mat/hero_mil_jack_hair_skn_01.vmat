@@ -2,9 +2,21 @@
 
 Layer0
 {
-	shader "vr_hair.vfx"
+	shader "vr_complex.vfx"
+
+	//---- PBR ----
+	F_SPECULAR 1
+	F_TRANSMISSIVE_BACKFACE_NDOTL 1
+
+	//---- Rendering ----
+	F_RENDER_BACKFACES 1
+
+	//---- Translucent ----
+	F_TRANSLUCENT 1
 
 	//---- Ambient Occlusion ----
+	g_flAmbientOcclusionDirectDiffuse "0.000"
+	g_flAmbientOcclusionDirectSpecular "0.000"
 	TextureAmbientOcclusion "materials/default/default_ao.tga"
 
 	//---- Color ----
@@ -14,6 +26,9 @@ Layer0
 
 	//---- Fade ----
 	g_flFadeExponent "1.000"
+
+	//---- Fog ----
+	g_bFogEnabled "1"
 
 	//---- Lighting ----
 	g_flDirectionalLightmapMinZ "0.050"
@@ -38,4 +53,7 @@ Layer0
 	//---- Translucent ----
 	g_flOpacityScale "1.000"
 	TextureTranslucency "models/humans/heroes/mlt_hero_jack/models/humans/heroes/mat/hero_mil_jack_hair_skn_01/hero_mil_jack_hair_skn_01_trans.png"
+
+	//---- Transmission ----
+	TextureTransmissiveColor "models/humans/heroes/mlt_hero_jack/models/humans/heroes/mat/hero_mil_jack_hair_skn_01/hero_mil_jack_hair_skn_01_color.png"
 }

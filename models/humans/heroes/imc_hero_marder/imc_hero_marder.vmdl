@@ -81,7 +81,21 @@
 				[
 					{
 						_class = "AnimFile"
-						name = "marder_blindpose"
+						name = "lecture_teacher"
+						children = 
+						[
+							{
+								_class = "ExtractMotion"
+								extract_tx = true
+								extract_ty = true
+								extract_tz = true
+								extract_rz = true
+								linear = false
+								quadratic = false
+								root_bone_name = "jx_c_start"
+								motion_type = "Uniform"
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -93,7 +107,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/humans/pete/marder_blindpose.dmx"
+						source_filename = "models/humans/pete/pete_scripted_timeshift/lecture_teacher.fbx"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0

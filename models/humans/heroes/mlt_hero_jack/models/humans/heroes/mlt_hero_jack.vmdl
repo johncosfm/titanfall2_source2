@@ -55,7 +55,7 @@
 							},
 							{
 								from = "hero_mil_jack_hair_skn_01.vmat"
-								to = "models/humans/heroes/mlt_hero_jack/models/humans/heroes/mat/hero_mil_jack_hair_skn_01.vmat"
+								to = "models/humans/heroes/mlt_hero_jack/models/humans/heroes/mat/hero_mil_jack_hair_skn_01_v1.vmat"
 							},
 							{
 								from = "hero_mil_jack_helmet_skn_01.vmat"
@@ -361,6 +361,54 @@
 						}
 					},
 				]
+			},
+			{
+				_class = "BoneMarkupList"
+				children = 
+				[
+					{
+						_class = "BoneMarkup"
+						target_bone = "jx_c_start"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = ""
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = false
+					},
+				]
+				bone_cull_type = "Aggressive"
+			},
+			{
+				_class = "AnimationList"
+				children = 
+				[
+					{
+						_class = "AnimFile"
+						name = "patrol_walk_bored"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/humans/pete/pete_core/patrol_walk_bored.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+				]
+				default_root_bone_name = ""
 			},
 		]
 		model_archetype = ""

@@ -7,45 +7,14 @@
 		{
 			_class = "C_OP_ContinuousEmitter"
 		},
-	]
-	m_Operators = 
-	[
 		{
-			_class = "C_OP_BasicMovement"
-			m_Gravity = [ 0.0, 0.0, -100.0 ]
-			m_fDrag = -0.188
-		},
-		{
-			_class = "C_OP_Decay"
-		},
-		{
-			_class = "C_OP_InterpolateRadius"
-			m_flEndTime = 0.02
-			m_flStartScale = 0.0
-		},
-		{
-			_class = "C_OP_RotateVector"
-			m_vecRotAxisMin = [ 0.0, 0.0, 0.0 ]
-			m_vecRotAxisMax = [ 180.0, 180.0, 180.0 ]
-			m_flRotRateMax = 1800.0
-			m_bNormalize = false
-		},
-	]
-	m_ForceGenerators = 
-	[
-		{
-			_class = "C_OP_RandomForce"
-			m_MinForce = [ -50.0, -50.0, 50.0 ]
-			m_MaxForce = [ 50.0, 50.0, 0.0 ]
-		},
-		{
-			_class = "C_OP_PerParticleForce"
-			m_flForceScale = 
+			_class = "C_OP_InstantaneousEmitter"
+			m_nParticlesToEmit = 
 			{
-				m_nType = "PF_TYPE_CONTROL_POINT_COMPONENT"
+				m_nType = "PF_TYPE_LITERAL"
 				m_nMapType = "PF_MAP_TYPE_DIRECT"
-				m_flLiteralValue = 3.0
-				m_nControlPoint = 1
+				m_flLiteralValue = 500.0
+				m_nControlPoint = 0
 				m_nScalarAttribute = 3
 				m_nVectorAttribute = 6
 				m_nVectorComponent = 0
@@ -72,10 +41,78 @@
 					m_vDomainMaxs = [ 0.0, 0.0 ]
 				}
 			}
+			m_bDisableOperator = true
+		},
+	]
+	m_Operators = 
+	[
+		{
+			_class = "C_OP_BasicMovement"
+			m_Gravity = [ 0.0, 0.0, -200.0 ]
+			m_fDrag = -0.188
+		},
+		{
+			_class = "C_OP_Decay"
+		},
+		{
+			_class = "C_OP_InterpolateRadius"
+			m_flEndTime = 0.02
+			m_flStartScale = 0.0
+		},
+		{
+			_class = "C_OP_RotateVector"
+			m_vecRotAxisMin = [ 0.0, 0.0, 0.0 ]
+			m_vecRotAxisMax = [ 360.0, 360.0, 360.0 ]
+			m_flRotRateMax = 1200.0
+			m_bNormalize = false
+			m_flRotRateMin = 700.0
+		},
+	]
+	m_ForceGenerators = 
+	[
+		{
+			_class = "C_OP_RandomForce"
+			m_MinForce = [ -50.0, -50.0, 50.0 ]
+			m_MaxForce = [ 50.0, 50.0, 0.0 ]
+		},
+		{
+			_class = "C_OP_PerParticleForce"
+			m_flForceScale = 
+			{
+				m_nType = "PF_TYPE_CONTROL_POINT_COMPONENT"
+				m_nMapType = "PF_MAP_TYPE_MULT"
+				m_flLiteralValue = 3.0
+				m_nControlPoint = 1
+				m_nScalarAttribute = 3
+				m_nVectorAttribute = 6
+				m_nVectorComponent = 0
+				m_flRandomMin = 0.0
+				m_flRandomMax = 1.0
+				m_nRandomMode = "PF_RANDOM_MODE_CONSTANT"
+				m_flLOD0 = 0.0
+				m_flLOD1 = 0.0
+				m_flLOD2 = 0.0
+				m_flLOD3 = 0.0
+				m_nInputMode = "PF_INPUT_MODE_CLAMPED"
+				m_flMultFactor = -1.0
+				m_flInput0 = 0.0
+				m_flInput1 = 1.0
+				m_flOutput0 = 1.0
+				m_flOutput1 = 0.0
+				m_nBiasType = "PF_BIAS_TYPE_STANDARD"
+				m_flBiasParameter = 0.0
+				m_Curve = 
+				{
+					m_spline = [  ]
+					m_tangents = [  ]
+					m_vDomainMins = [ 0.0, 0.0 ]
+					m_vDomainMaxs = [ 0.0, 0.0 ]
+				}
+			}
 			m_vForce = 
 			{
 				m_nType = "PVEC_TYPE_LITERAL"
-				m_vLiteralValue = [ 200.0, 0.0, -50.0 ]
+				m_vLiteralValue = [ 15.0, 0.0, 0.0 ]
 				m_LiteralColor = [ 0, 0, 0, 0 ]
 				m_nVectorAttribute = 6
 				m_vVectorAttributeScale = [ 1.0, 1.0, 1.0 ]
@@ -230,6 +267,47 @@
 			[
 				{
 					m_model = resource:"models/props_street/street_leaf_02.vmdl"
+					m_flRelativeProbabilityOfSpawn = 0.5
+				},
+				{
+					m_model = resource:"models/props_street/street_leaf_01.vmdl"
+					m_flRelativeProbabilityOfSpawn = 0.2
+				},
+				{
+					m_model = resource:"models/props_street/street_leaf_02.vmdl"
+					m_flRelativeProbabilityOfSpawn = 0.5
+				},
+				{
+					m_model = resource:"models/props_street/street_leaf_03.vmdl"
+					m_flRelativeProbabilityOfSpawn = 0.5
+				},
+				{
+					m_model = resource:"models/props_street/street_leaf_04.vmdl"
+					m_flRelativeProbabilityOfSpawn = 0.5
+				},
+				{
+					m_model = resource:"models/props_junk/paper_debris_05a.vmdl"
+					m_flRelativeProbabilityOfSpawn = 0.1
+				},
+				{
+					m_model = resource:"models/props_junk/paper_debris_05b.vmdl"
+					m_flRelativeProbabilityOfSpawn = 0.1
+				},
+				{
+					m_model = resource:"models/props_junk/paper_debris_05c.vmdl"
+					m_flRelativeProbabilityOfSpawn = 0.1
+				},
+				{
+					m_model = resource:"models/props_junk/paper_debris_05d.vmdl"
+					m_flRelativeProbabilityOfSpawn = 0.1
+				},
+				{
+					m_model = resource:"models/props_junk/paper_debris_05e.vmdl"
+					m_flRelativeProbabilityOfSpawn = 0.1
+				},
+				{
+					m_model = resource:"models/props_junk/paper_debris_05f.vmdl"
+					m_flRelativeProbabilityOfSpawn = 0.1
 				},
 			]
 			m_flRadiusScale = 
@@ -279,14 +357,17 @@
 		},
 		{
 			_class = "C_INIT_CreateWithinSphere"
-			m_fRadiusMax = 15.0
+			m_fRadiusMax = 100.0
 			m_fSpeedMin = 90.0
 			m_fSpeedMax = 300.0
+			m_vecDistanceBias = [ 1.0, 1.0, 0.0 ]
+			m_LocalCoordinateSystemSpeedMin = [ -300.0, -300.0, 200.0 ]
+			m_LocalCoordinateSystemSpeedMax = [ 300.0, 300.0, 50.0 ]
 		},
 		{
 			_class = "C_INIT_RandomLifeTime"
-			m_fLifetimeMin = 1.0
-			m_fLifetimeMax = 1.0
+			m_fLifetimeMin = 2.0
+			m_fLifetimeMax = 2.0
 		},
 		{
 			_class = "C_INIT_RandomRadius"
@@ -305,7 +386,7 @@
 	[
 		{
 			_class = "C_OP_BoxConstraint"
-			m_vecMin = [ -5000.0, -5000.0, -50.0 ]
+			m_vecMin = [ -5000.0, -5000.0, 0.0 ]
 			m_vecMax = [ 5000.0, 5000.0, 1000.0 ]
 		},
 	]

@@ -29,6 +29,10 @@
 								from = "materials/models/vistas/wilds_intro_drop/wild_drop_sky_top_color.vmat"
 								to = "models/vistas/wild_drop_sky_animated/materials/wild_drop_sky_top.vmat"
 							},
+							{
+								from = "materials/models/vistas/wilds_intro_drop/wild_drop_se_alphatest_color.vmat"
+								to = "models/vistas/wild_drop_sky_animated/materials/wild_drop_se_alphatest.vmat"
+							},
 						]
 						use_global_default = false
 						global_default_material = ""
@@ -49,6 +53,16 @@
 							exception_list = [  ]
 						}
 					},
+					{
+						_class = "RenderMeshFile"
+						filename = "models/vistas/wild_drop_sky_animated/wild_drop_sky_animated_alphatest.smd"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
 				]
 			},
 			{
@@ -61,6 +75,34 @@
 						ignore_Translation = false
 						ignore_rotation = false
 						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "jx_c_origin"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_c_base"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_c_base_offset_3"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = false
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = ""
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = false
 					},
 				]
 				bone_cull_type = "Aggressive"

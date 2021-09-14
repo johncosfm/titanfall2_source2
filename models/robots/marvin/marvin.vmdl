@@ -29,10 +29,6 @@
 								from = "rbt_marvin_v1_chassis_top_skn_01.vmat"
 								to = "models/robots/marvin/materials/rbt_marvin_v1_chassis_top_skn_01.vmat"
 							},
-							{
-								from = "ivis.vmat"
-								to = "materials/dev/invis.vmat"
-							},
 						]
 						use_global_default = false
 						global_default_material = ""
@@ -67,26 +63,6 @@
 					{
 						_class = "RenderMeshFile"
 						filename = "models/robots/marvin/marvin_head_1_lodh.smd"
-						import_scale = 1.0
-						import_filter = 
-						{
-							exclude_by_default = false
-							exception_list = [  ]
-						}
-					},
-					{
-						_class = "RenderMeshFile"
-						filename = "models/humans/jx_c_start.fbx"
-						import_scale = 0.01
-						import_filter = 
-						{
-							exclude_by_default = false
-							exception_list = [  ]
-						}
-					},
-					{
-						_class = "RenderMeshFile"
-						filename = "models/BONES/ja_c_propGun.fbx"
 						import_scale = 1.0
 						import_filter = 
 						{
@@ -160,8 +136,63 @@
 						framerate = -1.0
 						reverse = false
 					},
+					{
+						_class = "AnimFile"
+						name = "mv_bully_marvin_skit"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/robots/marvin/anims/anims/@mv_bully_marvin_skit.smd"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
 				]
 				default_root_bone_name = ""
+			},
+			{
+				_class = "BoneMarkupList"
+				children = 
+				[
+					{
+						_class = "BoneMarkup"
+						target_bone = "jx_c_start"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "ja_c_propgun"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "ja_l_prophand"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "ja_r_prophand"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+				]
+				bone_cull_type = "Aggressive"
 			},
 		]
 		model_archetype = ""
