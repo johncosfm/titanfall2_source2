@@ -10,7 +10,7 @@
 			{
 				m_nType = "PF_TYPE_LITERAL"
 				m_nMapType = "PF_MAP_TYPE_DIRECT"
-				m_flLiteralValue = 15.0
+				m_flLiteralValue = 12.0
 				m_nControlPoint = 0
 				m_nScalarAttribute = 3
 				m_nVectorAttribute = 6
@@ -46,11 +46,13 @@
 			_class = "C_INIT_RandomRotation"
 			m_flDegreesMin = -45.0
 			m_flDegreesMax = 45.0
+			m_flDegrees = 200.0
+			m_bRandomlyFlipDirection = false
 		},
 		{
 			_class = "C_INIT_RandomAlpha"
-			m_nAlphaMin = 8
-			m_nAlphaMax = 15
+			m_nAlphaMin = 56
+			m_nAlphaMax = 66
 		},
 		{
 			_class = "C_INIT_RandomRadius"
@@ -59,8 +61,8 @@
 		},
 		{
 			_class = "C_INIT_RandomLifeTime"
-			m_fLifetimeMin = 6.36
-			m_fLifetimeMax = 6.11
+			m_fLifetimeMin = 1.5
+			m_fLifetimeMax = 2.25
 		},
 		{
 			_class = "C_INIT_CreateWithinSphere"
@@ -88,7 +90,7 @@
 		},
 		{
 			_class = "C_OP_BasicMovement"
-			m_Gravity = [ -10.0, 0.0, 5.0 ]
+			m_Gravity = [ -10.0, 0.0, -25.0 ]
 		},
 		{
 			_class = "C_OP_FadeOut"
@@ -107,43 +109,11 @@
 	[
 		{
 			_class = "C_OP_RenderSprites"
-			m_flAlphaScale = 
-			{
-				m_nType = "PF_TYPE_LITERAL"
-				m_nMapType = "PF_MAP_TYPE_DIRECT"
-				m_flLiteralValue = 0.73
-				m_nControlPoint = 0
-				m_nScalarAttribute = 3
-				m_nVectorAttribute = 6
-				m_nVectorComponent = 0
-				m_flRandomMin = 0.0
-				m_flRandomMax = 1.0
-				m_nRandomMode = "PF_RANDOM_MODE_CONSTANT"
-				m_flLOD0 = 0.0
-				m_flLOD1 = 0.0
-				m_flLOD2 = 0.0
-				m_flLOD3 = 0.0
-				m_nInputMode = "PF_INPUT_MODE_CLAMPED"
-				m_flMultFactor = 1.0
-				m_flInput0 = 0.0
-				m_flInput1 = 1.0
-				m_flOutput0 = 0.0
-				m_flOutput1 = 1.0
-				m_nBiasType = "PF_BIAS_TYPE_STANDARD"
-				m_flBiasParameter = 0.0
-				m_Curve = 
-				{
-					m_spline = [  ]
-					m_tangents = [  ]
-					m_vDomainMins = [ 0.0, 0.0 ]
-					m_vDomainMaxs = [ 0.0, 0.0 ]
-				}
-			}
-			m_flAnimationRate = 0.231
+			m_flAnimationRate = 1.0
 			m_nAnimationType = "ANIMATION_TYPE_FIT_LIFETIME"
 			m_bAdditive = true
 			m_hTexture = resource:"materials/particle/smoke/render/smokeloop_i_0.vtex"
-			m_flOverbrightFactor = 100.0
+			m_bAdditiveAlpha = true
 		},
 	]
 	m_controlPointConfigurations = 

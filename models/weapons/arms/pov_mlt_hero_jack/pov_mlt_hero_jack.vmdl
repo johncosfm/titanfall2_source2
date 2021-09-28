@@ -49,7 +49,18 @@
 				[
 					{
 						_class = "RenderMeshFile"
+						disabled = true
 						filename = "models/weapons/arms/pov_mlt_hero_jack/pov_mlt_hero_jack.smd"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						filename = "models/weapons/arms/pov_mlt_hero_jack/jack_animrig.fbx"
 						import_scale = 1.0
 						import_filter = 
 						{

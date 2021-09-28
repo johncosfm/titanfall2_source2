@@ -38,8 +38,8 @@ Layer0
 	TextureRoughness "models/weapons/p2011/materials/p2011_pstl/p2011_pstl_rough.png"
 
 	//---- Self Illum ----
-	g_flSelfIllumAlbedoFactor "1.000"
-	g_flSelfIllumBrightness "0.000"
+	g_flSelfIllumAlbedoFactor "0.000"
+	g_flSelfIllumBrightness "0.500"
 	g_flSelfIllumScale "1.000"
 	g_vSelfIllumScrollSpeed "[0.000 0.000]"
 	g_vSelfIllumTint "[1.000000 1.000000 1.000000 0.000000]"

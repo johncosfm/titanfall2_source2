@@ -276,14 +276,5 @@
 			m_hTexture = resource:"materials/particle/rain.vtex"
 		},
 	]
-	m_Children = 
-	[
-		{
-			m_ChildRef = resource:"particles/rain_fx/rain_mist.vpcf"
-		},
-		{
-			m_ChildRef = resource:"particles/rain_fx/ground_ripples.vpcf"
-		},
-	]
 	m_nMaxParticles = 4100
 }

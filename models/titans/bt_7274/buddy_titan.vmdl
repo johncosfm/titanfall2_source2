@@ -544,6 +544,14 @@
 					{
 						_class = "AnimFile"
 						name = "bt_timeshift_corpse_search_loop"
+						children = 
+						[
+							{
+								_class = "AnimSubtract"
+								anim_name = "@armfix"
+								frame = 0
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -564,6 +572,14 @@
 					{
 						_class = "AnimFile"
 						name = "bt_hotdrop_skyway"
+						children = 
+						[
+							{
+								_class = "AnimSubtract"
+								anim_name = "@armfix"
+								frame = 0
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -584,6 +600,14 @@
 					{
 						_class = "AnimFile"
 						name = "bt_s2s_bridge_punch"
+						children = 
+						[
+							{
+								_class = "AnimSubtract"
+								anim_name = "@armfix"
+								frame = 0
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -604,6 +628,14 @@
 					{
 						_class = "AnimFile"
 						name = "bt_s2s_end_fight_finale"
+						children = 
+						[
+							{
+								_class = "AnimSubtract"
+								anim_name = "@armfix"
+								frame = 0
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -624,6 +656,14 @@
 					{
 						_class = "AnimFile"
 						name = "bt_s2s_end_fight_start"
+						children = 
+						[
+							{
+								_class = "AnimSubtract"
+								anim_name = "@armfix"
+								frame = 0
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -644,6 +684,14 @@
 					{
 						_class = "AnimFile"
 						name = "BT_wilds_OG_victory"
+						children = 
+						[
+							{
+								_class = "AnimSubtract"
+								anim_name = "@armfix"
+								frame = 0
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -664,6 +712,14 @@
 					{
 						_class = "AnimFile"
 						name = "BT_intro_scene_OG"
+						children = 
+						[
+							{
+								_class = "AnimSubtract"
+								anim_name = "@armfix"
+								frame = 0
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -684,6 +740,14 @@
 					{
 						_class = "AnimFile"
 						name = "bt_skyway_reunion_insert"
+						children = 
+						[
+							{
+								_class = "AnimSubtract"
+								anim_name = "@armfix"
+								frame = 0
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -704,6 +768,14 @@
 					{
 						_class = "AnimFile"
 						name = "bt_skyway_reunion_getup"
+						children = 
+						[
+							{
+								_class = "AnimSubtract"
+								anim_name = "@armfix"
+								frame = 0
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -724,6 +796,14 @@
 					{
 						_class = "AnimFile"
 						name = "bt_beacon_approach_a_start"
+						children = 
+						[
+							{
+								_class = "AnimSubtract"
+								anim_name = "@armfix"
+								frame = 0
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -744,6 +824,14 @@
 					{
 						_class = "AnimFile"
 						name = "bt_beacon_approach_a_loop"
+						children = 
+						[
+							{
+								_class = "AnimSubtract"
+								anim_name = "@armfix"
+								frame = 0
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -764,6 +852,14 @@
 					{
 						_class = "AnimFile"
 						name = "bt_beacon_approach_b_start"
+						children = 
+						[
+							{
+								_class = "AnimSubtract"
+								anim_name = "@armfix"
+								frame = 0
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -784,6 +880,14 @@
 					{
 						_class = "AnimFile"
 						name = "bt_beacon_approach_b_loop"
+						children = 
+						[
+							{
+								_class = "AnimSubtract"
+								anim_name = "@armfix"
+								frame = 0
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -804,6 +908,14 @@
 					{
 						_class = "AnimFile"
 						name = "bt_beacon_satellite_catch"
+						children = 
+						[
+							{
+								_class = "AnimSubtract"
+								anim_name = "@armfix"
+								frame = 0
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -824,6 +936,14 @@
 					{
 						_class = "AnimFile"
 						name = "bt_beacon_fastball_throw_start"
+						children = 
+						[
+							{
+								_class = "AnimSubtract"
+								anim_name = "@armfix"
+								frame = 0
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -844,6 +964,14 @@
 					{
 						_class = "AnimFile"
 						name = "bt_beacon_fastball_throw_idle"
+						children = 
+						[
+							{
+								_class = "AnimSubtract"
+								anim_name = "@armfix"
+								frame = 0
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -864,6 +992,14 @@
 					{
 						_class = "AnimFile"
 						name = "bt_beacon_fastball_throw_end"
+						children = 
+						[
+							{
+								_class = "AnimSubtract"
+								anim_name = "@armfix"
+								frame = 0
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -876,6 +1012,110 @@
 						anim_markup_ordered = false
 						disable_compression = false
 						source_filename = "models/titans/buddy/titan_buddy_scripted_beacon/bt_beacon_fastball_throw_end.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "bt_casual_walk_forward"
+						children = 
+						[
+							{
+								_class = "AnimSubtract"
+								anim_name = "@armfix"
+								frame = 0
+							},
+						]
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/titans/buddy/titan_buddy_core/bt_casual_walk_forward.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "bt_casual_walk_to_idle_forward"
+						children = 
+						[
+							{
+								_class = "AnimSubtract"
+								anim_name = "@armfix"
+								frame = 0
+							},
+						]
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/titans/buddy/titan_buddy_core/bt_casual_walk_to_idle_forward.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "casual_idle"
+						children = 
+						[
+							{
+								_class = "AnimSubtract"
+								anim_name = "@armfix"
+								frame = 0
+							},
+						]
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/titans/buddy/titan_buddy_core/casual_idle.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "@armfix"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/titans/buddy/armfix.dmx"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0

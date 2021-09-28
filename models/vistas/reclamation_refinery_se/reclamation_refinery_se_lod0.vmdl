@@ -15,15 +15,15 @@
 						[
 							{
 								from = "reclamation_refinery_b_smoke.vmat"
-								to = "materials/dev/invis.vmat"
+								to = "materials/tools/toolsskip.vmat"
 							},
 							{
 								from = "reclamation_refinery_fire.vmat"
-								to = "materials/dev/invis.vmat"
+								to = "materials/tools/toolsskip.vmat"
 							},
 							{
 								from = "reclamation_refinery_infire.vmat"
-								to = "materials/dev/invis.vmat"
+								to = "materials/tools/toolsskip.vmat"
 							},
 							{
 								from = "reclamation_refinery_se.vmat"

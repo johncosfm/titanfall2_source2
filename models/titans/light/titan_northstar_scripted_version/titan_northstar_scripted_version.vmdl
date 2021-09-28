@@ -116,7 +116,7 @@
 					{
 						_class = "RenderMeshFile"
 						filename = "models/BONES/ja_c_propGun.fbx"
-						import_scale = 1.0
+						import_scale = 0.01
 						import_filter = 
 						{
 							exclude_by_default = false
@@ -126,7 +126,7 @@
 					{
 						_class = "RenderMeshFile"
 						filename = "models/BONES/jx_c_start.fbx"
-						import_scale = 1.0
+						import_scale = 0.01
 						import_filter = 
 						{
 							exclude_by_default = false

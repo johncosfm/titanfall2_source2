@@ -15,7 +15,7 @@
 						[
 							{
 								from = "btown_whouse_cart_motor_01.vmat"
-								to = "btown_whouse_cart_motor_01.vmat"
+								to = "models/boomtown/btown_whouse_prop_cart_motor_01/materials/btown_whouse_cart_motor_01.vmat"
 							},
 						]
 						use_global_default = false

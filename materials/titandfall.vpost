@@ -4,42 +4,6 @@
 	m_layers = 
 	[
 		{
-			_class = "CColorTintColorCorrectionLayer"
-			m_name = "Color Tint 0"
-			m_nOpacityPercent = 100
-			m_bVisible = true
-			m_pLayerMask = 
-			{
-				_class = "CLayerMask"
-				m_nLumMaskCenter = 0
-				m_nLumMaskWidth = 26
-				m_nLumMaskShape = 15
-				m_bInverted = false
-			}
-			m_nTintColorR = 0
-			m_nTintColorG = 0
-			m_nTintColorB = 50
-			m_nStrength = 35
-			m_bPreserveLuminosity = true
-		},
-		{
-			_class = "CColorBalanceColorCorrectionLayer"
-			m_name = "Color Balance 0"
-			m_nOpacityPercent = 100
-			m_bVisible = true
-			m_pLayerMask = null
-			m_nRedCyanBalS = -2
-			m_nRedCyanBalM = 0
-			m_nRedCyanBalH = 0
-			m_nGreenMagentaBalS = 0
-			m_nGreenMagentaBalM = 0
-			m_nGreenMagentaBalH = 0
-			m_nBlueYellowBalS = 4
-			m_nBlueYellowBalM = 0
-			m_nBlueYellowBalH = 0
-			m_bPreserveLuminosity = true
-		},
-		{
 			_class = "CCurvesColorCorrectionLayer"
 			m_name = "Curves 3"
 			m_nOpacityPercent = 70
@@ -48,9 +12,10 @@
 			m_curvePointsRGB = 
 			[
 				[ 0.0, 0.0 ],
-				[ 61.0, 24.0 ],
-				[ 133.0, 118.782585 ],
-				[ 185.0, 184.604202 ],
+				[ 82.0, 50.0 ],
+				[ 139.0, 116.782585 ],
+				[ 175.0, 165.604202 ],
+				[ 208.0, 212.37291 ],
 				[ 255.0, 255.0 ],
 			]
 			m_curvePointsR = 
@@ -72,6 +37,70 @@
 			]
 		},
 		{
+			_class = "CColorBalanceColorCorrectionLayer"
+			m_name = "Color Balance 0"
+			m_nOpacityPercent = 100
+			m_bVisible = true
+			m_pLayerMask = null
+			m_nRedCyanBalS = -1
+			m_nRedCyanBalM = 0
+			m_nRedCyanBalH = 0
+			m_nGreenMagentaBalS = 0
+			m_nGreenMagentaBalM = 0
+			m_nGreenMagentaBalH = 0
+			m_nBlueYellowBalS = 10
+			m_nBlueYellowBalM = 0
+			m_nBlueYellowBalH = 2
+			m_bPreserveLuminosity = true
+		},
+		{
+			_class = "CColorTintColorCorrectionLayer"
+			m_name = "Color Tint 0"
+			m_nOpacityPercent = 100
+			m_bVisible = true
+			m_pLayerMask = 
+			{
+				_class = "CLayerMask"
+				m_nLumMaskCenter = 0
+				m_nLumMaskWidth = 26
+				m_nLumMaskShape = 15
+				m_bInverted = false
+			}
+			m_nTintColorR = 0
+			m_nTintColorG = 0
+			m_nTintColorB = 50
+			m_nStrength = 35
+			m_bPreserveLuminosity = true
+		},
+		{
+			_class = "CCurvesColorCorrectionLayer"
+			m_name = "Curves 0"
+			m_nOpacityPercent = 100
+			m_bVisible = true
+			m_pLayerMask = null
+			m_curvePointsRGB = 
+			[
+				[ 0.0, 0.0 ],
+				[ 194.0, 242.0 ],
+				[ 255.0, 255.0 ],
+			]
+			m_curvePointsR = 
+			[
+				[ 0.0, 0.0 ],
+				[ 255.0, 255.0 ],
+			]
+			m_curvePointsG = 
+			[
+				[ 0.0, 0.0 ],
+				[ 255.0, 255.0 ],
+			]
+			m_curvePointsB = 
+			[
+				[ 0.0, 0.0 ],
+				[ 255.0, 255.0 ],
+			]
+		},
+		{
 			_class = "CBloomLayer"
 			m_name = "Bloom 3"
 			m_nOpacityPercent = 100
@@ -85,7 +114,7 @@
 				m_flBlurBloomStrength = 1.0
 				m_flBloomThreshold = 0.51
 				m_flBloomThresholdWidth = 0.0
-				m_flSkyboxBloomStrength = 1.0
+				m_flSkyboxBloomStrength = 0.0
 				m_flBloomStartValue = 1.0
 				m_flBlurWeight = 
 				[
@@ -101,6 +130,15 @@
 					[ 1.0, 1.0, 1.0 ],
 				]
 			}
+		},
+		{
+			_class = "CVibranceColorCorrectionLayer"
+			m_name = "Saturation/Vibrance 0"
+			m_nOpacityPercent = 100
+			m_bVisible = true
+			m_pLayerMask = null
+			m_nVibrance = 0
+			m_nSaturation = 31
 		},
 	]
 }
