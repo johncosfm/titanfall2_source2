@@ -59,6 +59,29 @@
 							},
 						]
 					},
+					{
+						_class = "MaterialGroup"
+						name = "halflit_additive"
+						remaps = 
+						[
+							{
+								from = "models/vistas/angel_city_se/angelcity_mid_se.vmat"
+								to = "models/vistas/angel_city_se/angelcity_mid_se_halflit_additive.vmat"
+							},
+							{
+								from = "models/vistas/angel_city_se/angel_citylights.vmat"
+								to = "materials/dev/invis.vmat"
+							},
+							{
+								from = "models/vistas/angel_city_se/angel_fog.vmat"
+								to = "materials/dev/invis.vmat"
+							},
+							{
+								from = "models/vistas/angel_city_se/color_gradate_pan_sets.vmat"
+								to = "materials/dev/invis.vmat"
+							},
+						]
+					},
 				]
 			},
 			{

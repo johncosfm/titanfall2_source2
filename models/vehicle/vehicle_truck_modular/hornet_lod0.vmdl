@@ -29,6 +29,25 @@
 						use_global_default = false
 						global_default_material = ""
 					},
+					{
+						_class = "MaterialGroup"
+						name = "unlit"
+						remaps = 
+						[
+							{
+								from = "models/vehicle/hornet/materials/hornet_fighter_01.vmat"
+								to = "models/vehicle/hornet/materials/hornet_fighter_01_unlit.vmat"
+							},
+							{
+								from = "models/vehicle/hornet/materials/hornet_fighter_02.vmat"
+								to = "models/vehicle/hornet/materials/hornet_fighter_02_unlit.vmat"
+							},
+							{
+								from = "models/vehicle/hornet/materials/hornet_fighter_03.vmat"
+								to = "models/vehicle/hornet/materials/hornet_fighter_03_unlit.vmat"
+							},
+						]
+					},
 				]
 			},
 			{
