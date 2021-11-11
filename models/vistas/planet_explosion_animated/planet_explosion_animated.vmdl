@@ -81,7 +81,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = true
-						source_filename = "models/vistas/planet_explosion_animated/planet_explosion_animated_anims/planet_ex_ending.fbx"
+						source_filename = "models/vistas/planet_explosion_animated/anims/@planet_ex_ending.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0

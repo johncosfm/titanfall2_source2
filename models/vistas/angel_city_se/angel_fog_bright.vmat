@@ -7,6 +7,9 @@ Layer0
 	//---- PBR ----
 	F_SELF_ILLUM 1
 
+	//---- Rendering ----
+	F_RENDER_BACKFACES 1
+
 	//---- Translucent ----
 	F_ADDITIVE_BLEND 1
 	F_TRANSLUCENT 1
@@ -18,7 +21,7 @@ Layer0
 
 	//---- Color ----
 	g_flModelTintAmount "1.000"
-	g_vColorTint "[0.521569 0.509804 0.490196 0.000000]"
+	g_vColorTint "[0.835294 0.819608 0.796079 0.000000]"
 	TextureColor "models/vistas/angel_city_se/angel_fog/angel_fog_color.png"
 
 	//---- Fade ----
@@ -42,11 +45,11 @@ Layer0
 
 	//---- Self Illum ----
 	g_flSelfIllumAlbedoFactor "1.000"
-	g_flSelfIllumBrightness "2.239"
-	g_flSelfIllumScale "0.373"
+	g_flSelfIllumBrightness "1.370"
+	g_flSelfIllumScale "0.205"
 	g_vSelfIllumScrollSpeed "[-0.030 0.000]"
 	g_vSelfIllumTint "[1.000000 1.000000 1.000000 0.000000]"
-	TextureSelfIllumMask "materials/dev/panel_height.tga"
+	TextureSelfIllumMask "models/vistas/boomtown_endless_dome_destruction_se/materials/boomtown_endless_dome_god/boomtown_endless_dome_god_selfillum.png"
 
 	//---- Texture Coordinates ----
 	g_nScaleTexCoordUByModelScaleAxis "0"

@@ -42,11 +42,11 @@ Layer0
 
 	//---- Self Illum ----
 	g_flSelfIllumAlbedoFactor "1.000"
-	g_flSelfIllumBrightness "2.239"
-	g_flSelfIllumScale "0.373"
+	g_flSelfIllumBrightness "3.333"
+	g_flSelfIllumScale "0.481"
 	g_vSelfIllumScrollSpeed "[-0.050 0.000]"
 	g_vSelfIllumTint "[1.000000 1.000000 1.000000 0.000000]"
-	TextureSelfIllumMask "materials/dev/panel_height.tga"
+	TextureSelfIllumMask "models/menu/default_environment/materials/smoke_scroll_01/smoke_scroll_01_trans.png"
 
 	//---- Texture Coordinates ----
 	g_nScaleTexCoordUByModelScaleAxis "0"

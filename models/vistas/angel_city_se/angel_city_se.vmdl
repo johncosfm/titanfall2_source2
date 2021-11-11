@@ -19,7 +19,7 @@
 							},
 							{
 								from = "angel_fog.vmat"
-								to = "models/vistas/angel_city_se/angel_fog.vmat"
+								to = "materials/dev/invis.vmat"
 							},
 							{
 								from = "angelcity_mid_se.vmat"
@@ -32,6 +32,10 @@
 							{
 								from = "color_gradate_pan_sets.vmat"
 								to = "models/vistas/angel_city_se/color_gradate_pan_sets.vmat"
+							},
+							{
+								from = "angel_city_water.vmat"
+								to = "materials/water.vmat"
 							},
 						]
 						use_global_default = false
@@ -46,6 +50,10 @@
 								from = "models/vistas/angel_city_se/angelcity_mid_se.vmat"
 								to = "models/vistas/angel_city_se/angelcity_mid_se_halflit.vmat"
 							},
+							{
+								from = "models/vistas/angel_city_se/angel_fog.vmat"
+								to = "materials/dev/invis.vmat"
+							},
 						]
 					},
 					{
@@ -56,6 +64,10 @@
 							{
 								from = "models/vistas/angel_city_se/angelcity_mid_se.vmat"
 								to = "models/vistas/angel_city_se/angelcity_mid_se_lit.vmat"
+							},
+							{
+								from = "models/vistas/angel_city_se/angel_fog.vmat"
+								to = "materials/dev/invis.vmat"
 							},
 						]
 					},
@@ -73,7 +85,30 @@
 								to = "materials/dev/invis.vmat"
 							},
 							{
-								from = "models/vistas/angel_city_se/angel_fog.vmat"
+								from = "models/vistas/angel_city_se/color_gradate_pan_sets.vmat"
+								to = "materials/dev/invis.vmat"
+							},
+							{
+								from = "materials/dev/invis.vmat"
+								to = "materials/dev/invis.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "cloudsl"
+						remaps = 
+						[
+							{
+								from = "materials/dev/invis.vmat"
+								to = "models/vistas/angel_city_se/angel_fog.vmat"
+							},
+							{
+								from = "models/vistas/angel_city_se/angel_citylights.vmat"
+								to = "materials/dev/invis.vmat"
+							},
+							{
+								from = "models/vistas/angel_city_se/angelcity_mid_se.vmat"
 								to = "materials/dev/invis.vmat"
 							},
 							{

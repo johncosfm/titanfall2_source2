@@ -1,0 +1,144 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	_class = "CPostProcessData"
+	m_layers = 
+	[
+		{
+			_class = "CCurvesColorCorrectionLayer"
+			m_name = "Curves 3"
+			m_nOpacityPercent = 70
+			m_bVisible = true
+			m_pLayerMask = null
+			m_curvePointsRGB = 
+			[
+				[ 0.0, 0.0 ],
+				[ 82.0, 50.0 ],
+				[ 139.0, 116.782585 ],
+				[ 175.0, 165.604202 ],
+				[ 208.0, 212.37291 ],
+				[ 255.0, 255.0 ],
+			]
+			m_curvePointsR = 
+			[
+				[ 0.0, 0.0 ],
+				[ 255.0, 255.0 ],
+			]
+			m_curvePointsG = 
+			[
+				[ 0.0, 0.0 ],
+				[ 255.0, 255.0 ],
+			]
+			m_curvePointsB = 
+			[
+				[ 0.0, 30.0 ],
+				[ 63.0, 64.615685 ],
+				[ 162.0, 158.889664 ],
+				[ 255.0, 255.0 ],
+			]
+		},
+		{
+			_class = "CColorBalanceColorCorrectionLayer"
+			m_name = "Color Balance 0"
+			m_nOpacityPercent = 100
+			m_bVisible = true
+			m_pLayerMask = null
+			m_nRedCyanBalS = -1
+			m_nRedCyanBalM = 0
+			m_nRedCyanBalH = 0
+			m_nGreenMagentaBalS = 0
+			m_nGreenMagentaBalM = 0
+			m_nGreenMagentaBalH = 0
+			m_nBlueYellowBalS = 10
+			m_nBlueYellowBalM = 0
+			m_nBlueYellowBalH = 2
+			m_bPreserveLuminosity = true
+		},
+		{
+			_class = "CColorTintColorCorrectionLayer"
+			m_name = "Color Tint 0"
+			m_nOpacityPercent = 100
+			m_bVisible = true
+			m_pLayerMask = 
+			{
+				_class = "CLayerMask"
+				m_nLumMaskCenter = 0
+				m_nLumMaskWidth = 26
+				m_nLumMaskShape = 15
+				m_bInverted = false
+			}
+			m_nTintColorR = 0
+			m_nTintColorG = 0
+			m_nTintColorB = 50
+			m_nStrength = 35
+			m_bPreserveLuminosity = true
+		},
+		{
+			_class = "CCurvesColorCorrectionLayer"
+			m_name = "Curves 0"
+			m_nOpacityPercent = 100
+			m_bVisible = true
+			m_pLayerMask = null
+			m_curvePointsRGB = 
+			[
+				[ 0.0, 0.0 ],
+				[ 194.0, 242.0 ],
+				[ 255.0, 255.0 ],
+			]
+			m_curvePointsR = 
+			[
+				[ 0.0, 0.0 ],
+				[ 255.0, 255.0 ],
+			]
+			m_curvePointsG = 
+			[
+				[ 0.0, 0.0 ],
+				[ 255.0, 255.0 ],
+			]
+			m_curvePointsB = 
+			[
+				[ 0.0, 0.0 ],
+				[ 255.0, 255.0 ],
+			]
+		},
+		{
+			_class = "CBloomLayer"
+			m_name = "Bloom 3"
+			m_nOpacityPercent = 100
+			m_bVisible = true
+			m_pLayerMask = null
+			m_params = 
+			{
+				m_blendMode = "BLOOM_BLEND_ADD"
+				m_flBloomStrength = 2.67
+				m_flScreenBloomStrength = 1.0
+				m_flBlurBloomStrength = 1.0
+				m_flBloomThreshold = 0.341
+				m_flBloomThresholdWidth = 0.0
+				m_flSkyboxBloomStrength = 0.0
+				m_flBloomStartValue = 1.0
+				m_flBlurWeight = 
+				[
+					0.0, 1.0, 1.0, 1.0,
+					1.0,
+				]
+				m_vBlurTint = 
+				[
+					[ 1.0, 1.0, 1.0 ],
+					[ 1.0, 1.0, 1.0 ],
+					[ 1.0, 1.0, 1.0 ],
+					[ 1.0, 1.0, 1.0 ],
+					[ 1.0, 1.0, 1.0 ],
+				]
+			}
+		},
+		{
+			_class = "CVibranceColorCorrectionLayer"
+			m_name = "Saturation/Vibrance 0"
+			m_nOpacityPercent = 100
+			m_bVisible = true
+			m_pLayerMask = null
+			m_nVibrance = 0
+			m_nSaturation = 31
+		},
+	]
+}

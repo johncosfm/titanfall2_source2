@@ -1,0 +1,67 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "vr_energy_field.vfx"
+
+	//---- Translucent ----
+	F_TRANSLUCENT 3 // Additive
+
+	//---- Base ----
+	g_flBaseAlpha "100.000"
+	g_flBaseFresnel "0.000"
+	TextureColor "[0.811765 0.266667 0.133333 0.000000]"
+
+	//---- Dissolve ----
+	g_flDissolveEdgeDetailOffset "-0.341"
+	g_flDissolveEdgeDetailStrength "-1.407"
+	g_flDissolveEdgeIntensity "0.000"
+	g_flDissolveEdgeSharpness "59.259"
+	g_flDissolveEdgeWidth "0.000"
+	g_flDissolveReferenceValue "0.452"
+	g_vDissolveEdgeColor "[1.000000 1.000000 1.000000 0.000000]"
+	TextureDissolveMap "materials/workshop_examples/xen/xen_dead001_rough.tga"
+
+	//---- Energy Field ----
+	g_flSelfIllumBrightness "0.000"
+	g_flSelfIllumBrightnessPass2 "0.000"
+	g_flSelfIllumCustomFlowTimer "0.000"
+	g_flSelfIllumCustomFlowTimerPass2 "0.000"
+	g_flSelfIllumFlowAmount "0.289"
+	g_flSelfIllumFlowAmountPass2 "0.000"
+	g_flSelfIllumFlowFrequency "1.837"
+	g_flSelfIllumFlowFrequencyPass2 "1.000"
+	g_flSelfIllumFlowPhaseDetail01Strength "1.000"
+	g_flSelfIllumFlowPhaseDetail02Strength "1.000"
+	g_flSelfIllumFlowPhaseDetailStrength "0.000"
+	g_flSelfIllumFlowPhaseDetailStrengthPass2 "1.000"
+	g_flSelfIllumFlowSpeed "0.000"
+	g_flSelfIllumFlowSpeedPass2 "0.000"
+	g_flSelfIllumFresnel "0.000"
+	g_flSelfIllumOverallScale "0.000"
+	g_flSelfIllumOverallScalePass2 "1.000"
+	g_flWorldSpaceFlowScale "370.374"
+	g_flWorldSpaceFlowWeight "0.000"
+	g_vSelfIllumFlowPhaseDetail01UVOffset "[0.000 0.000]"
+	g_vSelfIllumFlowPhaseDetail01UVScale "[1.000 1.000]"
+	g_vSelfIllumFlowPhaseDetail02UVOffset "[0.000 0.000]"
+	g_vSelfIllumFlowPhaseDetail02UVScale "[1.000 1.000]"
+	g_vSelfIllumMaskUVOffset "[0.000 0.000]"
+	g_vSelfIllumMaskUVScale "[0.000 1.000]"
+	g_vSelfIllumTint "[1.000000 0.400000 0.000000 0.000000]"
+	g_vSelfIllumTintPass2 "[0.000000 0.000000 0.000000 0.000000]"
+	g_vWorldSpaceFlowOrigin "[0.000 0.000 0.000]"
+	TextureSelfIllumFlowPhase "materials/dev/panel_height.tga"
+	TextureSelfIllumFlowPhaseDetail01 "materials/default/default.tga"
+	TextureSelfIllumFlowPhaseDetail02 "materials/default/default.tga"
+	TextureSelfIllumFlowWaveform "materials/workshop_examples/combine/combine_shield_wave.png"
+	TextureSelfIllumFlowWaveformPass2 "[0.000000 0.000000 0.000000 0.000000]"
+	TextureSelfIllumMask "[1.000000 1.000000 1.000000 0.000000]"
+
+	//---- Fog ----
+	g_bFogEnabled "1"
+
+	//---- Texture Coordinates ----
+	g_vTexCoordOffset "[0.000 0.000]"
+	g_vTexCoordScale "[1.000 1.000]"
+}

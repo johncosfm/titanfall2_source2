@@ -39,8 +39,8 @@ Layer0
 
 	//---- Self Illum ----
 	g_flSelfIllumAlbedoFactor "0.000"
-	g_flSelfIllumBrightness "0.000"
-	g_flSelfIllumScale "0.343"
+	g_flSelfIllumBrightness "0.720"
+	g_flSelfIllumScale "0.336"
 	g_vSelfIllumScrollSpeed "[0.000 0.000]"
 	g_vSelfIllumTint "[0.725490 0.705882 0.662745 0.000000]"
 	TextureSelfIllumMask "models/vistas/wargames_se/materials/wargame_se_airbase/angelcity_onlybuildings_selfillum_blurry.png"

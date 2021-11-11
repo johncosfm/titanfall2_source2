@@ -81,7 +81,8 @@
 			m_curvePointsRGB = 
 			[
 				[ 0.0, 0.0 ],
-				[ 194.0, 242.0 ],
+				[ 56.0, 61.235161 ],
+				[ 171.0, 219.0 ],
 				[ 255.0, 255.0 ],
 			]
 			m_curvePointsR = 
@@ -109,10 +110,10 @@
 			m_params = 
 			{
 				m_blendMode = "BLOOM_BLEND_ADD"
-				m_flBloomStrength = 1.648
+				m_flBloomStrength = 2.67
 				m_flScreenBloomStrength = 1.0
 				m_flBlurBloomStrength = 1.0
-				m_flBloomThreshold = 0.51
+				m_flBloomThreshold = 0.341
 				m_flBloomThresholdWidth = 0.0
 				m_flSkyboxBloomStrength = 0.0
 				m_flBloomStartValue = 1.0

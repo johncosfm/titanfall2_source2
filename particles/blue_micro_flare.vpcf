@@ -50,6 +50,7 @@
 			m_flRadiusMin = 1.5
 			m_flRadiusMax = 1.5
 			m_flRadiusRandExponent = 2.0
+			m_bDisableOperator = true
 		},
 		{
 			_class = "C_INIT_RandomAlpha"
@@ -98,7 +99,6 @@
 			m_flSelfIllumAmount = 2.0
 			m_flDiffuseAmount = 0.0
 			m_flOverbrightFactor = 3.0
-			m_bDisableOperator = true
 		},
 		{
 			_class = "C_OP_RenderSprites"
@@ -749,7 +749,7 @@
 	[
 		{
 			_class = "C_OP_InterpolateRadius"
-			m_flEndTime = 0.1
+			m_flEndTime = 0.01
 			m_flStartScale = 0.0
 		},
 		{

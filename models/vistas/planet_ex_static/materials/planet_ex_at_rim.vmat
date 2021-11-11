@@ -42,11 +42,11 @@ Layer0
 
 	//---- Self Illum ----
 	g_flSelfIllumAlbedoFactor "1.000"
-	g_flSelfIllumBrightness "0.862"
+	g_flSelfIllumBrightness "5.714"
 	g_flSelfIllumScale "1.000"
 	g_vSelfIllumScrollSpeed "[0.000 0.000]"
 	g_vSelfIllumTint "[1.000000 1.000000 1.000000 0.000000]"
-	TextureSelfIllumMask "[1.000000 1.000000 1.000000 0.000000]"
+	TextureSelfIllumMask "models/vistas/planet_ex_static/materials/planet_ex_at_rim/planet_ex_at_rim_trans.png"
 
 	//---- Texture Coordinates ----
 	g_nScaleTexCoordUByModelScaleAxis "0"
