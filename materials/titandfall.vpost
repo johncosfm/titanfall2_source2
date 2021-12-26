@@ -12,10 +12,8 @@
 			m_curvePointsRGB = 
 			[
 				[ 0.0, 0.0 ],
-				[ 82.0, 50.0 ],
-				[ 139.0, 116.782585 ],
-				[ 175.0, 165.604202 ],
-				[ 208.0, 212.37291 ],
+				[ 32.0, 13.0 ],
+				[ 188.0, 204.0 ],
 				[ 255.0, 255.0 ],
 			]
 			m_curvePointsR = 
@@ -30,7 +28,7 @@
 			]
 			m_curvePointsB = 
 			[
-				[ 0.0, 30.0 ],
+				[ 0.0, 21.0 ],
 				[ 63.0, 64.615685 ],
 				[ 162.0, 158.889664 ],
 				[ 255.0, 255.0 ],
@@ -44,13 +42,13 @@
 			m_pLayerMask = null
 			m_nRedCyanBalS = -1
 			m_nRedCyanBalM = 0
-			m_nRedCyanBalH = 0
+			m_nRedCyanBalH = 2
 			m_nGreenMagentaBalS = 0
 			m_nGreenMagentaBalM = 0
 			m_nGreenMagentaBalH = 0
-			m_nBlueYellowBalS = 10
+			m_nBlueYellowBalS = 27
 			m_nBlueYellowBalM = 0
-			m_nBlueYellowBalH = 2
+			m_nBlueYellowBalH = 0
 			m_bPreserveLuminosity = true
 		},
 		{
@@ -75,14 +73,14 @@
 		{
 			_class = "CCurvesColorCorrectionLayer"
 			m_name = "Curves 0"
-			m_nOpacityPercent = 100
+			m_nOpacityPercent = 50
 			m_bVisible = true
 			m_pLayerMask = null
 			m_curvePointsRGB = 
 			[
 				[ 0.0, 0.0 ],
-				[ 56.0, 61.235161 ],
-				[ 171.0, 219.0 ],
+				[ 60.0, 54.235161 ],
+				[ 179.0, 186.0 ],
 				[ 255.0, 255.0 ],
 			]
 			m_curvePointsR = 
@@ -109,12 +107,12 @@
 			m_pLayerMask = null
 			m_params = 
 			{
-				m_blendMode = "BLOOM_BLEND_ADD"
-				m_flBloomStrength = 2.67
-				m_flScreenBloomStrength = 1.0
+				m_blendMode = "BLOOM_BLEND_SCREEN"
+				m_flBloomStrength = 0.849
+				m_flScreenBloomStrength = 0.2273
 				m_flBlurBloomStrength = 1.0
-				m_flBloomThreshold = 0.341
-				m_flBloomThresholdWidth = 0.0
+				m_flBloomThreshold = 1.191
+				m_flBloomThresholdWidth = 5.0
 				m_flSkyboxBloomStrength = 0.0
 				m_flBloomStartValue = 1.0
 				m_flBlurWeight = 
@@ -138,8 +136,8 @@
 			m_nOpacityPercent = 100
 			m_bVisible = true
 			m_pLayerMask = null
-			m_nVibrance = 0
-			m_nSaturation = 31
+			m_nVibrance = 14
+			m_nSaturation = 0
 		},
 	]
 }
