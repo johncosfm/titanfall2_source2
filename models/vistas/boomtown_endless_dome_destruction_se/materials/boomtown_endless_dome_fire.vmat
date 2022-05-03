@@ -19,7 +19,7 @@ Layer0
 
 	//---- Color ----
 	g_flModelTintAmount "1.000"
-	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
+	g_vColorTint "[0.623529 0.623529 0.623529 0.000000]"
 	TextureColor "models/vistas/boomtown_endless_dome_destruction_se/materials/boomtown_endless_dome_fire/boomtown_endless_dome_fire_color.png"
 
 	//---- Fade ----
@@ -39,11 +39,11 @@ Layer0
 
 	//---- Self Illum ----
 	g_flSelfIllumAlbedoFactor "1.000"
-	g_flSelfIllumBrightness "4.030"
-	g_flSelfIllumScale "1.000"
-	g_vSelfIllumScrollSpeed "[0.000 0.000]"
-	g_vSelfIllumTint "[1.000000 1.000000 1.000000 0.000000]"
-	TextureSelfIllumMask "models/vistas/boomtown_endless_dome_destruction_se/materials/boomtown_endless_dome_fire/boomtown_endless_dome_fire_color.png"
+	g_flSelfIllumBrightness "7.757"
+	g_flSelfIllumScale "0.570"
+	g_vSelfIllumScrollSpeed "[0.000 0.200]"
+	g_vSelfIllumTint "[0.984314 0.662745 0.501961 0.000000]"
+	TextureSelfIllumMask "models/vistas/planet_explosion_animated/materials/planet_ex_dust_fire/planet_ex_dust_fire_trans.png"
 
 	//---- Texture Coordinates ----
 	g_nScaleTexCoordUByModelScaleAxis "0"

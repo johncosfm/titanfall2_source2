@@ -113,27 +113,992 @@
 							exception_list = [  ]
 						}
 					},
+				]
+			},
+			{
+				_class = "BoneMarkupList"
+				children = 
+				[
 					{
-						_class = "RenderMeshFile"
-						filename = "models/BONES/ja_c_propGun.fbx"
-						import_scale = 0.01
-						import_filter = 
-						{
-							exclude_by_default = false
-							exception_list = [  ]
-						}
+						_class = "BoneMarkup"
+						target_bone = "def_l_finringc"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
 					},
 					{
-						_class = "RenderMeshFile"
-						filename = "models/BONES/jx_c_start.fbx"
-						import_scale = 0.01
-						import_filter = 
-						{
-							exclude_by_default = false
-							exception_list = [  ]
-						}
+						_class = "BoneMarkup"
+						target_bone = "def_l_finringb"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_l_finringa"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_l_finmidc"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_l_finmidb"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_l_finindexc"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_l_finindexb"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_l_finthumbc"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_l_finthumbb"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_l_finringcarpal"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_l_finmida"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_l_finindexa"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_l_finthumba"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_l_wrist"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_l_forearm"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "jx_vortex"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_l_elbow"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_l_elbowb"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_l_shouldermid"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_l_shouldertwist"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_l_shoulder"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_r_finthumbc"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_r_finthumbb"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_r_finindexc"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_r_finindexb"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_r_finmidc"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_r_finmidb"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_r_finringc"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_r_finringb"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_r_finringa"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_r_finthumba"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_r_finindexa"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_r_finmida"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_r_finringcarpal"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_r_wrist"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_r_forearm"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_r_elbow"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_r_elbowb"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_r_shouldertwist"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_r_shouldermid"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_r_shoulder"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "jx_hb_hatch_3"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "jx_hb_hatch_2"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "jx_hb_hatch_1"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_c_eye"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_l_eye_base"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_r_eye_base"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "bip01_r_hand"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_l_bot_thrust"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_r_bot_thrust"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_l_top_thrust"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_r_top_thrust"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_l_pod_cover"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_l_pod_arm_3"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_l_pod_arm_2"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_r_pod_cover"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_r_pod_arm_3"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_r_pod_arm_2"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_c_head"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_c_neckb"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "jx_c_neckb"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_c_hatchtop"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_l_clav"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_r_clav"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_embark_hatch"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "jx_hatch_panel"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "jx_rifle_holster"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "jx_sidearm_holster"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "ja_c_propgun"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "jx_hb_l_front_side_2"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "jx_hb_l_front_side_1"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "jx_hb_l_back_side_2"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "jx_hb_l_back_side_1"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "jx_hb_r_front_side_1_end"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "jx_hb_r_front_side_2_end"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "jx_hb_r_back_side_2_end"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "jx_hb_r_back_side_1_end"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_c_bot_thrust_base"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_c_top_thrust_base"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_l_pod_arm_1"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_r_pod_arm_1"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_embark_hatch_flap"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_c_necka"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_c_intbase"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "jx_c_rodeo"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_c_cam"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_c_hatchhead"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_c_spinec"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_c_spineb"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_r_ball"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_r_leg_shock_2"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "jx_r_ankle_hb"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_r_ankle"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_r_leg_shock_2_end"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_r_hind_cover"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_r_hind_booster"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_r_knee"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_r_kneeb"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_r_leg_shock_1"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_r_thighlow"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_r_leg_shock_1_end"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_r_thigh_cover"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_r_thiigh_booster_up"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_r_thiigh_booster_down"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_r_thigh"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_l_ball"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_l_leg_shock_2"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "jx_l_ankle_hb"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_l_ankle"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_l_leg_shock_2_end"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_l_hind_cover"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_l_hind_booster"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_l_knee"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_l_kneeb"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_l_leg_shock_1"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_l_thighlow"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_l_leg_shock_1_end"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_l_thigh_cover"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_l_thiigh_booster_up"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_l_thiigh_booster_down"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_l_thigh"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_c_spinea"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_r_hip"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_l_hip"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "jx_c_camera"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_c_hip"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "jx_c_pov"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "jx_c_start"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "jx_c_delta"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "jx_c_camera_2"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "jx_c_camera_3"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "grp_l_leg_lod0"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "grp_r_leg_lod0"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
 					},
 				]
+				bone_cull_type = "Aggressive"
+			},
+			{
+				_class = "AnimationList"
+				children = 
+				[
+					{
+						_class = "AnimFile"
+						name = "lt_s2s_end_fight_start_fbx"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/titans/light/titan_light_MP_scripted/lt_s2s_end_fight_start.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "lt_s2s_end_fight_start"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/titans/light/titan_light_MP_scripted/anims/@lt_s2s_end_fight_start.smd"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+				]
+				default_root_bone_name = ""
 			},
 		]
 		model_archetype = ""

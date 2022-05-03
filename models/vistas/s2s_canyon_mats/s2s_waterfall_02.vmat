@@ -22,14 +22,14 @@ Layer0
 
 	//---- Color ----
 	g_flModelTintAmount "1.000"
-	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
+	g_vColorTint "[0.301961 0.301961 0.301961 0.000000]"
 	TextureColor "models/vistas/s2s_canyon_mats/s2s_waterfall_02/s2s_waterfall_02_color.png"
 
 	//---- Fade ----
 	g_flFadeExponent "1.000"
 
 	//---- Fog ----
-	g_bFogEnabled "0"
+	g_bFogEnabled "1"
 
 	//---- Foliage Animation ----
 	g_bFrondAnimationNormalFacing "0"

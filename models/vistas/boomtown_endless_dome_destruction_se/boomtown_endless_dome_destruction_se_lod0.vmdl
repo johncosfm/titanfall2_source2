@@ -43,15 +43,15 @@
 							},
 							{
 								from = "timeshift_clouds_01.vmat"
-								to = "models/vistas/boomtown_endless_dome_destruction_se/materials/timeshift_clouds_01.vmats"
+								to = "materials/tools/toolsskip.vmat"
 							},
 							{
 								from = "timeshift_clouds_033.vmat"
-								to = "models/vistas/thaw_se/materials/timeshift_clouds_033.vmat"
+								to = "materials/tools/toolsskip.vmat"
 							},
 							{
 								from = "timeshift_clouds_05.vmat"
-								to = "models/vistas/boomtown_endless_dome_destruction_se/materials/timeshift_clouds_01.vmat"
+								to = "materials/tools/toolsskip.vmat"
 							},
 							{
 								from = "timeshift_storm_sky.vmat"
@@ -67,11 +67,11 @@
 							},
 							{
 								from = "timeshift_clouds_03.vmat"
-								to = "models/vistas/wild_drop_sky_animated/materials/timeshift_clouds_03.vmat"
+								to = "materials/tools/toolsskip.vmat"
 							},
 							{
 								from = "timeshift_clouds_04.vmat"
-								to = "models/vistas/wild_drop_sky_animated/materials/wild_drop_lightning.vmat"
+								to = "materials/tools/toolsskip.vmat"
 							},
 						]
 						use_global_default = false

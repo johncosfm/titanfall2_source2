@@ -6,7 +6,7 @@
 		{
 			_class = "CCurvesColorCorrectionLayer"
 			m_name = "Curves 3"
-			m_nOpacityPercent = 70
+			m_nOpacityPercent = 100
 			m_bVisible = true
 			m_pLayerMask = null
 			m_curvePointsRGB = 
@@ -37,7 +37,7 @@
 		{
 			_class = "CColorBalanceColorCorrectionLayer"
 			m_name = "Color Balance 0"
-			m_nOpacityPercent = 100
+			m_nOpacityPercent = 70
 			m_bVisible = true
 			m_pLayerMask = null
 			m_nRedCyanBalS = -1
@@ -109,15 +109,15 @@
 			{
 				m_blendMode = "BLOOM_BLEND_SCREEN"
 				m_flBloomStrength = 0.849
-				m_flScreenBloomStrength = 0.2273
+				m_flScreenBloomStrength = 1.0
 				m_flBlurBloomStrength = 1.0
-				m_flBloomThreshold = 1.191
+				m_flBloomThreshold = 0.341
 				m_flBloomThresholdWidth = 5.0
 				m_flSkyboxBloomStrength = 0.0
 				m_flBloomStartValue = 1.0
 				m_flBlurWeight = 
 				[
-					0.0, 1.0, 1.0, 1.0,
+					0.0, 0.0, 0.6534, 1.0,
 					1.0,
 				]
 				m_vBlurTint = 

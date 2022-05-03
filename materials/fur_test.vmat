@@ -9,7 +9,7 @@ Layer0
 
 	//---- Color ----
 	g_flModelTintAmount "1.000"
-	g_vColorTint "[0.082353 1.000000 0.000000 0.000000]"
+	g_vColorTint "[0.000000 0.949020 1.000000 0.000000]"
 	TextureColor "materials/dev/black_grid_8_color.tga"
 
 	//---- Fade ----
@@ -29,11 +29,11 @@ Layer0
 	TextureNormal "materials/default/default_normal.tga"
 
 	//---- Parallax ----
-	g_flHeightMapScale "0.097"
+	g_flHeightMapScale "0.014"
 	g_nLODThreshold "12"
 	g_nMaxSamples "128"
 	g_nMinSamples "64"
-	TextureHeight "materials/dev/black_grid_8_color.tga"
+	TextureHeight "materials/black_grid_8_color_harsh.tga"
 
 	//---- Roughness ----
 	TextureRoughness "[0.098039 0.098039 0.098039 0.000000]"
