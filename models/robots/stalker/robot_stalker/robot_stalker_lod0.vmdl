@@ -1,0 +1,2217 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "SpawnConfig"
+				children = 
+				[
+					{
+						_class = "ConfigAttachedModel"
+						model_name = "models/weapons/lstar/w_lstar_lod0.vmdl"
+						entity_class = ""
+						attachment_type = "attach"
+						attach_point = "prop_gun"
+						use_additional_offset = true
+						relative_origin = [ 0.0, 0.0, 0.0 ]
+						relative_angles = [ 0.0, -90.0, 0.0 ]
+						user_specified_color = false
+						user_specified_materialgroup = false
+						accept_parent_materialdriven_decals = false
+					},
+				]
+				hide_materialgroup_in_tools = false
+				hide_rendercolor_in_tools = false
+			},
+			{
+				_class = "BoneMarkupList"
+				children = 
+				[
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_r_finindexc"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_r_finindexb"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_r_finmidc"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_r_finmidb"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_r_finthumbc"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_r_finthumbb"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_r_finringc"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_r_finringb"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_r_finpinkyc"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_r_finpinkyb"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_r_finringa"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_r_finpinkya"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_r_finindexa"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_r_finmida"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_r_finthumba"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_r_finringcarpal"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "ja_r_prophand"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_r_forearm"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_r_wrist"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_r_elbow"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_r_shouldertwist"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_r_elbowb"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_r_shouldermid"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_r_shoulder"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_l_ball"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_l_ankle"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_l_knee"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_l_kneeb"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_r_ball"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_r_ankle"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_r_knee"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_r_kneeb"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_l_thigh"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_r_thigh"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "jx_c_start"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "jx_c_camera"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_l_eye_attach"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_r_eye_attach"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_c_head"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_c_neckb"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "jx_c_neckb"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_l_finindexc"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_l_finindexb"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_l_finmidc"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_l_finmidb"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_l_finthumbc"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_l_finthumbb"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_l_finringc"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_l_finringb"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_l_finpinkyc"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_l_finpinkyb"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_l_finringa"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_l_finpinkya"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_l_finindexa"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_l_finmida"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_l_finthumba"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_l_finringcarpal"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "ja_l_prophand"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_l_forearm"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_l_wrist"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_l_elbow"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_l_shouldertwist"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_l_elbowb"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_l_shouldermid"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_l_shoulder"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "ja_c_propgun"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_c_necka"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_l_clav"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_r_clav"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "jx_c_delta"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "jx_c_pov"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_c_hip"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_c_spinea"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_c_spineb"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+					{
+						_class = "BoneMarkup"
+						target_bone = "def_c_spinec"
+						ignore_Translation = false
+						ignore_rotation = false
+						do_not_discard = true
+					},
+				]
+				bone_cull_type = "Aggressive"
+			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "rbt_stalker_head_skn_01.vmat"
+								to = "models/robots/stalker/robot_stalker/materials/rbt_stalker_head_skn_01.vmat"
+							},
+							{
+								from = "rbt_stalker_lowerbody_skn_01.vmat"
+								to = "models/robots/stalker/robot_stalker/materials/rbt_stalker_lowerbody_skn_01.vmat"
+							},
+							{
+								from = "rbt_stalker_upperbody_skn_01.vmat"
+								to = "models/robots/stalker/robot_stalker/materials/rbt_stalker_upperbody_skn_01.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
+			{
+				_class = "AttachmentList"
+				children = 
+				[
+					{
+						_class = "Attachment"
+						name = "prop_gun"
+						parent_bone = "ja_c_propgun"
+						relative_origin = [ 0.0, 0.0, 0.0 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						filename = "models/robots/stalker/robot_stalker/robot_stalker_body_lod0.smd"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						filename = "models/robots/stalker/robot_stalker/robot_stalker_head_lod0.smd"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						filename = "models/robots/stalker/robot_stalker/robot_stalker_l_arm_lod0.smd"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						filename = "models/robots/stalker/robot_stalker/robot_stalker_l_leg_lod0.smd"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						filename = "models/robots/stalker/robot_stalker/robot_stalker_r_arm_lod0.smd"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						filename = "models/robots/stalker/robot_stalker/robot_stalker_r_leg_lod0.smd"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						filename = "models/robots/stalker/robot_stalker/robot_stalker_red_box_lod0.smd"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "AnimationList"
+				children = 
+				[
+					{
+						_class = "Folder"
+						name = "stalker_scripted"
+						children = 
+						[
+							{
+								_class = "AnimFile"
+								name = "sp_assembly_line"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/robots/stalker/stalker_scripted/anims/@sp_assembly_line.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "sp_assembly_line_drop"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/robots/stalker/stalker_scripted/anims/@sp_assembly_line_drop.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "sp_assembly_line_drop_turn90"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/robots/stalker/stalker_scripted/anims/@sp_assembly_line_drop_turn90.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "sp_assembly_line_idle"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/robots/stalker/stalker_scripted/anims/@sp_assembly_line_idle.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "sp_bldg_traverse_down_670"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/robots/stalker/stalker_scripted/anims/@sp_bldg_traverse_down_670.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "sp_bldg_traverse_down_1024"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/robots/stalker/stalker_scripted/anims/@sp_bldg_traverse_down_1024.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "sp_classic_flyin"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/robots/stalker/stalker_scripted/anims/@sp_classic_flyin.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "sp_colony_intro_ambush_kill"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/robots/stalker/stalker_scripted/anims/@sp_colony_intro_ambush_kill.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "sp_corporate_wall_swarm_A"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/robots/stalker/stalker_scripted/anims/@sp_corporate_wall_swarm_A.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "sp_corporate_wall_swarm_B"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/robots/stalker/stalker_scripted/anims/@sp_corporate_wall_swarm_B.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "sp_corporate_wall_swarm_C"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/robots/stalker/stalker_scripted/anims/@sp_corporate_wall_swarm_C.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "sp_corpse_patrol_A"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/robots/stalker/stalker_scripted/anims/@sp_corpse_patrol_A.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "sp_corpse_patrol_B_1"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/robots/stalker/stalker_scripted/anims/@sp_corpse_patrol_B_1.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "sp_corpse_patrol_B_2"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/robots/stalker/stalker_scripted/anims/@sp_corpse_patrol_B_2.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "sp_evac_cockpit_punch"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/robots/stalker/stalker_scripted/anims/@sp_evac_cockpit_punch.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "sp_evac_engine_punch"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/robots/stalker/stalker_scripted/anims/@sp_evac_engine_punch.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "sp_evac_engine_shoot"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/robots/stalker/stalker_scripted/anims/@sp_evac_engine_shoot.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "sp_evac_wing_shoot"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/robots/stalker/stalker_scripted/anims/@sp_evac_wing_shoot.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "sp_ps_jumpdown"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/robots/stalker/stalker_scripted/anims/@sp_ps_jumpdown.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "sp_ps_jumpdown_320"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/robots/stalker/stalker_scripted/anims/@sp_ps_jumpdown_320.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "sp_ps_jumpdown_512"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/robots/stalker/stalker_scripted/anims/@sp_ps_jumpdown_512.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "sp_ps_jumpout_down_128"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/robots/stalker/stalker_scripted/anims/@sp_ps_jumpout_down_128.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "sp_ps_jumpout_down_256"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/robots/stalker/stalker_scripted/anims/@sp_ps_jumpout_down_256.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "sp_ps_jumpup"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/robots/stalker/stalker_scripted/anims/@sp_ps_jumpup.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "sp_roofdrop"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/robots/stalker/stalker_scripted/anims/@sp_roofdrop.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "sp_spectre_crawl_trapped"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/robots/stalker/stalker_scripted/anims/@sp_spectre_crawl_trapped.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "sp_titan_spectre_swarm"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/robots/stalker/stalker_scripted/anims/@sp_titan_spectre_swarm.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "sp_titan_spectre_swarm_2"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/robots/stalker/stalker_scripted/anims/@sp_titan_spectre_swarm_2.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "sp_titan_spectre_swarm_3"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/robots/stalker/stalker_scripted/anims/@sp_titan_spectre_swarm_3.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "sp_titan_spectre_swarm_4"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/robots/stalker/stalker_scripted/anims/@sp_titan_spectre_swarm_4.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "sp_titan_spectre_swarm_groundA"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/robots/stalker/stalker_scripted/anims/@sp_titan_spectre_swarm_groundA.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "sp_titan_spectre_swarm_groundB"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/robots/stalker/stalker_scripted/anims/@sp_titan_spectre_swarm_groundB.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "st_awakening_kneel_A"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/robots/stalker/stalker_scripted/anims/@st_awakening_kneel_A.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "st_awakening_kneel_B"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/robots/stalker/stalker_scripted/anims/@st_awakening_kneel_B.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "st_awakening_prone"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/robots/stalker/stalker_scripted/anims/@st_awakening_prone.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "st_awakening_wall_lean"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/robots/stalker/stalker_scripted/anims/@st_awakening_wall_lean.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "st_awakening_wall_lean_fall"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/robots/stalker/stalker_scripted/anims/@st_awakening_wall_lean_fall.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "st_beacon_swarm_claw_A"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/robots/stalker/stalker_scripted/anims/@st_beacon_swarm_claw_A.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "st_beacon_swarm_climb_A"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/robots/stalker/stalker_scripted/anims/@st_beacon_swarm_climb_A.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "st_beacon_swarm_climb_C"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/robots/stalker/stalker_scripted/anims/@st_beacon_swarm_climb_C.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "st_beacon_swarm_climb_D"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/robots/stalker/stalker_scripted/anims/@st_beacon_swarm_climb_D.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "st_beacon_swarm_climb_E"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/robots/stalker/stalker_scripted/anims/@st_beacon_swarm_climb_E.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "st_beacon_swarm_idle_A"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/robots/stalker/stalker_scripted/anims/@st_beacon_swarm_idle_A.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "st_beacon_swarm_idle_B"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/robots/stalker/stalker_scripted/anims/@st_beacon_swarm_idle_B.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "st_beacon_swarm_idle_C"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/robots/stalker/stalker_scripted/anims/@st_beacon_swarm_idle_C.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "st_beacon_swarm_idle_D"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/robots/stalker/stalker_scripted/anims/@st_beacon_swarm_idle_D.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "st_beacon_swarm_idle_E"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/robots/stalker/stalker_scripted/anims/@st_beacon_swarm_idle_E.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "st_beacon_swarm_punch_B"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/robots/stalker/stalker_scripted/anims/@st_beacon_swarm_punch_B.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "st_beacon_swarm_shoot_C"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/robots/stalker/stalker_scripted/anims/@st_beacon_swarm_shoot_C.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "st_beacon_swarm_shoot_window_A"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/robots/stalker/stalker_scripted/anims/@st_beacon_swarm_shoot_window_A.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "st_beacon_swarm_shoot_window_B"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/robots/stalker/stalker_scripted/anims/@st_beacon_swarm_shoot_window_B.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "st_beacon_swarm_smash_B"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/robots/stalker/stalker_scripted/anims/@st_beacon_swarm_smash_B.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "st_beacon_swarm_smash_C"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/robots/stalker/stalker_scripted/anims/@st_beacon_swarm_smash_C.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "st_beacon_swarm_climb_B"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/robots/stalker/stalker_scripted/anims/@st_beacon_swarm_climb_B.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "st_beacon_widow_spawner"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/robots/stalker/stalker_scripted/anims/@st_beacon_widow_spawner.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "st_breakout_spawn_floordeath"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/robots/stalker/stalker_scripted/anims/@st_breakout_spawn_floordeath.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "st_breakout_spawn_floordeath_long"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/robots/stalker/stalker_scripted/anims/@st_breakout_spawn_floordeath_long.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "st_breakout_spawn_floorpanel"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/robots/stalker/stalker_scripted/anims/@st_breakout_spawn_floorpanel.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "st_breakout_spawn_floorpanel_long"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/robots/stalker/stalker_scripted/anims/@st_breakout_spawn_floorpanel_long.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "st_door_kill_death"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/robots/stalker/stalker_scripted/anims/@st_door_kill_death.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "st_door_kill"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/robots/stalker/stalker_scripted/anims/@st_door_kill.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "st_door_spawn_core"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/robots/stalker/stalker_scripted/anims/@st_door_spawn_core.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "st_door_spawn_stagger_1st"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/robots/stalker/stalker_scripted/anims/@st_door_spawn_stagger_1st.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "st_door_spawn_stagger_2nd"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/robots/stalker/stalker_scripted/anims/@st_door_spawn_stagger_2nd.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+						]
+					},
+					{
+						_class = "AnimFile"
+						name = "st_dumpbody_over_railing"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/robots/stalker/stalker_scripted/anims/@st_dumpbody_over_railing.smd"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "st_kickbody_over_edge"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/robots/stalker/stalker_scripted/anims/@st_kickbody_over_edge.smd"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "st_s2s_sentinel_idle"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/robots/stalker/stalker_scripted/anims/@st_s2s_sentinel_idle.smd"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "st_s2s_sentinel_leap"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/robots/stalker/stalker_scripted/anims/@st_s2s_sentinel_leap.smd"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "st_s2s_sentinel_leap_end"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/robots/stalker/stalker_scripted/anims/@st_s2s_sentinel_leap_end.smd"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "st_s2s_sentinel_leap_start"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/robots/stalker/stalker_scripted/anims/@st_s2s_sentinel_leap_start.smd"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "st_shieldwalk"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/robots/stalker/stalker_scripted/anims/@st_shieldwalk.smd"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "st_smash_hanging_stalker"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/robots/stalker/stalker_scripted/anims/@st_smash_hanging_stalker.smd"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "st_traverse_across_648"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/robots/stalker/stalker_scripted/anims/@st_traverse_across_648.smd"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "st_underground_smoker"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/robots/stalker/stalker_scripted/anims/@st_underground_smoker.smd"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "st_vent_spawn_core"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/robots/stalker/stalker_scripted/anims/@st_vent_spawn_core.smd"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "st_vent_spawn_damaged_longintro"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/robots/stalker/stalker_scripted/anims/@st_vent_spawn_damaged_longintro.smd"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+				]
+				default_root_bone_name = ""
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+	}
+}
