@@ -10573,6 +10573,87 @@
 							{
 								_class = "AnimFile"
 								name = "pt_barslam_skit_end"
+								children = 
+								[
+									{
+										_class = "AnimEvent"
+										event_class = "AE_CL_PLAYSOUND_ATTACHMENT"
+										event_frame = 46
+										event_keys = 
+										{
+											name = "sfx.ai_skit_spectrebarfight_bodyimpact_2ch_v1_01"
+											attachment = ""
+											stop_on_seq_change = false
+											use_layer_sequence = false
+											tags = ""
+										}
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_CL_PLAYSOUND_ATTACHMENT"
+										event_frame = 48
+										event_keys = 
+										{
+											name = "sfx.ai_skit_spectrebarfight_diag_1ch_v1_01"
+											attachment = ""
+											stop_on_seq_change = false
+											use_layer_sequence = false
+											tags = ""
+										}
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_CL_PLAYSOUND_ATTACHMENT"
+										event_frame = 91
+										event_keys = 
+										{
+											name = "sfx.ai_skit_spectrebarfight_bodygrab_1ch_v1_01"
+											attachment = ""
+											stop_on_seq_change = false
+											use_layer_sequence = false
+											tags = ""
+										}
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_CL_PLAYSOUND_ATTACHMENT"
+										event_frame = 105
+										event_keys = 
+										{
+											name = "sfx.ai_skit_spectrebarfight_bodyslide_1ch_v1_01"
+											attachment = ""
+											stop_on_seq_change = false
+											use_layer_sequence = false
+											tags = ""
+										}
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_CL_PLAYSOUND_ATTACHMENT"
+										event_frame = 49
+										event_keys = 
+										{
+											name = "sfx.Sweetener_Punch_02_2ch_v1_02"
+											attachment = ""
+											stop_on_seq_change = false
+											use_layer_sequence = false
+											tags = ""
+										}
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_CL_PLAYSOUND_ATTACHMENT"
+										event_frame = 126
+										event_keys = 
+										{
+											name = "PhysBreak.Wood_Box"
+											attachment = ""
+											stop_on_seq_change = false
+											use_layer_sequence = false
+											tags = ""
+										}
+									},
+								]
 								activity_name = ""
 								activity_weight = 1
 								weight_list_name = ""
@@ -10613,6 +10694,35 @@
 							{
 								_class = "AnimFile"
 								name = "pt_blindfire_idle_skit"
+								children = 
+								[
+									{
+										_class = "AnimEvent"
+										event_class = "AE_CL_PLAYSOUND_ATTACHMENT"
+										event_frame = 0
+										event_keys = 
+										{
+											name = "sfx.ai_skit_spectreblindfire_idle_grunt_pt1_1ch_v1_lp"
+											attachment = ""
+											stop_on_seq_change = false
+											use_layer_sequence = false
+											tags = ""
+										}
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_CL_PLAYSOUND_ATTACHMENT"
+										event_frame = 0
+										event_keys = 
+										{
+											name = "sfx.ai_skit_spectreblindfire_idle_diag_grunt_pt1_1ch_v1_lp"
+											attachment = ""
+											stop_on_seq_change = false
+											use_layer_sequence = false
+											tags = ""
+										}
+									},
+								]
 								activity_name = ""
 								activity_weight = 1
 								weight_list_name = ""
@@ -10633,6 +10743,126 @@
 							{
 								_class = "AnimFile"
 								name = "pt_blindfire_skit"
+								children = 
+								[
+									{
+										_class = "AnimEvent"
+										event_class = "AE_CL_PLAYSOUND_ATTACHMENT"
+										event_frame = 0
+										event_keys = 
+										{
+											name = "sfx.ai_skit_spectreblindfire_diag_grunt_pt1_1ch_v1"
+											attachment = ""
+											stop_on_seq_change = false
+											use_layer_sequence = false
+											tags = ""
+										}
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_CL_PLAYSOUND_ATTACHMENT"
+										event_frame = 91
+										event_keys = 
+										{
+											name = "sfx.ai_skit_spectreblindfire_diag_grunt_pt2_1ch_v1"
+											attachment = ""
+											stop_on_seq_change = false
+											use_layer_sequence = false
+											tags = ""
+										}
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_CL_PLAYSOUND_ATTACHMENT"
+										event_frame = 143
+										event_keys = 
+										{
+											name = "sfx.ai_skit_spectreblindfire_diag_grunt_pt3_1ch_v1"
+											attachment = ""
+											stop_on_seq_change = false
+											use_layer_sequence = false
+											tags = ""
+										}
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_CL_PLAYSOUND_ATTACHMENT"
+										event_frame = 0
+										event_keys = 
+										{
+											name = "sfx.ai_skit_spectreblindfire_grunt_pt1_1ch_v1"
+											attachment = ""
+											stop_on_seq_change = false
+											use_layer_sequence = false
+											tags = ""
+										}
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_CL_PLAYSOUND_ATTACHMENT"
+										event_frame = 42
+										event_keys = 
+										{
+											name = "sfx.ai_skit_spectreblindfire_grunt_pt2_1ch_v1"
+											attachment = ""
+											stop_on_seq_change = false
+											use_layer_sequence = false
+											tags = ""
+										}
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_CL_PLAYSOUND_ATTACHMENT"
+										event_frame = 92
+										event_keys = 
+										{
+											name = "sfx.ai_skit_spectreblindfire_grunt_pt3_1ch_v1"
+											attachment = ""
+											stop_on_seq_change = false
+											use_layer_sequence = false
+											tags = ""
+										}
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_CL_PLAYSOUND_ATTACHMENT"
+										event_frame = 130
+										event_keys = 
+										{
+											name = "sfx.ai_skit_spectreblindfire_grunt_pt4_1ch_v1"
+											attachment = ""
+											stop_on_seq_change = false
+											use_layer_sequence = false
+											tags = ""
+										}
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_CL_PLAYSOUND_ATTACHMENT"
+										event_frame = 159
+										event_keys = 
+										{
+											name = "sfx.ai_skit_spectreblindfire_grunt_pt5_1ch_v1"
+											attachment = ""
+											stop_on_seq_change = false
+											use_layer_sequence = false
+											tags = ""
+										}
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_CL_PLAYSOUND_ATTACHMENT"
+										event_frame = 168
+										event_keys = 
+										{
+											name = "sfx.Imp_Player_MeleePunch_Dirt_1ch_v1"
+											attachment = ""
+											stop_on_seq_change = false
+											use_layer_sequence = false
+											tags = ""
+										}
+									},
+								]
 								activity_name = ""
 								activity_weight = 1
 								weight_list_name = ""
@@ -10653,6 +10883,22 @@
 							{
 								_class = "AnimFile"
 								name = "pt_brawl_A_skit"
+								children = 
+								[
+									{
+										_class = "AnimEvent"
+										event_class = "AE_CL_PLAYSOUND_ATTACHMENT"
+										event_frame = 0
+										event_keys = 
+										{
+											name = "sfx.ai_skit_pt_brawl_soldier3_comp"
+											attachment = ""
+											stop_on_seq_change = false
+											use_layer_sequence = false
+											tags = ""
+										}
+									},
+								]
 								activity_name = ""
 								activity_weight = 1
 								weight_list_name = ""
@@ -10693,6 +10939,22 @@
 							{
 								_class = "AnimFile"
 								name = "pt_brawl_B_skit"
+								children = 
+								[
+									{
+										_class = "AnimEvent"
+										event_class = "AE_CL_PLAYSOUND_ATTACHMENT"
+										event_frame = 0
+										event_keys = 
+										{
+											name = "sfx.ai_skit_pt_brawl_soldier2_comp"
+											attachment = ""
+											stop_on_seq_change = false
+											use_layer_sequence = false
+											tags = ""
+										}
+									},
+								]
 								activity_name = ""
 								activity_weight = 1
 								weight_list_name = ""
@@ -10733,6 +10995,22 @@
 							{
 								_class = "AnimFile"
 								name = "pt_brawl_C_skit"
+								children = 
+								[
+									{
+										_class = "AnimEvent"
+										event_class = "AE_CL_PLAYSOUND_ATTACHMENT"
+										event_frame = 0
+										event_keys = 
+										{
+											name = "sfx.ai_skit_pt_brawl_soldier1_comp"
+											attachment = ""
+											stop_on_seq_change = false
+											use_layer_sequence = false
+											tags = ""
+										}
+									},
+								]
 								activity_name = ""
 								activity_weight = 1
 								weight_list_name = ""
@@ -10913,6 +11191,87 @@
 							{
 								_class = "AnimFile"
 								name = "pt_curbstomp_skit"
+								children = 
+								[
+									{
+										_class = "AnimEvent"
+										event_class = "AE_CL_PLAYSOUND_ATTACHMENT"
+										event_frame = 0
+										event_keys = 
+										{
+											name = "sfx.ai_skit_spectrecurbstomp_diag_grunt_pt1_1ch_v1"
+											attachment = ""
+											stop_on_seq_change = false
+											use_layer_sequence = false
+											tags = ""
+										}
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_CL_PLAYSOUND_ATTACHMENT"
+										event_frame = 8
+										event_keys = 
+										{
+											name = "sfx.ai_skit_spectrecurbstomp_diag_grunt_pt2_1ch_v1"
+											attachment = ""
+											stop_on_seq_change = false
+											use_layer_sequence = false
+											tags = ""
+										}
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_CL_PLAYSOUND_ATTACHMENT"
+										event_frame = 0
+										event_keys = 
+										{
+											name = "sfx.ai_skit_spectrecurbstomp_grunt_pt1_1ch_v1"
+											attachment = ""
+											stop_on_seq_change = false
+											use_layer_sequence = false
+											tags = ""
+										}
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_CL_PLAYSOUND_ATTACHMENT"
+										event_frame = 16
+										event_keys = 
+										{
+											name = "sfx.ai_skit_spectrecurbstomp_grunt_pt2_1ch_v1"
+											attachment = ""
+											stop_on_seq_change = false
+											use_layer_sequence = false
+											tags = ""
+										}
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_CL_PLAYSOUND_ATTACHMENT"
+										event_frame = 46
+										event_keys = 
+										{
+											name = "sfx.ai_skit_spectrecurbstomp_grunt_pt3_1ch_v1"
+											attachment = ""
+											stop_on_seq_change = false
+											use_layer_sequence = false
+											tags = ""
+										}
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_CL_PLAYSOUND_ATTACHMENT"
+										event_frame = 80
+										event_keys = 
+										{
+											name = "sfx.ai_skit_spectrecurbstomp_grunt_pt4_1ch_v1"
+											attachment = ""
+											stop_on_seq_change = false
+											use_layer_sequence = false
+											tags = ""
+										}
+									},
+								]
 								activity_name = ""
 								activity_weight = 1
 								weight_list_name = ""
@@ -10933,6 +11292,74 @@
 							{
 								_class = "AnimFile"
 								name = "pt_dying_wallslide_zinger"
+								children = 
+								[
+									{
+										_class = "AnimEvent"
+										event_class = "AE_CL_PLAYSOUND_ATTACHMENT"
+										event_frame = 0
+										event_keys = 
+										{
+											name = "sfx.ai_skit_wallslide_diag_grunt_pt1_1ch_v1"
+											attachment = ""
+											stop_on_seq_change = false
+											use_layer_sequence = false
+											tags = ""
+										}
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_CL_PLAYSOUND_ATTACHMENT"
+										event_frame = 24
+										event_keys = 
+										{
+											name = "sfx.ai_skit_wallslide_diag_grunt_pt2_1ch_v1"
+											attachment = ""
+											stop_on_seq_change = false
+											use_layer_sequence = false
+											tags = ""
+										}
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_CL_PLAYSOUND_ATTACHMENT"
+										event_frame = 60
+										event_keys = 
+										{
+											name = "sfx.ai_skit_wallslide_diag_grunt_pt3_1ch_v1"
+											attachment = ""
+											stop_on_seq_change = false
+											use_layer_sequence = false
+											tags = ""
+										}
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_CL_PLAYSOUND_ATTACHMENT"
+										event_frame = 0
+										event_keys = 
+										{
+											name = "sfx.ai_skit_wallslide_pt1_1ch_v1_01"
+											attachment = ""
+											stop_on_seq_change = false
+											use_layer_sequence = false
+											tags = ""
+										}
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_CL_PLAYSOUND_ATTACHMENT"
+										event_frame = 44
+										event_keys = 
+										{
+											name = "sfx.ai_skit_wallslide_pt2_1ch_v1_01"
+											attachment = ""
+											stop_on_seq_change = false
+											use_layer_sequence = false
+											tags = ""
+										}
+									},
+								]
 								activity_name = ""
 								activity_weight = 1
 								weight_list_name = ""
@@ -10973,6 +11400,61 @@
 							{
 								_class = "AnimFile"
 								name = "pt_fight_flip_skit_A"
+								children = 
+								[
+									{
+										_class = "AnimEvent"
+										event_class = "AE_CL_PLAYSOUND_ATTACHMENT"
+										event_frame = 21
+										event_keys = 
+										{
+											name = "sfx.ai_skit_meleeflip_diag_loser_pt1_1ch_v1"
+											attachment = ""
+											stop_on_seq_change = false
+											use_layer_sequence = false
+											tags = ""
+										}
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_CL_PLAYSOUND_ATTACHMENT"
+										event_frame = 40
+										event_keys = 
+										{
+											name = "sfx.ai_skit_meleeflip_diag_loser_pt2_1ch_v1"
+											attachment = ""
+											stop_on_seq_change = false
+											use_layer_sequence = false
+											tags = ""
+										}
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_CL_PLAYSOUND_ATTACHMENT"
+										event_frame = 78
+										event_keys = 
+										{
+											name = "sfx.ai_skit_meleeflip_diag_loser_pt3_1ch_v1"
+											attachment = ""
+											stop_on_seq_change = false
+											use_layer_sequence = false
+											tags = ""
+										}
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_CL_PLAYSOUND_ATTACHMENT"
+										event_frame = 109
+										event_keys = 
+										{
+											name = "sfx.ai_skit_meleeflip_loser_pt1_1ch_v1"
+											attachment = ""
+											stop_on_seq_change = false
+											use_layer_sequence = false
+											tags = ""
+										}
+									},
+								]
 								activity_name = ""
 								activity_weight = 1
 								weight_list_name = ""
@@ -11013,6 +11495,198 @@
 							{
 								_class = "AnimFile"
 								name = "pt_fight_flip_skit_B"
+								children = 
+								[
+									{
+										_class = "AnimEvent"
+										event_class = "AE_CL_PLAYSOUND_ATTACHMENT"
+										event_frame = 0
+										event_keys = 
+										{
+											name = "sfx.ai_skit_meleeflip_diag_winner_pt1_1ch_v1"
+											attachment = ""
+											stop_on_seq_change = false
+											use_layer_sequence = false
+											tags = ""
+										}
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_CL_PLAYSOUND_ATTACHMENT"
+										event_frame = 19
+										event_keys = 
+										{
+											name = "sfx.ai_skit_meleeflip_diag_winner_pt2_1ch_v1"
+											attachment = ""
+											stop_on_seq_change = false
+											use_layer_sequence = false
+											tags = ""
+										}
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_CL_PLAYSOUND_ATTACHMENT"
+										event_frame = 36
+										event_keys = 
+										{
+											name = "sfx.ai_skit_meleeflip_diag_winner_pt3_1ch_v1"
+											attachment = ""
+											stop_on_seq_change = false
+											use_layer_sequence = false
+											tags = ""
+										}
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_CL_PLAYSOUND_ATTACHMENT"
+										event_frame = 67
+										event_keys = 
+										{
+											name = "sfx.ai_skit_meleeflip_diag_winner_pt4_1ch_v1"
+											attachment = ""
+											stop_on_seq_change = false
+											use_layer_sequence = false
+											tags = ""
+										}
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_CL_PLAYSOUND_ATTACHMENT"
+										event_frame = 0
+										event_keys = 
+										{
+											name = "sfx.ai_skit_meleeflip_winner_pt1_1ch_v1"
+											attachment = ""
+											stop_on_seq_change = false
+											use_layer_sequence = false
+											tags = ""
+										}
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_CL_PLAYSOUND_ATTACHMENT"
+										event_frame = 26
+										event_keys = 
+										{
+											name = "sfx.ai_skit_meleeflip_winner_pt2_2ch_v1"
+											attachment = ""
+											stop_on_seq_change = false
+											use_layer_sequence = false
+											tags = ""
+										}
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_CL_PLAYSOUND_ATTACHMENT"
+										event_frame = 51
+										event_keys = 
+										{
+											name = "sfx.ai_skit_meleeflip_winner_pt3_1ch_v1"
+											attachment = ""
+											stop_on_seq_change = false
+											use_layer_sequence = false
+											tags = ""
+										}
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_CL_PLAYSOUND_ATTACHMENT"
+										event_frame = 118
+										event_keys = 
+										{
+											name = "sfx.ai_skit_meleeflip_winner_pt4_1ch_v1"
+											attachment = ""
+											stop_on_seq_change = false
+											use_layer_sequence = false
+											tags = ""
+										}
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_CL_PLAYSOUND_ATTACHMENT"
+										event_frame = 148
+										event_keys = 
+										{
+											name = "sfx.Wpn_ColdWar_3P_Fire_Burst_Close_2ch_v1"
+											attachment = ""
+											stop_on_seq_change = false
+											use_layer_sequence = false
+											tags = ""
+										}
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+										event_frame = 148
+										event_keys = 
+										{
+											name = resource:"particles/weapon_fx/muzzleflash_smgs.vpcf"
+											detach_from_owner = false
+											stop_on_seq_change = false
+											stop_immediately = false
+											use_layer_sequence = false
+											tags = ""
+											attachment_point = "prop_gun_barrel"
+											attachment_type = "point_follow"
+											attachment_point_cp1 = "prop_gun_barrel"
+											attachment_type_cp1 = "point_follow"
+										}
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+										event_frame = 150
+										event_keys = 
+										{
+											name = resource:"particles/weapon_fx/muzzleflash_smgs.vpcf"
+											detach_from_owner = false
+											stop_on_seq_change = false
+											stop_immediately = false
+											use_layer_sequence = false
+											tags = ""
+											attachment_point = "prop_gun_barrel"
+											attachment_type = "point_follow"
+											attachment_point_cp1 = "prop_gun_barrel"
+											attachment_type_cp1 = "point_follow"
+										}
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+										event_frame = 152
+										event_keys = 
+										{
+											name = resource:"particles/weapon_fx/muzzleflash_smgs.vpcf"
+											detach_from_owner = false
+											stop_on_seq_change = false
+											stop_immediately = false
+											use_layer_sequence = false
+											tags = ""
+											attachment_point = "prop_gun_barrel"
+											attachment_type = "point_follow"
+											attachment_point_cp1 = "prop_gun_barrel"
+											attachment_type_cp1 = "point_follow"
+										}
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+										event_frame = 154
+										event_keys = 
+										{
+											name = resource:"particles/weapon_fx/muzzleflash_smgs.vpcf"
+											detach_from_owner = false
+											stop_on_seq_change = false
+											stop_immediately = false
+											use_layer_sequence = false
+											tags = ""
+											attachment_point = "prop_gun_barrel"
+											attachment_type = "point_follow"
+											attachment_point_cp1 = "prop_gun_barrel"
+											attachment_type_cp1 = "point_follow"
+										}
+									},
+								]
 								activity_name = ""
 								activity_weight = 1
 								weight_list_name = ""
@@ -11053,6 +11727,22 @@
 							{
 								_class = "AnimFile"
 								name = "pt_fight_knockback_zinger_A"
+								children = 
+								[
+									{
+										_class = "AnimEvent"
+										event_class = "AE_CL_PLAYSOUND_ATTACHMENT"
+										event_frame = 0
+										event_keys = 
+										{
+											name = ""
+											attachment = ""
+											stop_on_seq_change = false
+											use_layer_sequence = false
+											tags = ""
+										}
+									},
+								]
 								activity_name = ""
 								activity_weight = 1
 								weight_list_name = ""
@@ -14906,6 +15596,93 @@
 							},
 						]
 					},
+					{
+						_class = "Folder"
+						name = "pete_scripted_cine"
+						children = 
+						[
+							{
+								_class = "AnimFile"
+								name = "gearup_pt1_grunta"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_cine/gearup_pt1_grunta.dmx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "gearup_pt1_gruntb"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_cine/gearup_pt1_gruntb.dmx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "gearup_pt1_gruntb_pre"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_cine/gearup_pt1_gruntb.dmx"
+								start_frame = -1
+								end_frame = 0
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "gearup_pt1_grunta_pre"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_cine/gearup_pt1_grunta.dmx"
+								start_frame = -1
+								end_frame = 0
+								framerate = -1.0
+								reverse = false
+							},
+						]
+					},
 				]
 				default_root_bone_name = ""
 			},
@@ -15179,6 +15956,15 @@
 						parent_bone = "ja_c_propgun"
 						relative_origin = [ 0.0, 0.0, 0.0 ]
 						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "prop_gun_barrel"
+						parent_bone = "ja_c_propgun"
+						relative_origin = [ 0.0, 3.953846, 26.612629 ]
+						relative_angles = [ -90.0, 180.0, -180.0 ]
 						weight = 1.0
 						ignore_rotation = false
 					},

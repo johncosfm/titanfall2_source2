@@ -18,24 +18,8 @@
 								to = "models/titans/bt_7274/mats/bt_a_all/bt_a_all.vmat"
 							},
 							{
-								from = "bt_a_all_factory.vmat"
-								to = "models/titans/bt_7274/mats/bt_a_all_factory/bt_a_all_factory.vmat"
-							},
-							{
-								from = "bt_a_eye_cine.vmat"
-								to = "models/titans/bt_7274/mats/bt_a_eye_cine/bt_a_eye_cine.vmat"
-							},
-							{
-								from = "bt_decal.vmat"
-								to = "models/titans/bt_7274/mats/bt_decal/bt_decal.vmat"
-							},
-							{
 								from = "t_cockpit_atlas_01.vmat"
 								to = "models/titans/bt_7274/mats/t_cockpit_atlas_01/t_cockpit_atlas_01.vmat"
-							},
-							{
-								from = "titan_cockpit.vmat"
-								to = "models/titans/bt_7274/mats/t_cockpit_atlas_01/titan_cockpit.vmat"
 							},
 						]
 						use_global_default = false
@@ -50,16 +34,6 @@
 					{
 						_class = "RenderMeshFile"
 						filename = "models/weapons/arms/hud_overlay/buddy_titan_front_lod0.smd"
-						import_scale = 1.0
-						import_filter = 
-						{
-							exclude_by_default = false
-							exception_list = [  ]
-						}
-					},
-					{
-						_class = "RenderMeshFile"
-						filename = "models/weapons/arms/hud_overlay/buddy_titan_hatch_lod0.smd"
 						import_scale = 1.0
 						import_filter = 
 						{

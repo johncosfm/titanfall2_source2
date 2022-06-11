@@ -1,0 +1,261 @@
+version 1
+nodes
+0 "jx_c_delta" -1
+1 "jx_c_start" 0
+2 "jx_c_pov" 0
+3 "jx_c_camera" 2
+4 "jx_c_camera_2" 2
+5 "jx_c_camera_3" 2
+6 "def_c_hip" 0
+7 "def_c_spineA" 6
+8 "def_c_spineB" 7
+9 "def_c_spineC" 8
+10 "ja_c_propGun" 9
+11 "ValveBiped.Bip01_R_Hand" 10
+12 "def_c_intBase" 9
+13 "def_c_cam" 9
+14 "def_c_neckA" 9
+15 "jx_c_neckB" 14
+16 "def_c_neckB" 15
+17 "def_c_head" 16
+18 "def_l_clav" 9
+19 "def_l_shoulder" 18
+20 "def_l_shoulderMid" 19
+21 "def_l_elbow" 20
+22 "def_l_wrist" 21
+23 "def_l_finRingCarpal" 22
+24 "def_l_finPinkyA" 23
+25 "def_l_finPinkyB" 24
+26 "def_l_finPinkyC" 25
+27 "def_l_finRingA" 23
+28 "def_l_finRingB" 27
+29 "def_l_finRingC" 28
+30 "def_l_finMidA" 22
+31 "def_l_finMidB" 30
+32 "def_l_finMidC" 31
+33 "def_l_finIndexA" 22
+34 "def_l_finIndexB" 33
+35 "def_l_finIndexC" 34
+36 "def_l_finThumbA" 22
+37 "def_l_finThumbB" 36
+38 "def_l_finThumbC" 37
+39 "ja_l_propHand" 22
+40 "def_l_forearm" 21
+41 "def_l_elbowB" 20
+42 "def_l_shoulderTwist" 19
+43 "def_r_clav" 9
+44 "def_r_shoulder" 43
+45 "def_r_shoulderMid" 44
+46 "def_r_elbow" 45
+47 "def_r_wrist" 46
+48 "def_r_finThumbA" 47
+49 "def_r_finThumbB" 48
+50 "def_r_finThumbC" 49
+51 "def_r_finIndexA" 47
+52 "def_r_finIndexB" 51
+53 "def_r_finIndexC" 52
+54 "def_r_finMidA" 47
+55 "def_r_finMidB" 54
+56 "def_r_finMidC" 55
+57 "def_r_finRingCarpal" 47
+58 "def_r_finRingA" 57
+59 "def_r_finRingB" 58
+60 "def_r_finRingC" 59
+61 "def_r_finPinkyA" 57
+62 "def_r_finPinkyB" 61
+63 "def_r_finPinkyC" 62
+64 "ja_r_propHand" 47
+65 "def_r_forearm" 46
+66 "jx_vortex" 46
+67 "def_r_elbowB" 45
+68 "def_r_shoulderTwist" 44
+69 "def_c_hatchTop" 9
+70 "def_c_neck1" 69
+71 "def_c_eye_rotate" 70
+72 "def_c_eye_detached" 71
+73 "def_c_eyeball" 72
+74 "def_c_eye_outer" 72
+75 "def_c_eyelid" 72
+76 "def_l_eyelid" 72
+77 "def_r_eyelid" 72
+78 "def_l_eye_side" 72
+79 "def_r_eye_side" 72
+80 "def_l_eye_side_cover" 72
+81 "def_r_eye_side_cover" 72
+82 "def_c_hatchBot" 9
+83 "def_c_hatchHead" 9
+84 "def_cam_shoulder" 9
+85 "def_l_missile_root" 9
+86 "def_l_missile_leg1" 85
+87 "def_l_missile_leg2" 86
+88 "def_l_missile_leg3" 87
+89 "def_l_missile_leg4" 88
+90 "def_l_missile_wing_out1" 89
+91 "def_l_missile_wing_out2" 90
+92 "def_l_missile_wing_out_hook1" 91
+93 "def_l_missile_wing_out_hook2" 91
+94 "def_l_missile_wing_in1" 89
+95 "def_l_missile_wing_in2" 94
+96 "def_l_missile_wing_in_hook1" 95
+97 "def_l_missile_wing_in_hook2" 95
+98 "def_l_missile_box" 89
+99 "def_l_down_missile_doorC1" 98
+100 "def_l_down_missile_doorB1" 98
+101 "def_l_down_missile_doorA1" 98
+102 "def_l_up_missile_doorC1" 98
+103 "def_l_up_missile_doorB1" 98
+104 "def_l_up_missile_doorA1" 98
+105 "jx_l_rocketPod" 98
+106 "def_l_holder" 9
+107 "def_l_holder_clip1" 106
+108 "def_l_holder_clip2" 106
+109 "def_r_missile_root" 9
+110 "def_r_missile_leg1" 109
+111 "def_r_missile_leg2" 110
+112 "def_r_missile_leg3" 111
+113 "def_r_missile_leg4" 112
+114 "def_r_missile_wing_out1" 113
+115 "def_r_missile_wing_out2" 114
+116 "def_r_missile_wing_out_hook1" 115
+117 "def_r_missile_wing_out_hook2" 115
+118 "def_r_missile_wing_in1" 113
+119 "def_r_missile_wing_in2" 118
+120 "def_r_missile_wing_in_hook1" 119
+121 "def_r_missile_wing_in_hook2" 119
+122 "def_r_missile_box" 113
+123 "def_r_down_missile_doorA1" 122
+124 "def_r_down_missile_doorB1" 122
+125 "def_r_down_missile_doorC1" 122
+126 "def_r_up_missile_doorA1" 122
+127 "def_r_up_missile_doorB1" 122
+128 "def_r_up_missile_doorC1" 122
+129 "jx_r_rocketPod" 122
+130 "def_r_holder" 9
+131 "def_r_holder_clip1" 130
+132 "def_r_holder_clip2" 130
+133 "def_l_shock_waist_front_up" 9
+134 "def_l_shock_waist_side_up" 9
+135 "def_l_shock_waist_back_up" 9
+136 "def_r_shock_waist_front_up" 9
+137 "def_r_shock_waist_side_up" 9
+138 "def_r_shock_waist_back_up" 9
+139 "jx_c_hatch_1_hb" 9
+140 "jx_c_hatch_2_hb" 139
+141 "jx_c_hatch_3_hb" 140
+142 "jx_c_hatch_4_hb" 141
+143 "jx_c_hatch_5_hb" 142
+144 "def_l_battery1" 9
+145 "def_l_battery2" 9
+146 "def_l_battery3" 9
+147 "jx_c_rodeo" 9
+148 "jx_hatch_panel" 9
+149 "def_l_jiggle_back1" 9
+150 "def_c_jiggle_back1" 9
+151 "def_r_jiggle_back1" 9
+152 "def_l_hip" 6
+153 "def_l_thigh" 152
+154 "def_l_thighLow" 153
+155 "def_l_knee" 154
+156 "def_l_ankle" 155
+157 "def_l_ball" 156
+158 "def_l_heel" 156
+159 "def_l_heel_shock_end" 158
+160 "jx_l_ankle_hb" 156
+161 "def_l_shock_knee_down" 155
+162 "def_l_heel_shock_start" 155
+163 "def_l_jiggle_outer_ankle" 155
+164 "def_l_jiggle_inner_ankle" 155
+165 "def_l_kneeB" 154
+166 "def_l_piston_rear_knee2" 154
+167 "def_l_shock_knee_up" 154
+168 "def_l_jigglelegA" 154
+169 "def_l_jiggle_knee1" 154
+170 "def_l_piston_rear_knee1" 153
+171 "def_r_hip" 6
+172 "def_r_thigh" 171
+173 "def_r_thighLow" 172
+174 "def_r_knee" 173
+175 "def_r_ankle" 174
+176 "def_r_ball" 175
+177 "def_r_heel" 175
+178 "def_r_heel_shock_end" 177
+179 "jx_r_ankle_hb" 175
+180 "def_r_shock_knee_down" 174
+181 "def_r_heel_shock_start" 174
+182 "def_r_jiggle_inner_ankle" 174
+183 "def_r_jiggle_outer_ankle" 174
+184 "def_r_kneeB" 173
+185 "def_r_piston_rear_knee2" 173
+186 "def_r_shock_knee_up" 173
+187 "def_r_jigglelegA" 173
+188 "def_r_jiggle_knee1" 173
+189 "def_r_piston_rear_knee1" 172
+190 "def_l_shock_waist_front_down" 6
+191 "def_l_shock_waist_side_down" 6
+192 "def_l_shock_waist_back_down" 6
+193 "def_r_shock_waist_front_down" 6
+194 "def_r_shock_waist_side_down" 6
+195 "def_r_shock_waist_back_down" 6
+196 "def_l_jiggle_thigh1" 6
+197 "def_r_jiggle_thigh1" 6
+end
+skeleton
+time 0
+0  0.000000 0.000000 0.000000  1.570795 0.000001 1.570795
+1  -0.000000 -2000.883423 -0.000000  0.000000 -0.000000 0.000000
+2  0.000000 205.412140 -0.000000  -0.000000 -0.000000 0.000000
+3  15.714840 -142.367676 3.023923  -0.395287 2.981023 -0.037456
+4  0.000000 0.000015 -0.000000  -0.000000 -0.000000 0.000000
+5  0.000000 0.000015 -0.000000  -0.000000 -0.000000 0.000000
+6  -0.000000 128.175552 -12.363659  -0.129054 0.004627 0.035874
+7  0.000001 -0.000002 0.000003  0.000000 0.000000 0.000000
+8  -0.000061 18.234369 0.000000  0.000000 -0.000000 0.000000
+9  0.000061 18.109379 -0.000001  0.000000 -0.000000 0.000000
+10  -51.103123 31.171694 56.713581  -0.585329 -0.200289 -0.558377
+11  0.000012 0.000008 -0.000002  0.000000 -0.000000 0.000000
+12  -0.000000 22.637775 -10.026635  0.000000 -0.000000 0.000000
+13  11.921876 58.187485 9.257814  0.000000 -0.000000 0.000000
+14  0.000002 27.734369 -0.770505  0.000000 -0.000000 0.000000
+15  0.000001 14.250479 3.081186  0.000000 -0.000000 0.000000
+16  -0.000000 0.000005 0.000000  0.000000 -0.000000 0.000000
+17  -0.000000 12.838254 -0.000001  0.000000 -0.000000 0.000000
+18  21.437500 20.609365 -10.187500  0.000000 -0.000000 0.235493
+19  26.671877 -0.000002 0.000002  -1.061421 -0.928132 0.165552
+20  14.577790 -0.042695 0.000003  0.000180 0.000000 -0.000551
+21  30.954014 -0.012984 0.000013  -0.000096 -0.604239 0.000383
+22  33.968739 -0.009760 -0.000001  -0.050481 0.050600 0.290196
+23  13.344934 -0.472645 -3.006261  0.000000 -0.000000 0.000000
+24  10.343662 0.000008 -27.299988  -0.015410 0.227811 -0.068132
+25  17.335285 0.000031 0.000035  -0.000783 0.011778 0.000079
+26  15.292454 -0.000076 0.000000  0.000000 -0.000000 -0.000002
+27  5.627176 -0.000011 -4.046644  -0.015410 0.227811 -0.068131
+28  6.827099 -0.000023 -0.000011  -0.000782 0.011778 0.000076
+29  6.022614 0.000042 -0.000021  -0.000000 0.000000 0.000000
+30  20.437206 -0.786926 -0.982953  -0.003067 0.046506 -0.065881
+31  7.170910 -0.000008 -0.000024  0.000018 -0.000277 0.000391
+32  7.203411 -0.000061 -0.000015  -0.000000 0.000000 0.000000
+33  19.657036 -1.029600 4.956565  0.009801 -0.139399 -0.070422
+34  6.827067 -0.000046 -0.000010  0.000000 -0.000000 0.000000
+35  6.815300 0.000023 0.000014  0.000000 -0.000000 -0.000000
+36  7.120343 -4.231859 4.448158  0.000000 0.000000 -1.047198
+37  3.925927 0.000027 0.000003  -0.000000 0.000000 -0.000000
+38  6.426033 -0.000027 -0.000009  -0.000000 0.000000 -0.000000
+39  12.846627 -4.144194 0.731275  -0.000001 -0.001965 0.001350
+40  22.262922 -0.017045 0.000004  -0.036941 -0.000000 0.000731
+41  30.954010 -0.036419 0.000005  0.000000 0.000000 0.000000
+42  -0.000010 -0.000011 0.000005  0.978952 -0.001929 -0.000983
+43  -21.437498 20.609358 -10.187498  3.141592 0.000000 -0.209259
+44  -26.671885 -0.000023 -0.000246  -0.286760 -0.710683 -0.864259
+45  -14.578133 0.044911 0.000987  0.000191 0.000000 -0.000549
+46  -30.953876 0.012781 0.000007  -0.005847 -1.537295 0.005655
+47  -33.968777 0.009778 -0.000002  -0.266758 0.092268 -0.125033
+48  -7.115648 4.231087 -4.444244  -0.000000 -0.000000 -1.047198
+49  -3.923842 -0.000978 0.000978  0.000000 -0.000000 -0.000000
+50  -6.425765 0.000974 -0.000990  0.000000 0.000000 0.000000
+51  -19.656378 1.028831 -4.956457  0.009801 -0.139399 -0.070422
+52  -6.827568 0.000021 0.000065  0.000000 -0.000000 -0.000000
+53  -6.812489 0.000977 -0.000011  0.000000 -0.000000 0.000000
+54  -20.433163 0.786822 0.983059  -0.003067 0.046506 -0.065881
+55  -7.174702 -0.000814 -0.000063  0.000018 -0.000277 0.000391
+56  -7.203453 0.000356 0.000067  0.000000 -0.000000 -0.000000
+57  -13.335936 0.469721 3.003922  1.570796 0.000000 0.000000
