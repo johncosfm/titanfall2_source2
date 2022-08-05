@@ -1,0 +1,141 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "LODGroupList"
+				children = 
+				[
+					{
+						_class = "LODGroup"
+						switch_threshold = 0.0
+						meshes = 
+						[
+							"lod0",
+						]
+					},
+					{
+						_class = "LODGroup"
+						switch_threshold = 136.564026
+						meshes = 
+						[
+							"lod1",
+						]
+					},
+					{
+						_class = "LODGroup"
+						switch_threshold = 263.813751
+						meshes = 
+						[
+							"lod2",
+						]
+					},
+				]
+			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "beacon_server_01.vmat"
+								to = "models/beacon/beacon_server_half_stand_01/materials/beacon_server_01.vmat"
+							},
+							{
+								from = "beacon_server_01_on.vmat"
+								to = "models/beacon/beacon_server_half_stand_01/materials/beacon_server_01_on.vmat"
+							},
+							{
+								from = "ts_window01_dark.vmat"
+								to = "models/beacon/beacon_heat_screen_04/materials/mendoko_glass.vmat"
+							},
+							{
+								from = "wall_tech_128_01.vmat"
+								to = "models/beacon/beacon_server_half_stand_01/materials/wall_tech_128_01.vmat"
+							},
+							{
+								from = "wall_tech_128_02.vmat"
+								to = "models/beacon/beacon_server_half_stand_01/materials/wall_tech_128_02.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsMeshFile"
+						name = "beacon_server_half_stand_01_physics"
+						parent_bone = ""
+						surface_prop = "prop.computer"
+						collision_prop = "default"
+						recenter_on_parent_bone = false
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/beacon/beacon_server_half_stand_01/beacon_server_half_stand_01_physics.smd"
+						import_scale = 1.0
+						maxMeshVertices = 0
+						qemError = 0.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						name = "lod0"
+						filename = "models/beacon/beacon_server_half_stand_01/beacon_server_half_stand_01_LOD0.smd"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "lod1"
+						filename = "models/beacon/beacon_server_half_stand_01/beacon_server_half_stand_01_LOD0_lod1.smd"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "lod2"
+						filename = "models/beacon/beacon_server_half_stand_01/beacon_server_half_stand_01_LOD0_lod2.smd"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+	}
+}

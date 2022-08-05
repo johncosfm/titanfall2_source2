@@ -1712,7 +1712,7 @@
 								hidden = false
 								anim_markup_ordered = false
 								disable_compression = false
-								source_filename = "models/humans/pete/pete_reations/anims/anims/@pt_escape_grenade_fall_L.smd"
+								source_filename = "models/humans/pete/pete_reations/anims/@pt_escape_grenade_fall_l.smd"
 								start_frame = -1
 								end_frame = -1
 								framerate = -1.0

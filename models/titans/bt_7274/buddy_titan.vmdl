@@ -5986,35 +5986,20 @@
 								children = 
 								[
 									{
-										_class = "AnimEvent"
-										event_class = "AE_CL_PLAYSOUND_ATTACHMENT"
-										event_frame = 0
-										event_keys = 
-										{
-											name = ""
-											attachment = ""
-											stop_on_seq_change = false
-											use_layer_sequence = false
-											tags = ""
-										}
-									},
-									{
-										_class = "AnimEvent"
-										event_class = "AE_CL_PLAYSOUND_ATTACHMENT"
-										event_frame = 0
-										event_keys = 
-										{
-											name = "sfx.BT_Footstep_Jog_Close_3P_2ch_v1"
-											attachment = ""
-											stop_on_seq_change = false
-											use_layer_sequence = false
-											tags = ""
-										}
-									},
-									{
 										_class = "AnimSubtract"
 										anim_name = "@armfix"
 										frame = 0
+									},
+									{
+										_class = "ExtractMotion"
+										extract_tx = true
+										extract_ty = true
+										extract_tz = true
+										extract_rz = true
+										linear = false
+										quadratic = false
+										root_bone_name = "jx_c_start"
+										motion_type = "Uniform"
 									},
 								]
 								activity_name = ""
@@ -6072,6 +6057,34 @@
 								source_filename = "models/titans/buddy/titan_buddy_scripted/anims/@bt_training_scripted_stand_idle.smd"
 								start_frame = -1
 								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "bt_training_scripted_kneel2standpre"
+								children = 
+								[
+									{
+										_class = "AnimSubtract"
+										anim_name = "@armfix"
+										frame = 0
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/titans/buddy/titan_buddy_scripted/anims/@bt_training_scripted_kneel2stand.smd"
+								start_frame = -1
+								end_frame = 0
 								framerate = -1.0
 								reverse = false
 							},

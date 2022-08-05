@@ -1,0 +1,40 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "vr_monitor.vfx"
+
+	//---- Chromatic Abberation ----
+	g_flBlueShift "0.200"
+	g_flGreenShift "0.100"
+	g_flJitterSpeed "1.700"
+	g_flRedShift "0.000"
+	TextureJitterControl "materials/workshop_examples/monitor/jitter_control.tga"
+
+	//---- Contrast ----
+	TextureContrastControl "materials/workshop_examples/monitor/contrast_control.tga"
+
+	//---- Display ----
+	g_flFilmGrainStrength "0.200"
+	g_flTexCoordOffsetU "0.000"
+	g_flTexCoordOffsetV "0.000"
+	g_flTintScale "0.960"
+	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
+	g_vScanlineTextureOffset "[0.000 0.000]"
+	g_vTexCoordScale "[1.000 1.000]"
+	ScanlineDistortion "materials/default/default_normal.tga"
+	TextureColor "models/cockpit/ship_console_control_large_v2/materials/ship_interior_console_screens/ship_interior_console_screens_color.png"
+	TextureFilmGrain "materials/dev/film_grain_noise.tga"
+	TextureScanlines "materials/workshop_examples/monitor/scanline_1024.png"
+	TextureVignette "materials/default/default.tga"
+
+	//---- Specular ----
+	g_flReflectionStrength "0.000"
+	g_fSpecularRoughness "0.360"
+	SpecularDirt "materials/default/default_normal.tga"
+	SpecularDistortion "materials/default/default_normal.tga"
+
+	//---- VSYNC ----
+	g_flVSYNCJumpScale "0.003"
+	VSyncControl "materials/workshop_examples/monitor/vsync_control.tga"
+}

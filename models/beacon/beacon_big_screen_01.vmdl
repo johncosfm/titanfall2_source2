@@ -1,0 +1,175 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "LODGroupList"
+				children = 
+				[
+					{
+						_class = "LODGroup"
+						switch_threshold = 0.0
+						meshes = 
+						[
+							"lod0",
+						]
+					},
+					{
+						_class = "LODGroup"
+						switch_threshold = 197.856995
+						meshes = 
+						[
+							"lod1",
+						]
+					},
+					{
+						_class = "LODGroup"
+						switch_threshold = 357.672607
+						meshes = 
+						[
+							"lod2",
+						]
+					},
+				]
+			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "beacon_big_screen_01.vmat"
+								to = "models/beacon/beacon_big_screen_01/materials/beacon_big_screen_01.vmat"
+							},
+							{
+								from = "beacon_big_screen_01_transparent.vmat"
+								to = "models/beacon/beacon_big_screen_01/materials/beacon_big_screen_01_transparent.vmat"
+							},
+							{
+								from = "beacon_big_screen_animation_01.vmat"
+								to = "models/beacon/beacon_big_screen_01/materials/beacon_big_screen_animation_01.vmat"
+							},
+							{
+								from = "construction_metal_form_walls_02.vmat"
+								to = "models/beacon/beacon_big_screen_01/materials/construction_metal_form_walls_02.vmat"
+							},
+							{
+								from = "mcor_floor_trim_01.vmat"
+								to = "models/beacon/beacon_big_screen_01/materials/mcor_floor_trim_01.vmat"
+							},
+							{
+								from = "plastic_panels_large.vmat"
+								to = "models/beacon/beacon_big_screen_01/materials/plastic_panels_large.vmat"
+							},
+							{
+								from = "trim_metal_01.vmat"
+								to = "models/beacon/beacon_big_screen_01/materials/trim_metal_01.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = "static_prop"
+						surface_prop = "world.glass"
+						collision_prop = "default"
+						origin = [ -5.338799, -0.055771, -0.053492 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 9.677599, 344.946228, 154.931519 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = "static_prop"
+						surface_prop = "world.metal"
+						collision_prop = "default"
+						origin = [ 3.525933, -183.145966, 0.445854 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 8.051867, 22.077385, 197.360611 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = "static_prop"
+						surface_prop = "world.metal"
+						collision_prop = "default"
+						origin = [ 3.525868, 180.701233, 0.445854 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 8.051867, 22.077385, 197.360611 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = "static_prop"
+						surface_prop = "world.metal"
+						collision_prop = "default"
+						origin = [ 3.5259, 0.477112, 88.547752 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 8.051867, 352.226624, 21.156845 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = "static_prop"
+						surface_prop = "world.metal"
+						collision_prop = "default"
+						origin = [ 3.5259, 0.477112, -89.075096 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 8.051867, 352.226624, 21.156845 ]
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						name = "lod0"
+						filename = "models/beacon/beacon_big_screen_01/beacon_big_screen_01_LOD0.smd"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "lod1"
+						filename = "models/beacon/beacon_big_screen_01/beacon_big_screen_01_LOD0_lod1.smd"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "lod2"
+						filename = "models/beacon/beacon_big_screen_01/beacon_big_screen_01_LOD0_lod2.smd"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+	}
+}

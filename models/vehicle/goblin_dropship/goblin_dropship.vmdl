@@ -64,6 +64,29 @@
 							},
 						]
 					},
+					{
+						_class = "MaterialGroup"
+						name = "imc"
+						remaps = 
+						[
+							{
+								from = "models/vehicle/goblin_dropship/materials/goblin_dropship_1_big.vmat"
+								to = "models/vehicle/goblin_dropship/materials/goblin_dropship_1_big_imc.vmat"
+							},
+							{
+								from = "models/vehicle/goblin_dropship/materials/goblin_dropship_2_big.vmat"
+								to = "models/vehicle/goblin_dropship/materials/goblin_dropship_2_big_imc.vmat"
+							},
+							{
+								from = "models/vehicle/goblin_dropship/materials/goblin_dropship_cargohold_interior.vmat"
+								to = "models/vehicle/goblin_dropship/materials/goblin_dropship_cargohold_interior_imc.vmat"
+							},
+							{
+								from = "models/vehicle/goblin_dropship/materials/goblin_dropship_cockpit_interior.vmat"
+								to = "models/vehicle/goblin_dropship/materials/goblin_dropship_cockpit_interior_imc.vmat"
+							},
+						]
+					},
 				]
 			},
 			{

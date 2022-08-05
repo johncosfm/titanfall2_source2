@@ -140,13 +140,13 @@
 				m_flBloomStrength = 0.17
 				m_flScreenBloomStrength = 1.0
 				m_flBlurBloomStrength = 1.0
-				m_flBloomThreshold = 1.364
+				m_flBloomThreshold = 2.557
 				m_flBloomThresholdWidth = 0.0
 				m_flSkyboxBloomStrength = 0.0
 				m_flBloomStartValue = 1.0
 				m_flBlurWeight = 
 				[
-					0.4261, 0.0, 0.4659, 0.5966,
+					0.4261, 0.0, 0.4658, 0.5966,
 					1.0,
 				]
 				m_vBlurTint = 
