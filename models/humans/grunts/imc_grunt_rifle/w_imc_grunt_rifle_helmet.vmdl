@@ -4583,7 +4583,7 @@
 							},
 							{
 								_class = "AnimFile"
-								name = "@React_duckL"
+								name = "React_duckL"
 								activity_name = ""
 								activity_weight = 1
 								weight_list_name = ""
@@ -4603,7 +4603,7 @@
 							},
 							{
 								_class = "AnimFile"
-								name = "@React_duckR"
+								name = "React_duckR"
 								activity_name = ""
 								activity_weight = 1
 								weight_list_name = ""
@@ -10065,7 +10065,7 @@
 						[
 							{
 								_class = "AnimFile"
-								name = "@pt_injectore_room_slone"
+								name = "pt_injectore_room_slone"
 								activity_name = ""
 								activity_weight = 1
 								weight_list_name = ""
@@ -10085,7 +10085,7 @@
 							},
 							{
 								_class = "AnimFile"
-								name = "@pt_injectore_room_villain"
+								name = "pt_injectore_room_villain"
 								activity_name = ""
 								activity_weight = 1
 								weight_list_name = ""
@@ -10105,7 +10105,7 @@
 							},
 							{
 								_class = "AnimFile"
-								name = "@pt_planet_ex_ending"
+								name = "pt_planet_ex_ending"
 								activity_name = ""
 								activity_weight = 1
 								weight_list_name = ""
@@ -10125,7 +10125,7 @@
 							},
 							{
 								_class = "AnimFile"
-								name = "@pt_planet_explosion"
+								name = "pt_planet_explosion"
 								activity_name = ""
 								activity_weight = 1
 								weight_list_name = ""
@@ -10145,7 +10145,7 @@
 							},
 							{
 								_class = "AnimFile"
-								name = "@pt_skyway_injector_throw"
+								name = "pt_skyway_injector_throw"
 								activity_name = ""
 								activity_weight = 1
 								weight_list_name = ""
@@ -10165,7 +10165,7 @@
 							},
 							{
 								_class = "AnimFile"
-								name = "@pt_skyway_reunion_embark"
+								name = "pt_skyway_reunion_embark"
 								activity_name = ""
 								activity_weight = 1
 								weight_list_name = ""
@@ -10185,7 +10185,7 @@
 							},
 							{
 								_class = "AnimFile"
-								name = "@pt_skyway_reunion_insert"
+								name = "pt_skyway_reunion_insert"
 								activity_name = ""
 								activity_weight = 1
 								weight_list_name = ""
@@ -10205,7 +10205,7 @@
 							},
 							{
 								_class = "AnimFile"
-								name = "@pt_skyway_world_run"
+								name = "pt_skyway_world_run"
 								activity_name = ""
 								activity_weight = 1
 								weight_list_name = ""
@@ -10225,7 +10225,7 @@
 							},
 							{
 								_class = "AnimFile"
-								name = "@pt_skyway_world_run_land"
+								name = "pt_skyway_world_run_land"
 								activity_name = ""
 								activity_weight = 1
 								weight_list_name = ""
@@ -10245,7 +10245,7 @@
 							},
 							{
 								_class = "AnimFile"
-								name = "@pt_skyway_world_run_sarah"
+								name = "pt_skyway_world_run_sarah"
 								activity_name = ""
 								activity_weight = 1
 								weight_list_name = ""
@@ -10265,7 +10265,7 @@
 							},
 							{
 								_class = "AnimFile"
-								name = "@pt_slone_tr_idle"
+								name = "pt_slone_tr_idle"
 								activity_name = ""
 								activity_weight = 1
 								weight_list_name = ""
@@ -10285,7 +10285,7 @@
 							},
 							{
 								_class = "AnimFile"
-								name = "@pt_torture_intro_guardA"
+								name = "pt_torture_intro_guardA"
 								activity_name = ""
 								activity_weight = 1
 								weight_list_name = ""
@@ -10305,7 +10305,7 @@
 							},
 							{
 								_class = "AnimFile"
-								name = "@pt_torture_intro_guardA_2ndhalfonly"
+								name = "pt_torture_intro_guardA_2ndhalfonly"
 								activity_name = ""
 								activity_weight = 1
 								weight_list_name = ""
@@ -10325,7 +10325,7 @@
 							},
 							{
 								_class = "AnimFile"
-								name = "@pt_torture_intro_guardA_beforeQuestion"
+								name = "pt_torture_intro_guardA_beforeQuestion"
 								activity_name = ""
 								activity_weight = 1
 								weight_list_name = ""
@@ -10345,7 +10345,7 @@
 							},
 							{
 								_class = "AnimFile"
-								name = "@pt_torture_intro_guardA_beforeQuestion_idle"
+								name = "pt_torture_intro_guardA_beforeQuestion_idle"
 								activity_name = ""
 								activity_weight = 1
 								weight_list_name = ""
@@ -10365,7 +10365,7 @@
 							},
 							{
 								_class = "AnimFile"
-								name = "@pt_torture_intro_guardB"
+								name = "pt_torture_intro_guardB"
 								activity_name = ""
 								activity_weight = 1
 								weight_list_name = ""
@@ -10385,7 +10385,7 @@
 							},
 							{
 								_class = "AnimFile"
-								name = "@pt_torture_intro_guardB_2ndhalfonly"
+								name = "pt_torture_intro_guardB_2ndhalfonly"
 								activity_name = ""
 								activity_weight = 1
 								weight_list_name = ""
@@ -10405,7 +10405,7 @@
 							},
 							{
 								_class = "AnimFile"
-								name = "@pt_torture_intro_guardB_beforeQuestion"
+								name = "pt_torture_intro_guardB_beforeQuestion"
 								activity_name = ""
 								activity_weight = 1
 								weight_list_name = ""
@@ -10425,7 +10425,7 @@
 							},
 							{
 								_class = "AnimFile"
-								name = "@pt_torture_intro_player"
+								name = "pt_torture_intro_player"
 								activity_name = ""
 								activity_weight = 1
 								weight_list_name = ""
@@ -10445,7 +10445,7 @@
 							},
 							{
 								_class = "AnimFile"
-								name = "@pt_torture_intro_player_2ndhalfonly"
+								name = "pt_torture_intro_player_2ndhalfonly"
 								activity_name = ""
 								activity_weight = 1
 								weight_list_name = ""
@@ -10465,7 +10465,7 @@
 							},
 							{
 								_class = "AnimFile"
-								name = "@pt_torture_intro_player_beforeQuestion"
+								name = "pt_torture_intro_player_beforeQuestion"
 								activity_name = ""
 								activity_weight = 1
 								weight_list_name = ""
@@ -10485,7 +10485,7 @@
 							},
 							{
 								_class = "AnimFile"
-								name = "@pt_torture_kill_player"
+								name = "pt_torture_kill_player"
 								activity_name = ""
 								activity_weight = 1
 								weight_list_name = ""
@@ -10505,7 +10505,7 @@
 							},
 							{
 								_class = "AnimFile"
-								name = "@pt_workerbase_jumpdown_intro_credits"
+								name = "pt_workerbase_jumpdown_intro_credits"
 								activity_name = ""
 								activity_weight = 1
 								weight_list_name = ""
@@ -10525,7 +10525,7 @@
 							},
 							{
 								_class = "AnimFile"
-								name = "@sa_credits_flight_pilot"
+								name = "sa_credits_flight_pilot"
 								activity_name = ""
 								activity_weight = 1
 								weight_list_name = ""
@@ -15678,6 +15678,4413 @@
 								source_filename = "models/humans/pete/pete_scripted_cine/gearup_pt1_grunta.dmx"
 								start_frame = -1
 								end_frame = 0
+								framerate = -1.0
+								reverse = false
+							},
+						]
+					},
+					{
+						_class = "Folder"
+						name = "pete_scripted_r1"
+						children = 
+						[
+							{
+								_class = "AnimFile"
+								name = "a_mmt_drag_prisoner"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@a_mmt_drag_prisoner.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "a_mmt_drag_soldierA"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@a_mmt_drag_soldierA.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "a_mmt_drag_soldierB"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@a_mmt_drag_soldierB.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "Classic_MP_flyin_exit_playerA_idle"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@Classic_MP_flyin_exit_playerA_idle.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "Classic_MP_flyin_exit_playerA_jump"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@Classic_MP_flyin_exit_playerA_jump.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "Classic_MP_flyin_exit_playerB_idle"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@Classic_MP_flyin_exit_playerB_idle.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "Classic_MP_flyin_exit_playerB_jump"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@Classic_MP_flyin_exit_playerB_jump.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "Classic_MP_flyin_exit_playerC_idle"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@Classic_MP_flyin_exit_playerC_idle.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "Classic_MP_flyin_exit_playerC_jump"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@Classic_MP_flyin_exit_playerC_jump.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "Classic_MP_flyin_exit_playerD_idle"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@Classic_MP_flyin_exit_playerD_idle.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "Classic_MP_flyin_exit_playerD_jump"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@Classic_MP_flyin_exit_playerD_jump.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "CustomVDUTest_bored_walk"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@CustomVDUTest_bored_walk.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "diag_vdu_default"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@diag_vdu_default.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "Militia_flyinA_countdown_mac"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@Militia_flyinA_countdown_mac.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "Militia_flyinA_idle_mac"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@Militia_flyinA_idle_mac.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_airbase_weapon_toss_background_A"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_airbase_weapon_toss_background_A.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_airbase_weapon_toss_background_B"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_airbase_weapon_toss_background_B.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_airbase_weapon_toss_left_A"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_airbase_weapon_toss_left_A.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_airbase_weapon_toss_left_B"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_airbase_weapon_toss_left_B.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_airbase_weapon_toss_right_A"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_airbase_weapon_toss_right_A.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_airbase_weapon_toss_right_B"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_airbase_weapon_toss_right_B.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_bored_check_crate_A"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_bored_check_crate_A.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_bored_check_crate_B"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_bored_check_crate_B.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_bored_idle_console_A"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_bored_idle_console_A.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_bored_idle_console_B"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_bored_idle_console_B.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_bored_idle_console_B_twitch"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_bored_idle_console_B_twitch.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_bored_interface_leanback"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_bored_interface_leanback.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_bored_interface_leanback_ash"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_bored_interface_leanback_ash.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_bored_interface_leanin"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_bored_interface_leanin.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_bored_overseer"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_bored_overseer.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_bored_stand_talker_A"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_bored_stand_talker_A.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_bored_stand_talker_B"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_bored_stand_talker_B.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_buddy_getout"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_buddy_getout.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_colony_execution"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_colony_execution.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_colony_intro_ambush_kill_sol1"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_colony_intro_ambush_kill_sol1.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_colony_intro_ambush_kill_sol1_idle"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_colony_intro_ambush_kill_sol1_idle.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_colony_intro_ambush_kill_sol2"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_colony_intro_ambush_kill_sol2.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_console_backin_L"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_console_backin_L.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_console_backin_R"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_console_backin_R.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_console_death_fallforward"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_console_death_fallforward.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_console_death_slideleft"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_console_death_slideleft.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_console_death_slideright"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_console_death_slideright.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_console_idle"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_console_idle.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_console_react_L"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_console_react_L.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_console_react_L_alt"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_console_react_L_alt.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_console_react_R"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_console_react_R.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_console_react_R_alt"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_console_react_R_alt.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_console_runin_L"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_console_runin_L.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_console_runin_R"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_console_runin_R.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_console_runout_L"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_console_runout_L.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_console_runout_R"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_console_runout_R.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_corpse_patrol_A"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_corpse_patrol_A.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_corpse_patrol_A_2"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_corpse_patrol_A_2.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_corpse_patrol_B"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_corpse_patrol_B.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_corpse_patrol_B_2"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_corpse_patrol_B_2.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_data_knife_console_leech_end"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_data_knife_console_leech_end.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_data_knife_console_leech_idle"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_data_knife_console_leech_idle.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_data_knife_console_leech_start"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_data_knife_console_leech_start.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_dismount_buddy_crouch"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_dismount_buddy_crouch.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_dismount_buddy_stand"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_dismount_buddy_stand.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_dp_exit_a"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_dp_exit_a.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_dp_exit_b"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_dp_exit_b.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_dp_exit_c"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_dp_exit_c.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_dp_exit_d"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_dp_exit_d.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_dp_exit_player"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_dp_exit_player.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_dropship_rider_L_A_idle"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_dropship_rider_L_A_idle.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_dropship_rider_L_B_idle"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_dropship_rider_L_B_idle.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_dropship_rider_L_C_idle"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_dropship_rider_L_C_idle.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_dropship_rider_R_A_idle"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_dropship_rider_R_A_idle.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_dropship_rider_R_B_idle"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_dropship_rider_R_B_idle.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_dropship_rider_R_C_idle"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_dropship_rider_R_C_idle.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_ds_coop_side_intro_gen_exit_A"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_ds_coop_side_intro_gen_exit_A.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_ds_coop_side_intro_gen_exit_B"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_ds_coop_side_intro_gen_exit_B.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_ds_coop_side_intro_gen_exit_C"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_ds_coop_side_intro_gen_exit_C.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_ds_coop_side_intro_gen_exit_D"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_ds_coop_side_intro_gen_exit_D.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_ds_coop_side_intro_gen_idle_A"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_ds_coop_side_intro_gen_idle_A.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_ds_coop_side_intro_gen_idle_B"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_ds_coop_side_intro_gen_idle_B.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_ds_coop_side_intro_gen_idle_C"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_ds_coop_side_intro_gen_idle_C.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_ds_coop_side_intro_gen_idle_D"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_ds_coop_side_intro_gen_idle_D.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_ds_side_intro_gen_exit_A"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_ds_side_intro_gen_exit_A.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_ds_side_intro_gen_exit_B"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_ds_side_intro_gen_exit_B.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_ds_side_intro_gen_exit_C"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_ds_side_intro_gen_exit_C.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_ds_side_intro_gen_exit_D"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_ds_side_intro_gen_exit_D.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_ds_side_intro_gen_idle_A"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_ds_side_intro_gen_idle_A.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_ds_side_intro_gen_idle_B"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_ds_side_intro_gen_idle_B.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_ds_side_intro_gen_idle_C"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_ds_side_intro_gen_idle_C.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_ds_side_intro_gen_idle_D"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_ds_side_intro_gen_idle_D.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_e3_rescue_side_embark_A"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_e3_rescue_side_embark_A.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_e3_rescue_side_embark_C"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_e3_rescue_side_embark_C.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_explosive_breach_A"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_explosive_breach_A.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_explosive_breach_B"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_explosive_breach_B.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_flyer_pickingup_soldier_dive"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_flyer_pickingup_soldier_dive.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_flyer_pickingup_spectre_dive"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_flyer_pickingup_spectre_dive.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_flyer_PicksUp_Soldier"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_flyer_PicksUp_Soldier.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_flyer_PicksUp_Soldier_intro"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_flyer_PicksUp_Soldier_intro.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_flyer_PicksUp_Spectre"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_flyer_PicksUp_Spectre.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_generic_commander_turn_wave_a"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_generic_commander_turn_wave_a.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_generic_commander_turn_wave_b"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_generic_commander_turn_wave_b.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_generic_commander_wave_duck_A"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_generic_commander_wave_duck_A.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_generic_commander_wave_duck_B"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_generic_commander_wave_duck_B.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_generic_commander_wave_long_A"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_generic_commander_wave_long_A.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_generic_commander_wave_long_B"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_generic_commander_wave_long_B.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_generic_commander_wave_short_A"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_generic_commander_wave_short_A.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_generic_commander_wave_short_B"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_generic_commander_wave_short_B.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_generic_commander_wave_short_C"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_generic_commander_wave_short_C.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_generic_run_N_wave"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_generic_run_N_wave.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_guard_seated_bored"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_guard_seated_bored.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_guard_seated_death"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_guard_seated_death.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_guard_seated_drink"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_guard_seated_drink.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_guard_seated_stand"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_guard_seated_stand.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_ht_execution_battery_attacker_vanguard"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_ht_execution_battery_attacker_vanguard.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_IMC_titan_commander"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_IMC_titan_commander.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_lt_synced_bt_execute_pilot_rip_AI_V"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_lt_synced_bt_execute_pilot_rip_AI_V.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_lt_synced_bt_execute_pilot_rip_V"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_lt_synced_bt_execute_pilot_rip_V.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_marvin_leech_end"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_marvin_leech_end.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_marvin_leech_idle"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_marvin_leech_idle.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_marvin_leech_start"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_marvin_leech_start.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_Militia_titan_commander_officer"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_Militia_titan_commander_officer.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_mobile_hardpoint_laptop_end"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_mobile_hardpoint_laptop_end.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_mobile_hardpoint_laptop_idle"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_mobile_hardpoint_laptop_idle.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_mobile_hardpoint_laptop_start"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_mobile_hardpoint_laptop_start.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_Mobility_Wallrun_1"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_Mobility_Wallrun_1.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_Mobility_Wallrun_2"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_Mobility_Wallrun_2.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_mount_buddy_above_left"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_mount_buddy_above_left.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_mount_buddy_above_right"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_mount_buddy_above_right.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_mount_buddy_kneel_above_left"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_mount_buddy_kneel_above_left.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_mount_buddy_kneel_above_right"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_mount_buddy_kneel_above_right.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_mount_buddy_kneel_airgrab"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_mount_buddy_kneel_airgrab.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_mount_buddy_kneel_behind"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_mount_buddy_kneel_behind.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_mount_buddy_kneel_front"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_mount_buddy_kneel_front.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_mount_buddy_kneel_left"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_mount_buddy_kneel_left.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_mount_buddy_kneel_right"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_mount_buddy_kneel_right.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_mount_buddy_stand_airgrab"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_mount_buddy_stand_airgrab.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_mount_buddy_stand_behind"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_mount_buddy_stand_behind.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_mount_buddy_stand_front"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_mount_buddy_stand_front.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_mount_buddy_stand_left"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_mount_buddy_stand_left.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_mount_buddy_stand_right"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_mount_buddy_stand_right.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_MP_disembark"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_MP_disembark.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_MP_mount_knee2stand"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_MP_mount_knee2stand.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_O2_briefing_crew_L"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_O2_briefing_crew_L.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_O2_briefing_crew_R"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_O2_briefing_crew_R.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_outpost_spectre_activation"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_outpost_spectre_activation.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_outpost_spectre_activation_idle"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_outpost_spectre_activation_idle.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_roofdrop"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_roofdrop.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_s2s_bridge_console_end"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_s2s_bridge_console_end.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_s2s_bridge_console_idle"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_s2s_bridge_console_idle.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_s2s_bridge_console_start"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_s2s_bridge_console_start.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_satchel_charge_end"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_satchel_charge_end.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_satchel_charge_idle"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_satchel_charge_idle.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_satchel_charge_interrupt"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_satchel_charge_interrupt.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_satchel_charge_start"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_satchel_charge_start.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_search_broken_stairwell_A"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_search_broken_stairwell_A.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_search_broken_stairwell_B"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_search_broken_stairwell_B.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_search_hole_idle_A"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_search_hole_idle_A.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_search_hole_idle_B"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_search_hole_idle_B.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_search_hole_walkback_A"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_search_hole_walkback_A.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_search_hole_walkback_B"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_search_hole_walkback_B.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_search_hole_walkup_A"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_search_hole_walkup_A.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_search_hole_walkup_B"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_search_hole_walkup_B.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_titan_activation_crew"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_titan_activation_crew.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_titan_activation_pilot"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_titan_activation_pilot.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_trailer_grave_crouching"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_trailer_grave_crouching.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_trailer_grave_standing"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_trailer_grave_standing.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_trainingpod_doors_close"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_trainingpod_doors_close.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_trainingpod_doors_open"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_trainingpod_doors_open.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_VDU_dispatcher_distracted"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_VDU_dispatcher_distracted.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_VDU_dispatcher_drink"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_VDU_dispatcher_drink.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_VDU_dispatcher_drinking_closelook"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_VDU_dispatcher_drinking_closelook.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_VDU_dispatcher_drinking_closerlook"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_VDU_dispatcher_drinking_closerlook.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_VDU_dispatcher_drinking_idle"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_VDU_dispatcher_drinking_idle.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_VDU_dispatcher_drinking_point"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_VDU_dispatcher_drinking_point.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_VDU_dispatcher_drinking_typing"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_VDU_dispatcher_drinking_typing.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_VDU_dispatcher_high_tension"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_VDU_dispatcher_high_tension.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_VDU_dispatcher_low_tension"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_VDU_dispatcher_low_tension.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_VDU_dispatcher_medium_tension"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_VDU_dispatcher_medium_tension.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_VDU_dispatcher_smoking"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_VDU_dispatcher_smoking.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_VDU_dispatcher_smoking_ashing"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_VDU_dispatcher_smoking_ashing.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_VDU_dispatcher_smoking_relaxed"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_VDU_dispatcher_smoking_relaxed.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_VDU_dispatcher_smoking_typing"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_VDU_dispatcher_smoking_typing.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_VDU_necksnap"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_VDU_necksnap.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_VDU_pilot_damaged"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_VDU_pilot_damaged.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_VDU_pilot_rough"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_VDU_pilot_rough.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_VDU_pilot_rough_alt"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_VDU_pilot_rough_alt.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_VDU_pilot_smooth"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_VDU_pilot_smooth.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_VDU_soldier_spotted"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_VDU_soldier_spotted.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_VDU_soldier_update"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_VDU_soldier_update.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_zipline_dismount_breakright"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_zipline_dismount_breakright.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_zipline_dismount_crouch180"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_zipline_dismount_crouch180.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_zipline_dismount_crouchF"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_zipline_dismount_crouchF.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_zipline_dismount_runF"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_zipline_dismount_runF.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_zipline_dismount_standF"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@pt_zipline_dismount_standF.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "sp_colony_execution"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@sp_colony_execution.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "sr1_face_death_flinch"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@sr1_face_death_flinch.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "sr1_face_death_pant"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@sr1_face_death_pant.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "sr1_face_death_scream"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@sr1_face_death_scream.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "sr1_face_fearful_alt"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@sr1_face_fearful_alt.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "sr1_face_focused"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@sr1_face_focused.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "sr1_face_focused_alt"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@sr1_face_focused_alt.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "sr1_face_grunt_longidle"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@sr1_face_grunt_longidle.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "sr1_face_grunt_signal_A"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@sr1_face_grunt_signal_A.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "Traverse_around_carL"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@Traverse_around_carL.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "Traverse_around_carR"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/@Traverse_around_carR.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "a_CasualA"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/a_CasualA.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "a_CasualB"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/a_CasualB.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "a_droppod_exit_A"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/a_droppod_exit_A.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "a_droppod_exit_B"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/a_droppod_exit_B.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "a_kill_pri"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/a_kill_pri.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "a_kill_sol"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/a_kill_sol.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "a_search_pri"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/a_search_pri.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "a_search_sol"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/a_search_sol.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "a_stomped"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/a_stomped.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "a_traverseA"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/a_traverseA.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "a_traverseB"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/a_traverseB.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "a_traverseC"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/a_traverseC.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "a_traverseD"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/a_traverseD.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "a_walldeath"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/a_walldeath.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "a_walldeath_R"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/a_walldeath_R.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "a_walldeath_SL"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/a_walldeath_SL.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "a_walldeath_SR"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/a_walldeath_SR.smd"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "pt_data_knife_console_leech_start_anim"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/humans/pete/pete_scripted_r1/anims/pt_data_knife_console_leech_start_anim.smd"
+								start_frame = -1
+								end_frame = -1
 								framerate = -1.0
 								reverse = false
 							},
