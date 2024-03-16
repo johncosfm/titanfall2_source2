@@ -8092,6 +8092,26 @@
 							},
 						]
 					},
+					{
+						_class = "AnimFile"
+						name = "BT_wilds_OG_victory"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/titans/buddy/titan_buddy_scripted_wilds/BT_wilds_OG_victory.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
 				]
 				default_root_bone_name = ""
 			},

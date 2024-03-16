@@ -289,6 +289,7 @@
 					m_Stops = [  ]
 				}
 			}
+			m_bDisableOperator = true
 		},
 	]
 	m_Renderers = 

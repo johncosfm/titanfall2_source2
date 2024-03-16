@@ -15,7 +15,7 @@
 						[
 							{
 								from = "glass_fracture_192x128_b_normal.vmat"
-								to = "materials/glass/shatterglass_heavydamage.vmat"
+								to = "models/props_tvs/tv_soviet/materials/tv_soviet_screen_glass.vmat"
 							},
 							{
 								from = "glass_fracture_a_inner.vmat"

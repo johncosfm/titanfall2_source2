@@ -35,7 +35,7 @@
 							},
 							{
 								from = "s2s_painted_metal_01.vmat"
-								to = "materials/world/s2s/s2s_painted_metal_01.vmat"
+								to = "materials/floors/metal_plates_1g.vmat"
 							},
 							{
 								from = "s2s_wall_trim_03.vmat"
